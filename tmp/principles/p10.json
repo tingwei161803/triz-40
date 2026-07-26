@@ -1,0 +1,122 @@
+{
+  "id": 10,
+  "slug": "preliminary-action",
+  "name": { "en": "Preliminary Action", "zh": "預先作用" },
+  "aliases": {
+    "en": ["Prior action", "Preparation"],
+    "zh": ["事先作用", "預備動作"]
+  },
+  "definition": {
+    "en": "Carry out a required change to an object, fully or partially, before it is needed. Arrange objects in advance so they can go into action immediately, from the most convenient place, without wasting time.",
+    "zh": "在需要之前,就先對物件完成全部或部分必要的改變;並事先把物件安排就緒,使其能從最方便的位置立即投入作用,不浪費時間。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Perform, before it is needed, the required change of an object (either fully or partially).",
+      "zh": "在需要之前,就先完成物件全部或部分的必要改變。"
+    },
+    {
+      "en": "Pre-arrange objects so they can come into action from the most convenient place and without losing time.",
+      "zh": "事先把物件安排妥當,使其能從最方便的位置、不浪費時間地投入作用。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Pre-soaking seeds (seed priming)", "zh": "浸種催芽(種子預處理)" },
+      "body": {
+        "en": "Traditional farmers soak seeds before sowing so germination has already begun when they hit the soil, doing part of the required change in advance to save days in the field.",
+        "zh": "傳統農民在播種前先浸泡種子,使其入土時發芽已經啟動;把部分必要的改變提前完成,替田裡省下好幾天。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Pre-drilled flat-pack furniture", "zh": "預鑽孔的組合家具" },
+      "body": {
+        "en": "Flat-pack furniture arrives with every screw hole already bored, so assembly is just alignment and fastening. The hardest machining is done in advance at the factory.",
+        "zh": "組合家具出貨時每個螺絲孔都已鑽好,組裝只剩對位與鎖固;最費工的加工在工廠就事先完成了。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Perforated tear lines", "zh": "預壓的撕裂虛線" },
+      "body": {
+        "en": "Stamps, paper towels and packaging carry a line of tiny holes punched in advance, so the material tears cleanly along it exactly when needed, without scissors.",
+        "zh": "郵票、紙巾與包裝上都有一排事先打好的小孔,材料在需要時能沿線乾淨撕開,不必動用剪刀。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Prefabricated modular construction", "zh": "預鑄模組化營建" },
+      "body": {
+        "en": "Whole room modules are built and fitted out in a factory, then trucked to site and craned together, so most of the construction is finished before it ever reaches the ground.",
+        "zh": "整間房間的模組在工廠內建好並裝修完成,再運到工地吊裝拼合;大部分營建工作在抵達現場前就已完成。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Pre-pasted wallpaper", "zh": "背膠壁紙" },
+      "body": {
+        "en": "The adhesive is already applied to the back of the wallpaper; the hanger just wets and hangs it, because the gluing step was performed in advance during manufacture.",
+        "zh": "壁紙背面已經上好膠;貼的人只要沾濕就能上牆,因為上膠這道工序在製造時就事先完成了。"
+      },
+      "sourceUrl": "https://www.triz40.com/aff_Principles_TRIZ.php"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Mise en place", "zh": "備料就位(mise en place)" },
+      "body": {
+        "en": "A cook chops, measures and arranges every ingredient before the burner is lit, so during service each component is ready to go into the pan instantly, without losing time.",
+        "zh": "廚師在開火前就把每樣食材切好、量好、擺好位置,出餐時每個配料都能立刻下鍋,不浪費時間。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Airport customs preclearance", "zh": "機場入境預先查驗" },
+      "body": {
+        "en": "Travellers clear immigration and customs at the foreign departure airport before boarding, so on landing they walk out as domestic passengers. The inspection is done in advance where it is convenient.",
+        "zh": "旅客在國外的出發機場、登機前就先完成移民與海關查驗,落地後可直接以國內旅客身分離開;查驗在方便的地點事先完成。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Preclearance"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Prefetching and precomputation", "zh": "預取與預先計算" },
+      "body": {
+        "en": "Browsers and apps fetch and render likely-next resources ahead of the user's click, and systems precompute materialized views, so the result is already waiting the moment it is requested.",
+        "zh": "瀏覽器與應用程式會在使用者點擊前就預先抓取並渲染可能用到的資源,系統也會預先算好物化檢視表,讓結果在被請求的當下就已備妥。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Database indexing", "zh": "資料庫索引" },
+      "body": {
+        "en": "An index sorts and structures the data in advance, moving the heavy work out of query time, so future lookups that would otherwise scan the whole table finish almost instantly.",
+        "zh": "索引事先把資料排序、建立結構,把繁重的工作移出查詢當下;日後原本得掃描整張表的查找幾乎能瞬間完成。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "KV-cache and prompt caching", "zh": "KV 快取與提示快取" },
+      "body": {
+        "en": "Transformers store the key/value tensors of tokens already processed, and prompt caching reuses a processed prompt prefix, so a long context is computed once in advance and simply reused on later calls.",
+        "zh": "Transformer 會儲存已處理過詞元的 key/value 張量,提示快取則重用已處理的提示前綴,使長上下文只需事先計算一次,後續呼叫直接沿用。"
+      },
+      "sourceUrl": "https://platform.claude.com/docs/en/docs/build-with-claude/prompt-caching"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Precomputed embeddings for RAG", "zh": "為 RAG 預先計算的嵌入向量" },
+      "body": {
+        "en": "A retrieval-augmented system embeds and indexes the whole document corpus ahead of time, so at query time it only embeds the question and looks up neighbors. The expensive encoding is done in advance.",
+        "zh": "檢索增強系統事先把整個文件語料庫轉成嵌入向量並建立索引,查詢時只需把問題轉成向量再查找鄰近項;昂貴的編碼工作已提前完成。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Preclearance", "url": "https://en.wikipedia.org/wiki/Preclearance" },
+    { "label": "Anthropic — Prompt caching documentation", "url": "https://platform.claude.com/docs/en/docs/build-with-claude/prompt-caching" }
+  ]
+}

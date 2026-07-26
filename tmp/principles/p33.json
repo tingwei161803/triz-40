@@ -1,0 +1,118 @@
+{
+  "id": 33,
+  "slug": "homogeneity",
+  "name": { "en": "Homogeneity", "zh": "同質性" },
+  "aliases": { "en": ["Uniformity", "Same Material"], "zh": ["同質", "均質性"] },
+  "definition": {
+    "en": "Make objects that interact with a given object out of the same material, or a material with matching properties. Sharing composition or a key property (hardness, thermal expansion, format) removes mismatches at the interface.",
+    "zh": "讓與某物體互動的其他物體,採用相同的材料,或性質相匹配的材料。共用材質或某項關鍵性質(硬度、熱膨脹、格式),就能消除介面上的不相容。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Make objects that interact with a given object out of the same material (or a material with similar properties).",
+      "zh": "讓與某物體互動的其他物體,採用相同材料(或性質相近的材料)。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Wood joinery with wooden pegs", "zh": "木榫與木釘接合" },
+      "body": {
+        "en": "Traditional joinery fastens timber with wooden pegs and dowels rather than metal nails. Because peg and beam are the same material, they swell, shrink, and age together, so the joint does not loosen or corrode.",
+        "zh": "傳統木工用木釘、木榫來固定木材,而不是金屬釘。因為釘與樑同為木料,會一起脹縮、一起老化,接合處便不會鬆脫或鏽蝕。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Diamond cuts diamond", "zh": "以鑽石加工鑽石" },
+      "body": {
+        "en": "Diamond is one of the hardest known materials, so diamonds and other superhard workpieces are cut, ground, and polished with diamond abrasive. Only a material of matching hardness can finish it, so the tool is made of the same substance as the work.",
+        "zh": "鑽石是已知最硬的材料之一,因此鑽石與其他超硬工件要用鑽石磨料來切割、研磨、拋光。唯有硬度相當的材料才加工得動它,於是刀具用了與工件相同的物質。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diamond_tool"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Reinforced concrete", "zh": "鋼筋混凝土" },
+      "body": {
+        "en": "Steel and concrete have nearly the same coefficient of thermal expansion, so a reinforced beam heats and cools as one piece. That matched property is precisely why the steel does not tear away from the concrete as temperature changes.",
+        "zh": "鋼與混凝土的熱膨脹係數幾乎相同,因此鋼筋混凝土梁會像一整塊一樣受熱冷卻。正是這項相匹配的性質,讓鋼筋在溫度變化時不會與混凝土脫離開裂。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Reinforced_concrete"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Same-alloy welding filler", "zh": "同合金焊接填料" },
+      "body": {
+        "en": "To weld a metal well, the filler rod is normally chosen to match the alloy of the base metal. Matching composition gives the weld the same strength, corrosion resistance, and expansion as the parts it joins.",
+        "zh": "要把金屬焊好,填料棒通常選用與母材相同的合金。成分相符,焊道就有和被連接零件一致的強度、耐蝕性與膨脹特性。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "The edible ice-cream cone", "zh": "可食甜筒" },
+      "body": {
+        "en": "An ice-cream cone is a container made of the same class of edible material as its contents. Because holder and held are both food, there is no packaging to peel off or throw away, you simply eat the container too.",
+        "zh": "冰淇淋甜筒是一個用與內容物同類可食材料做成的容器。因為盛裝的與被盛裝的都是食物,沒有包裝要剝要丟,連容器一起吃掉就行。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "LEGO's universal stud", "zh": "樂高的通用凸點" },
+      "body": {
+        "en": "Every LEGO brick uses the identical stud-and-tube coupling at the same spacing. Because all pieces share one interface, any brick connects to any other, which is homogeneity applied to a connection standard.",
+        "zh": "每一塊樂高積木都用相同間距、相同規格的凸點與管孔耦合。因為所有零件共用同一種介面,任何積木都能接上任何積木,這是把同質性用在連接標準上。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "ISO shipping containers", "zh": "ISO 標準貨櫃" },
+      "body": {
+        "en": "Standard shipping containers share fixed outer dimensions and corner fittings worldwide. Because every container is the same, one set of ships, cranes, trucks, and rail cars can handle all of them interchangeably, collapsing the cost of moving goods between transport modes.",
+        "zh": "標準貨櫃在全球共用固定的外部尺寸與角件。因為每個貨櫃都一樣,同一套船、吊車、卡車與火車就能通用地裝卸所有貨櫃,把貨物在不同運輸方式間轉運的成本大幅壓低。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Containerization"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Isomorphic JavaScript", "zh": "同構 JavaScript" },
+      "body": {
+        "en": "Isomorphic (universal) JavaScript runs the same language on both the browser and the Node.js server. Sharing one language lets the same validation, routing, and data models run on each side without translation between two stacks.",
+        "zh": "同構(通用)JavaScript 讓瀏覽器與 Node.js 伺服器兩端跑同一種語言。共用一種語言,同一套驗證、路由與資料模型就能在兩邊運行,不必在兩套技術棧之間轉譯。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Dev/prod parity with containers", "zh": "以容器達成開發/正式環境一致" },
+      "body": {
+        "en": "Container images package an app with an identical operating system and dependencies for development, testing, and production. Making every environment the same removes the 'works on my machine' class of bugs caused by mismatched surroundings.",
+        "zh": "容器映像把應用程式連同完全相同的作業系統與相依套件,一起打包給開發、測試與正式環境使用。讓每個環境都一致,就消除了因環境不一致而生的「在我機器上明明可以」那類問題。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Self-play reinforcement learning", "zh": "自我對弈強化學習" },
+      "body": {
+        "en": "AlphaGo Zero and AlphaZero learn by playing millions of games against copies of themselves. The opponent is the same model, so the system always faces an evenly matched adversary and improves as it improves.",
+        "zh": "AlphaGo Zero 與 AlphaZero 透過與自身的副本對弈數百萬局來學習。對手就是同一個模型,系統因此始終面對實力相當的對手,並在自己變強的同時一起變強。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Self-play"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Federated averaging", "zh": "聯邦平均" },
+      "body": {
+        "en": "In standard federated learning with FedAvg, every client trains the same model architecture on its own private data, and the server averages their weights into one global model. Sharing an identical architecture is what makes the updates directly averageable.",
+        "zh": "在採用 FedAvg 的標準聯邦學習中,每個用戶端都用相同的模型架構在自己的私有資料上訓練,伺服器再把它們的權重平均成一個全域模型。正因共用完全相同的架構,各方的更新才能直接取平均。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Federated_learning"
+    }
+  ],
+  "sources": [
+    { "label": "Wikipedia — Diamond tool", "url": "https://en.wikipedia.org/wiki/Diamond_tool" },
+    { "label": "Wikipedia — Reinforced concrete", "url": "https://en.wikipedia.org/wiki/Reinforced_concrete" },
+    { "label": "Wikipedia — Containerization", "url": "https://en.wikipedia.org/wiki/Containerization" },
+    { "label": "Wikipedia — Self-play (reinforcement learning)", "url": "https://en.wikipedia.org/wiki/Self-play" },
+    { "label": "Wikipedia — Federated learning", "url": "https://en.wikipedia.org/wiki/Federated_learning" }
+  ]
+}

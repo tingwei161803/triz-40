@@ -1,0 +1,126 @@
+{
+  "id": 29,
+  "slug": "pneumatics-hydraulics",
+  "name": { "en": "Pneumatics and Hydraulics", "zh": "氣壓與液壓" },
+  "aliases": {
+    "en": ["Gas and liquid parts", "Fluidics"],
+    "zh": ["流體驅動", "氣液系統"]
+  },
+  "definition": {
+    "en": "Use gaseous or liquid parts of an object in place of solid ones — inflatable, liquid-filled, air-cushion, hydrostatic, or hydro-reactive designs. Fluids conform to shape, spread pressure evenly, and transmit force in ways a rigid solid cannot.",
+    "zh": "用物體的氣態或液態部件取代固態部件——例如可充氣、注液、氣墊、液靜壓或水反應式的設計。流體能貼合形狀、均勻分散壓力,並以剛性固體做不到的方式傳遞力量。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Use gas and liquid parts of an object instead of solid parts (inflatable, filled with liquids, air cushion, hydrostatic, hydro-reactive).",
+      "zh": "用氣體與液體部件取代固體部件(如可充氣、注液、氣墊、液靜壓、水反應)。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "The forge bellows", "zh": "鍛爐風箱" },
+      "body": {
+        "en": "Ancient smiths raised fire temperature by squeezing an air bag to deliver a controlled blast of air into the coals. A compressible gas part does the work that no solid tool could.",
+        "zh": "古代鐵匠靠擠壓風箱,把可控的氣流送進炭火來提高爐溫。一個可壓縮的氣體部件,完成了任何固體工具都做不到的工作。"
+      }
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "The fish swim bladder", "zh": "魚鰾" },
+      "body": {
+        "en": "Bony fish hold their depth using a gas-filled swim bladder that adjusts buoyancy without any muscular effort. Evolution used a gas-filled part instead of a solid ballast to solve the problem of staying level.",
+        "zh": "硬骨魚靠充氣的魚鰾調節浮力,不需肌肉出力就能維持深度。演化用一個充氣部件,而非固態壓艙物,解決了保持水中平衡的問題。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Swim_bladder"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Hydraulic force transmission", "zh": "液壓傳力" },
+      "body": {
+        "en": "Brakes, presses, and excavator arms use incompressible fluid in cylinders to multiply and route force smoothly. A column of liquid replaces bulky solid levers and gearing.",
+        "zh": "煞車、壓床與挖土機手臂,在油缸中用不可壓縮的液體來放大並平順地傳遞力量。一柱液體取代了笨重的固體槓桿與齒輪。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Pneumatic tires and air suspension", "zh": "充氣輪胎與空氣懸吊" },
+      "body": {
+        "en": "A cushion of pressurized gas in tires and air springs absorbs road shock and adjusts ride height where a solid wheel or steel spring would be harsh and fixed. The gas part carries the load and softens impacts.",
+        "zh": "輪胎與空氣彈簧中一層加壓氣體,吸收路面衝擊並調整車身高度,而實心輪或鋼製彈簧則會又硬又固定。氣體部件承載重量並緩和衝擊。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Hovercraft air cushion", "zh": "氣墊船氣墊" },
+      "body": {
+        "en": "A hovercraft rides on a cushion of pressurized air trapped beneath its skirt, replacing wheels or a hull that would drag. The vehicle floats on gas and can cross land, water, and mud alike.",
+        "zh": "氣墊船坐在裙圍下方被封住的加壓空氣墊上,取代會拖曳的車輪或船體。整艘船浮在氣體上,能同樣越過陸地、水面與泥灘。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Air- and gel-cushioned products", "zh": "氣墊與凝膠緩衝產品" },
+      "body": {
+        "en": "Air-cushioned shoe soles, gel insoles, waterbeds, and bubble wrap all cushion with trapped gas or liquid instead of solid padding. The fluid pocket spreads pressure and moulds to whatever presses on it.",
+        "zh": "氣墊鞋底、凝膠鞋墊、水床與氣泡紙,都用封住的氣體或液體緩衝,而非固體填料。流體囊袋分散壓力,並貼合任何壓上來的東西。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Automotive airbags", "zh": "汽車安全氣囊" },
+      "body": {
+        "en": "In a crash a gas generator inflates a bag in milliseconds to cushion the occupant, then it deflates. A gas-filled part appears exactly when needed to do what no permanent solid structure could.",
+        "zh": "碰撞時,氣體發生器在數毫秒內充飽氣囊以緩衝乘員,隨後洩氣。一個充氣部件在最需要的瞬間出現,完成任何永久固體結構都做不到的事。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Pneumatic tube transport", "zh": "氣送管系統" },
+      "body": {
+        "en": "Banks, hospitals, and large stores shoot cash, documents, and lab samples through tubes on a stream of compressed air. Moving fluid carries the payload, replacing couriers and mechanical conveyors over short distances.",
+        "zh": "銀行、醫院與大型賣場用一股壓縮空氣,把現金、文件與檢驗樣本在管道中射送。流動的流體承載物件,在短距離內取代人力傳遞與機械輸送帶。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pneumatic_tube"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Message queues as reservoirs", "zh": "訊息佇列作為緩衝池" },
+      "body": {
+        "en": "A message queue absorbs bursty traffic and releases it at a steady rate, much like a hydraulic accumulator or air cushion smoothing pressure spikes. The buffer decouples a fast producer from a slower consumer.",
+        "zh": "訊息佇列吸收突發流量,再以穩定速率釋出,就像液壓蓄能器或氣墊平滑壓力尖峰。這個緩衝池讓快速的生產者與較慢的消費者解耦。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Backpressure and flow control", "zh": "背壓與流量控制" },
+      "body": {
+        "en": "Reactive streams and TCP flow control let a downstream consumer throttle an upstream producer, borrowing directly from fluid dynamics. Regulating the flow prevents buffers from overflowing like an over-pressurized pipe.",
+        "zh": "反應式串流與 TCP 流量控制,讓下游消費者節制上游生產者,概念直接借自流體力學。調節流量能避免緩衝區像過壓管線一樣溢出。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Pneumatic soft-robotic grippers", "zh": "氣動軟體機器人夾爪" },
+      "body": {
+        "en": "Soft robots grasp fragile or irregular objects with fingers actuated by air pressure and steered by learned control policies. Fluid pressure, not rigid mechanical joints, lets the gripper conform gently to each object.",
+        "zh": "軟體機器人用靠氣壓驅動、由學習到的控制策略操控的手指,抓取脆弱或不規則的物體。讓夾爪能溫柔貼合每個物體的是流體壓力,而非剛性機械關節。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Soft_robotics"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Liquid cooling for AI clusters", "zh": "AI 叢集的液體冷卻" },
+      "body": {
+        "en": "Dense GPU clusters for training are cooled by circulating liquid or full immersion instead of air over solid heatsinks. A liquid part carries away heat that air and metal fins alone can no longer handle.",
+        "zh": "用於訓練的高密度 GPU 叢集,改以循環液體或全浸沒方式冷卻,而非讓空氣吹過固體散熱片。用一個液體部件帶走空氣與金屬鰭片已無法應付的熱量。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — The 40 Principles (Pneumatics and hydraulics)", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Swim bladder", "url": "https://en.wikipedia.org/wiki/Swim_bladder" },
+    { "label": "Wikipedia — Pneumatic tube", "url": "https://en.wikipedia.org/wiki/Pneumatic_tube" },
+    { "label": "Wikipedia — Soft robotics", "url": "https://en.wikipedia.org/wiki/Soft_robotics" }
+  ]
+}

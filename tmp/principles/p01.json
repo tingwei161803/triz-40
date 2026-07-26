@@ -1,0 +1,115 @@
+{
+  "id": 1,
+  "slug": "segmentation",
+  "name": { "en": "Segmentation", "zh": "分割" },
+  "aliases": { "en": ["Division", "Fragmentation"], "zh": ["切割", "細分"] },
+  "definition": {
+    "en": "Divide an object into independent parts, make it easy to disassemble, or increase its degree of fragmentation. Breaking a whole into smaller pieces makes each part easier to build, replace, move, or optimize on its own.",
+    "zh": "把物體分成獨立的部分、讓它容易拆解,或提高其分割與細分的程度。將整體拆成較小的單元,能讓每個部分更容易製造、替換、搬運,或個別最佳化。"
+  },
+  "subPrinciples": [
+    { "en": "Divide an object into independent parts.", "zh": "把物體分成獨立的部分。" },
+    { "en": "Make an object easy to disassemble.", "zh": "讓物體容易拆解。" },
+    { "en": "Increase the degree of fragmentation or segmentation.", "zh": "提高分割或細分的程度。" }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Brick and block masonry", "zh": "磚石砌築" },
+      "body": {
+        "en": "Instead of quarrying and moving one giant monolith, builders assemble a wall from many small, identical bricks. Each unit is easy to carry and lay, and a damaged brick can be replaced without rebuilding the whole wall.",
+        "zh": "工匠不必開採並搬運一整塊巨石,而是用許多小而規格一致的磚塊砌成牆面。每塊磚都容易搬運與堆砌,單塊損壞時也能替換,不必重建整面牆。"
+      }
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "Segmented bodies in nature", "zh": "自然界的體節" },
+      "body": {
+        "en": "Insects, crustaceans, and earthworms are built from repeated body segments. Segmentation lets each section bend and move independently, giving the animal a flexibility that a single rigid body could not.",
+        "zh": "昆蟲、甲殼類與蚯蚓都由重複的體節構成。分節讓每一段能獨立彎曲與活動,賦予身體單一剛體無法達到的靈活度。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Telescoping antenna", "zh": "伸縮天線" },
+      "body": {
+        "en": "A radio antenna is split into nested tubular sections that slide inside one another. Segmentation lets a long antenna collapse into a compact length for storage and extend again when reception is needed.",
+        "zh": "收音機天線被分成一節節可互相套疊的管段。分割讓長天線能收合成精巧的長度以便收納,需要接收訊號時再拉長。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Venetian blinds", "zh": "百葉窗" },
+      "body": {
+        "en": "A solid shutter is replaced by many thin, independently tilting slats. Increasing the degree of fragmentation lets the user finely control light and airflow instead of choosing only fully open or fully closed.",
+        "zh": "整片實心的窗板被換成許多可獨立傾斜的細窄葉片。提高分割程度後,使用者能細膩地調節光線與通風,而不是只能全開或全關。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Modular sectional furniture", "zh": "模組化組合家具" },
+      "body": {
+        "en": "Flat-pack and sectional furniture ships as separate panels and modules that bolt together on site. Easy disassembly makes the product cheap to transport and simple to reconfigure or repair.",
+        "zh": "組合式與模組化家具以分開的板件與模組出貨,到現場再鎖接組裝。容易拆解讓產品運送成本低,也方便重新配置或維修。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Scored chocolate bar", "zh": "刻痕巧克力片" },
+      "body": {
+        "en": "A chocolate bar is molded with grooves that divide it into small squares. The built-in segmentation lets a person snap off exactly one portion cleanly, without a knife.",
+        "zh": "巧克力片在製造時就壓出溝槽,把它分成一小格一小格。這種內建的分割讓人不必用刀,就能乾淨地剝下剛好一份。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Market segmentation", "zh": "市場區隔" },
+      "body": {
+        "en": "Rather than treating buyers as one undifferentiated mass, a company divides the market into segments with distinct needs and targets each with tailored products and messaging. Splitting the whole makes each part addressable and easier to serve profitably.",
+        "zh": "公司不再把買家當成沒有差異的一整群,而是把市場切分成需求各異的區隔,對每個區隔投放量身打造的產品與訊息。把整體分割後,每個部分都變得可針對,也更容易有利可圖地服務。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Market_segmentation"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Microservices architecture", "zh": "微服務架構" },
+      "body": {
+        "en": "A large monolithic application is split into many small services, each independently developed, deployed, and scaled. Segmenting the system lets teams work in parallel and lets one service fail or update without taking down the rest.",
+        "zh": "龐大的單體應用程式被拆成許多小型服務,各自獨立開發、部署與擴充。將系統分割後,團隊能平行作業,單一服務故障或更新時也不會拖垮其他部分。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Microservices"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Database sharding", "zh": "資料庫分片" },
+      "body": {
+        "en": "A database too large for one server is partitioned into shards, each holding a slice of the rows on a separate machine. Splitting the data spreads the load and lets storage grow horizontally.",
+        "zh": "單一伺服器裝不下的資料庫,被切分成多個分片,每個分片在不同機器上存放一部分的列資料。把資料分割後,負載得以分散,儲存也能水平擴充。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Mixture of Experts (MoE) models", "zh": "專家混合(MoE)模型" },
+      "body": {
+        "en": "An MoE model divides one large network into many expert subnetworks, and a router sends each input only to a few relevant experts. This segmentation lets the model hold huge total capacity while activating only a small, cheap fraction of it per token.",
+        "zh": "MoE 模型把一個大型網路分割成許多專家子網路,再由路由器把每個輸入只送往少數相關的專家。這種分割讓模型擁有龐大的總容量,卻在處理每個 token 時只啟動其中一小部分,運算成本很低。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Chunking documents for retrieval (RAG)", "zh": "檢索增強生成的文件分塊(RAG)" },
+      "body": {
+        "en": "In retrieval-augmented generation, long documents are split into smaller chunks that are embedded and indexed separately. Segmentation lets the system fetch just the few passages relevant to a query instead of feeding whole documents to the model.",
+        "zh": "在檢索增強生成中,長文件被切成較小的區塊,分別做嵌入並建立索引。分割讓系統只取回與問題相關的少數段落,而不必把整份文件塞給模型。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "triz40.com — The 40 Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" },
+    { "label": "Wikipedia — Microservices", "url": "https://en.wikipedia.org/wiki/Microservices" },
+    { "label": "Wikipedia — Market segmentation", "url": "https://en.wikipedia.org/wiki/Market_segmentation" },
+    { "label": "Wikipedia — Mixture of experts", "url": "https://en.wikipedia.org/wiki/Mixture_of_experts" }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 16,
+  "slug": "partial-or-excessive",
+  "name": { "en": "Partial or Excessive Actions", "zh": "部分或過量作用" },
+  "aliases": {
+    "en": ["Partial or Overdone Action", "Slightly Less or Slightly More"],
+    "zh": ["部分作用", "過度作用"]
+  },
+  "definition": {
+    "en": "If it is hard to achieve exactly 100% of a desired effect with a given method, deliberately do slightly less or slightly more, which often makes the problem far simpler. Any excess is then removed, or the shortfall is corrected afterwards.",
+    "zh": "若用某方法很難剛好達成 100% 的目標效果,不妨刻意做得略少或略多,問題往往因此大幅簡化。過量的部分事後移除,不足的部分再行補正。"
+  },
+  "subPrinciples": [
+    {
+      "en": "If 100% of an effect is hard to obtain, achieve somewhat less or somewhat more of it to simplify the problem.",
+      "zh": "若很難獲得 100% 的效果,就取略少或略多的量,以簡化問題。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Grain measure levelled with a strickle", "zh": "用平斗棍刮平的量穀斗" },
+      "body": {
+        "en": "Traditional dry-goods sellers deliberately heaped grain above the rim of a measuring vessel (excess), then swept a straight strickle across the top to shear off the surplus, giving an exact, repeatable measure. Overshooting and trimming to the line is far easier than pouring exactly to the brim.",
+        "zh": "傳統量穀時,商販會故意把穀物堆到量斗口以上(過量),再用一根平直的刮棍橫掃斗口,把多出的部分刮除,得到精確又可重複的量。先裝過頭再刮到基準線,遠比一次倒到剛好齊口容易。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Near-net-shape casting then final machining", "zh": "近淨成形鑄造後再精加工" },
+      "body": {
+        "en": "Parts are cast or forged slightly oversized, leaving a thin machining allowance (excess material), then only the critical surfaces are cut down to exact tolerance. Removing a small allowance is cheaper and more accurate than casting straight to final dimensions.",
+        "zh": "零件先鑄造或鍛造成略大於成品的尺寸,留下一層薄薄的加工餘量(過量材料),再只針對關鍵面切削到精確公差。切除少量餘量,比直接鑄到最終尺寸更便宜也更準確。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Snug-then-torque bolt tightening", "zh": "螺栓先預緊再鎖緊" },
+      "body": {
+        "en": "When bolting a flange or flat-pack furniture, every fastener is first only partially tightened so the parts can still shift into alignment, and only then torqued to full spec in sequence. Fully tightening one bolt at a time would lock in misalignment.",
+        "zh": "鎖法蘭或組裝板式家具時,先把每根螺栓只鎖到半緊,讓各部件還能微調對位,最後再依序鎖到規定扭力(部分作用)。若一開始就把單一螺栓鎖死,會把歪斜固定下來。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Applying sealant in excess, then smoothing", "zh": "矽利康打多了再抹平" },
+      "body": {
+        "en": "You lay down more silicone sealant than the joint needs, then draw a wet finger or tool along it to press it home and wipe away the surplus. Overfilling guarantees no gaps; the excess is simply removed.",
+        "zh": "填縫時故意打上比接縫所需更多的矽利康,再用沾濕的手指或刮刀沿線抹壓,同時刮除多餘的膠。打過量能確保沒有縫隙,多的部分事後抹掉即可。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Minimum viable product", "zh": "最小可行產品(MVP)" },
+      "body": {
+        "en": "Instead of building 100% of a planned product, a team ships a minimal version with just enough features to be usable, learns from real customers, then expands. Doing deliberately less first avoids large investment in unwanted features. (Term coined 2001; popularized by the Lean Startup movement.)",
+        "zh": "團隊不先做出計畫中 100% 的產品,而是先推出功能剛好夠用的最小版本,從真實顧客身上學習,再逐步擴充。刻意先做「少一點」,可避免把大量資源投在沒人要的功能上。(此詞 2001 年提出,經精實創業運動而普及。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Supersampling anti-aliasing (SSAA)", "zh": "超取樣抗鋸齒(SSAA)" },
+      "body": {
+        "en": "To smooth jagged edges, a renderer draws the scene at a much higher resolution than the display (excess pixels), then averages neighbouring samples down to the final image. The extra work is thrown away, but the downsized result is far cleaner than rendering at native size.",
+        "zh": "為了消除鋸齒邊緣,繪圖引擎會以遠高於螢幕的解析度繪製畫面(過量的像素),再把相鄰取樣平均縮回到最終影像。多算的部分被丟棄,但縮小後的成品遠比以原生尺寸直接繪製乾淨。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Lossy compression (JPEG)", "zh": "有損壓縮(JPEG)" },
+      "body": {
+        "en": "JPEG deliberately keeps less than 100% of the original image data, discarding high-frequency detail the eye barely notices, to shrink files dramatically. Accepting a partial, imperfect reproduction buys an order-of-magnitude size reduction.",
+        "zh": "JPEG 刻意只保留不到 100% 的原始影像資料,捨棄人眼幾乎察覺不到的高頻細節,藉此大幅縮小檔案。接受「部分、不完美」的重現,換來數量級的檔案縮減。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Dropout regularization", "zh": "Dropout 隨機失活正則化" },
+      "body": {
+        "en": "During each training step a neural network randomly switches off a fraction of its neurons, so the model never uses 100% of its capacity at once. Training on these partial sub-networks forces redundancy and curbs overfitting. (Introduced by Hinton et al., 2012.)",
+        "zh": "在每一次訓練步驟中,神經網路會隨機關閉一部分神經元,使模型不會一次用到 100% 的容量。以這些「部分子網路」訓練,能迫使模型建立冗餘、抑制過度擬合。(Hinton 等人於 2012 年提出。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dilution_(neural_networks)"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Over-parameterize then prune", "zh": "先過量參數化再剪枝" },
+      "body": {
+        "en": "A common recipe is to train a network far larger than needed (excess parameters), then prune away the least important weights to reach a small, fast model that keeps most of the accuracy. The surplus capacity helps learning, then is trimmed off.",
+        "zh": "常見做法是先訓練一個遠大於實際需求的網路(過量參數),再把最不重要的權重剪除,得到又小又快、卻仍保有大部分準確度的模型。多餘的容量先幫助學習,之後再修剪掉。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pruning_(artificial_neural_network)"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Low-precision quantization", "zh": "低精度量化" },
+      "body": {
+        "en": "Rather than running a model at full 32-bit precision, inference often uses 8-bit or 4-bit numbers, deliberately keeping less than 100% numerical fidelity. This cuts memory and compute several-fold while keeping outputs close to the original; a partial reduction in precision yields a large efficiency gain.",
+        "zh": "推論時往往不採用完整的 32 位元精度,而改用 8 位元或 4 位元數值,刻意保留不到 100% 的數值精度。這使記憶體與運算量降為數分之一,輸出卻仍接近原模型;精度上「部分」的犧牲,換來效率上的大幅提升。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Minimum viable product", "url": "https://en.wikipedia.org/wiki/Minimum_viable_product" },
+    { "label": "Wikipedia — Dilution (dropout, neural networks)", "url": "https://en.wikipedia.org/wiki/Dilution_(neural_networks)" },
+    { "label": "Wikipedia — Pruning (artificial neural network)", "url": "https://en.wikipedia.org/wiki/Pruning_(artificial_neural_network)" }
+  ]
+}

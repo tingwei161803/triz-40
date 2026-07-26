@@ -1,0 +1,126 @@
+{
+  "id": 13,
+  "slug": "the-other-way-round",
+  "name": { "en": "The Other Way Round", "zh": "反向操作" },
+  "aliases": {
+    "en": ["Do It in Reverse", "Inversion", "Other Way Around"],
+    "zh": ["逆向操作", "反向思考", "顛倒"]
+  },
+  "definition": {
+    "en": "Invert the action normally used to solve the problem, or reverse the roles of moving and fixed parts. Instead of doing the obvious thing, do its opposite, turn the object upside down, or make the environment move rather than the object.",
+    "zh": "把平常用來解決問題的動作反過來做,或是對調運動件與固定件的角色。不做那個理所當然的動作,而是做它的相反、把物體顛倒過來,或讓環境動而不是讓物體動。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Invert the action used to solve the problem (e.g. instead of cooling an object, heat it).",
+      "zh": "把解題所用的動作反過來(例如不去冷卻物體,而是加熱它)。"
+    },
+    {
+      "en": "Make movable parts (or the external environment) fixed, and fixed parts movable.",
+      "zh": "把可動的部分(或外部環境)固定住,把固定的部分變成可動的。"
+    },
+    {
+      "en": "Turn the object, process, or situation upside down.",
+      "zh": "把物體、流程或情境整個顛倒過來。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "The potter's wheel", "zh": "陶輪" },
+      "body": {
+        "en": "Rather than moving the shaping hands around a lump of clay, the potter spins the clay on a wheel and holds the hands relatively still. The workpiece is made to move while the tool stays fixed, the reverse of shaping something by hand.",
+        "zh": "陶匠不是讓塑形的雙手繞著陶土轉,而是讓陶土在轉盤上旋轉,雙手則相對固定不動。是讓工件動、讓工具固定,恰好與徒手塑形的方式相反。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "The lathe", "zh": "車床" },
+      "body": {
+        "en": "A hand file moves the tool across a stationary workpiece; a lathe reverses this by spinning the workpiece at high speed against a fixed cutting tool. Swapping which element moves lets a single point remove material evenly all the way around.",
+        "zh": "手工銼刀是讓工具在固定的工件上移動;車床則把這件事反過來,讓工件高速旋轉、抵著固定的刀具。對調誰在動,就能讓單一刀尖沿著整個圓周均勻地切削材料。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "MRI and CT scanners", "zh": "磁振造影與電腦斷層掃描" },
+      "body": {
+        "en": "Instead of passing the patient through the instrument, the scanner keeps the patient still and rotates the imaging ring around the body. Making the machine move rather than the subject gives a stable, precisely registered set of cross-sections.",
+        "zh": "掃描儀不是讓病人穿過儀器,而是讓病人保持不動、讓造影環繞著身體旋轉。讓機器動而不是讓受檢者動,能得到穩定且精確對位的一系列斷層影像。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "The treadmill", "zh": "跑步機" },
+      "body": {
+        "en": "Normal running moves the runner across fixed ground; a treadmill reverses this by keeping the runner in place while the belt moves under their feet. Fixing the person and moving the ground turns an outdoor activity into something done in one spot.",
+        "zh": "一般跑步是讓跑者在固定的地面上前進;跑步機把這件事反過來,讓跑者留在原地、由履帶在腳下移動。固定人、移動地面,就把一項戶外活動變成在一個定點就能完成的事。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Moving walkway and escalator", "zh": "電動步道與電扶梯" },
+      "body": {
+        "en": "In an airport concourse the traveler can stand still while the floor itself carries them forward. Instead of the person walking the distance, the environment moves, reversing which side of the journey does the work.",
+        "zh": "在機場大廳,旅客可以站著不動,由地板本身把他們往前送。不是由人走完那段距離,而是讓環境移動,把「旅程中誰在出力」這件事對調過來。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Kanban pull production", "zh": "看板拉式生產" },
+      "body": {
+        "en": "Traditional manufacturing pushes work downstream according to a forecast; the Toyota Production System reverses the flow so that downstream demand pulls each unit only as capacity permits. Reversing the direction of control keeps inventory low and exposes bottlenecks.",
+        "zh": "傳統製造是依預測把工作往下游推;豐田生產方式則把流向反過來,讓下游需求在產能允許時才把每一件產品拉動出來。把控制的方向反轉,能壓低庫存並讓瓶頸現形。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kanban_(development)"
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Reverse auction", "zh": "逆向拍賣" },
+      "body": {
+        "en": "In an ordinary auction many buyers bid a price up for one seller's item; a reverse auction flips the roles so many sellers compete to offer the lowest price to a single buyer. Inverting who bids against whom is used widely in procurement to drive costs down.",
+        "zh": "一般拍賣是許多買家為一位賣家的物品把價格往上喊;逆向拍賣把角色顛倒,讓許多賣家競相向單一買家開出最低價。把「誰向誰出價」反轉過來,廣泛用於採購以壓低成本。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Inversion of control", "zh": "控制反轉" },
+      "body": {
+        "en": "In classic procedural code your program calls into a library; with inversion of control the framework holds the main loop and calls your code back at the right moments (\"don't call us, we'll call you\"). Reversing who is in charge of the flow lets frameworks manage the plumbing while you supply only the specifics.",
+        "zh": "在傳統程序式程式裡,是你的程式去呼叫函式庫;而在控制反轉中,是框架掌握主迴圈,在適當時機回呼你的程式(「別打給我們,我們會打給你」)。把「誰主導流程」反轉過來,讓框架處理繁瑣的底層,你只需提供具體細節。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Inversion_of_control"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Webhooks instead of polling", "zh": "以網路鉤子取代輪詢" },
+      "body": {
+        "en": "Rather than a client repeatedly asking a server \"is it ready yet?\", a webhook reverses the direction so the server calls the client back the moment an event occurs. Inverting who initiates the contact removes wasted polling and delivers updates instantly.",
+        "zh": "與其讓用戶端反覆問伺服器「好了沒?」,網路鉤子(webhook)把方向反轉,讓伺服器在事件一發生時就回呼用戶端。把「由誰發起聯繫」反轉過來,消除了無謂的輪詢,並能即時送達更新。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Diffusion models", "zh": "擴散模型" },
+      "body": {
+        "en": "A diffusion model is trained on a forward process that gradually adds noise to an image until it is pure static, then generates by learning to run that process in reverse, denoising from noise back to a picture. Generation is literally the corruption process done the other way round.",
+        "zh": "擴散模型先在一個「前向過程」上訓練:逐步對影像加入雜訊,直到變成純粹的雪花;生成時再學著把這個過程反過來跑,從雜訊一路去噪回到一張圖。所謂生成,其實就是把破壞的過程反向操作。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diffusion_model"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Backpropagation", "zh": "反向傳播" },
+      "body": {
+        "en": "A neural network makes predictions by passing data forward through its layers; backpropagation trains it by sending the error signal in the opposite direction, layer by layer, to compute each weight's gradient. Reversing the direction of the pass is what makes efficient learning possible.",
+        "zh": "神經網路是把資料前向地一層層傳遞來做預測;反向傳播則反其道而行,把誤差訊號沿相反方向逐層送回,以計算每個權重的梯度。正是把傳遞的方向反轉過來,才讓高效學習成為可能。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Kanban (development)", "url": "https://en.wikipedia.org/wiki/Kanban_(development)" },
+    { "label": "Wikipedia — Inversion of control", "url": "https://en.wikipedia.org/wiki/Inversion_of_control" },
+    { "label": "Wikipedia — Diffusion model", "url": "https://en.wikipedia.org/wiki/Diffusion_model" }
+  ]
+}

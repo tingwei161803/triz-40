@@ -1,0 +1,119 @@
+{
+  "id": 9,
+  "slug": "preliminary-anti-action",
+  "name": { "en": "Preliminary Anti-action", "zh": "預先反作用" },
+  "aliases": {
+    "en": ["Prior counteraction", "Preliminary counteraction"],
+    "zh": ["預先反制", "事先反作用"]
+  },
+  "definition": {
+    "en": "If an action will have both useful and harmful effects, perform a counter-action in advance to neutralize the harm. Or introduce, beforehand, stresses that oppose the undesirable stresses expected later.",
+    "zh": "如果某個作用同時帶來有益與有害的效果,就預先施加反向作用以中和其害處;或事先加入能對抗日後不良應力的相反應力。"
+  },
+  "subPrinciples": [
+    {
+      "en": "If it is necessary to do an action with both harmful and useful effects, replace it with anti-actions that control the harmful effects.",
+      "zh": "若必須執行同時有害又有益的作用,改用能控制有害效果的反向作用。"
+    },
+    {
+      "en": "Create beforehand stresses in an object that will oppose known undesirable working stresses later.",
+      "zh": "事先在物件中建立能對抗日後已知不良工作應力的相反應力。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Variolation (early inoculation)", "zh": "人痘接種(早期免疫接種)" },
+      "body": {
+        "en": "Long before Jenner, people in China, India and Africa deliberately exposed the healthy to material from a mild smallpox case, provoking the disease in a controlled form beforehand so the body could resist the real infection later.",
+        "zh": "早在金納之前,中國、印度與非洲的人們就刻意讓健康者接觸輕症天花的材料,預先以受控的形式引發疾病,使身體日後能抵抗真正的感染。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Inoculation"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Prestressed concrete", "zh": "預力混凝土" },
+      "body": {
+        "en": "Tendons compress the concrete before it ever carries load, so when service loads try to stretch it they must first cancel that built-in compression. The counter-stress is applied in advance.",
+        "zh": "鋼腱在混凝土承載前就先把它壓縮,日後使用荷載想拉伸它時,得先抵銷這股內建的壓應力;反向應力是事先施加的。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Prestressed_concrete"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Tempered glass", "zh": "強化玻璃" },
+      "body": {
+        "en": "Rapid cooling locks the glass surface into compression and the core into tension; a crack must overcome the pre-applied surface compression before it can spread, so the anti-action is baked in during manufacture.",
+        "zh": "急速冷卻讓玻璃表面處於壓縮、核心處於張力;裂縫必須先克服預先施加的表面壓應力才能擴展,反作用在製造時就已內建。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tempered_glass"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Shot peening", "zh": "珠擊處理" },
+      "body": {
+        "en": "Bombarding a metal part with shot pounds a compressive residual-stress layer into its surface beforehand, opposing the tensile stresses that would otherwise start fatigue cracks in service.",
+        "zh": "用彈丸轟擊金屬件,事先在表面打出一層殘餘壓應力,對抗日後使用時會引發疲勞裂縫的張應力。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shot_peening"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Masking before painting", "zh": "上漆前貼遮蔽膠帶" },
+      "body": {
+        "en": "Before rolling paint, you tape over trim and sockets — a pre-emptive counter-move that blocks the harmful side effect of paint landing where it should not, instead of cleaning it up afterward.",
+        "zh": "滾漆之前先把飾條與插座貼起來;這是預先的反制動作,擋掉「漆到不該漆的地方」這個有害副作用,而非事後清理。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Pre-mortem analysis", "zh": "事前驗屍(pre-mortem)" },
+      "body": {
+        "en": "Before a project starts, the team imagines it has already failed and works backward to name the causes, so risks are countered in advance instead of merely diagnosed in a post-mortem.",
+        "zh": "專案啟動前,團隊先想像它已經失敗,再回推失敗的原因,好讓風險在事前就被反制,而不是等到事後檢討才被診斷出來。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pre-mortem"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Parameterized queries", "zh": "參數化查詢" },
+      "body": {
+        "en": "By binding user input as data rather than concatenating it into SQL, the application neutralizes injection before any query runs. The harmful effect of untrusted input is disarmed in advance.",
+        "zh": "把使用者輸入以資料形式綁定,而非串接進 SQL 字串,應用程式在任何查詢執行前就中和了注入攻擊;不可信輸入的害處被預先解除。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Netflix Chaos Monkey", "zh": "Netflix Chaos Monkey" },
+      "body": {
+        "en": "Netflix deliberately kills random production servers during business hours, injecting the very failure it fears beforehand so engineers are forced to build systems that survive it — a vaccine for the infrastructure.",
+        "zh": "Netflix 在營業時間刻意隨機關掉正式環境的伺服器,預先注入它最擔心的故障,逼工程師打造能承受故障的系統;這等於是替基礎架構打疫苗。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chaos_engineering"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Adversarial training", "zh": "對抗訓練" },
+      "body": {
+        "en": "Models are fed deliberately perturbed 'adversarial' examples during training, meeting the attack in a controlled way beforehand so the deployed model resists such manipulations later — an anti-action against future attacks.",
+        "zh": "訓練時刻意餵給模型經過擾動的「對抗樣本」,預先以受控方式遭遇攻擊,使上線後的模型能抵抗這類操弄;這是針對未來攻擊的反作用。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adversarial_machine_learning"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Red-teaming before deployment", "zh": "部署前的紅隊測試" },
+      "body": {
+        "en": "Before release, teams probe a model for harmful outputs and fine-tune it against them, pre-emptively counteracting jailbreaks and unsafe responses that users would otherwise trigger in production.",
+        "zh": "發布前,團隊主動探測模型的有害輸出並針對它們微調,預先反制使用者日後在正式環境可能觸發的越獄與不安全回應。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Prestressed concrete", "url": "https://en.wikipedia.org/wiki/Prestressed_concrete" },
+    { "label": "Wikipedia — Inoculation (variolation)", "url": "https://en.wikipedia.org/wiki/Inoculation" },
+    { "label": "Wikipedia — Chaos engineering (Chaos Monkey)", "url": "https://en.wikipedia.org/wiki/Chaos_engineering" },
+    { "label": "Wikipedia — Adversarial machine learning", "url": "https://en.wikipedia.org/wiki/Adversarial_machine_learning" }
+  ]
+}

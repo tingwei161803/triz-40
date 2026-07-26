@@ -1,0 +1,124 @@
+{
+  "id": 17,
+  "slug": "another-dimension",
+  "name": { "en": "Another Dimension", "zh": "移至新維度" },
+  "aliases": {
+    "en": ["Transition to Another Dimension", "Moving to a New Dimension", "Dimensionality Change"],
+    "zh": ["移到另一維度", "維度轉換", "多維化"]
+  },
+  "definition": {
+    "en": "Escape the constraints of a single line or plane by using a second or third dimension: move the object in two- or three-dimensional space, stack it in multiple layers, tilt or re-orient it, or use the other side of a surface.",
+    "zh": "跳脫單一直線或單一平面的限制,善用第二或第三維度:讓物體在二維或三維中移動、以多層方式堆疊、將其傾斜或改變朝向,或利用表面的另一面。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Move the object in two- or three-dimensional space instead of along a single line.",
+      "zh": "讓物體在二維或三維空間中移動,而非侷限於一條線。"
+    },
+    {
+      "en": "Use a multi-layer or multi-storey arrangement instead of a single layer.",
+      "zh": "採用多層堆疊,取代單層排列。"
+    },
+    {
+      "en": "Tilt or re-orient the object, or lay it on its side.",
+      "zh": "把物體傾斜、改變朝向,或側放。"
+    },
+    {
+      "en": "Use the opposite or adjacent side of a given surface.",
+      "zh": "利用某一表面的反面或相鄰面。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Terraced (stepped) farming", "zh": "梯田耕作" },
+      "body": {
+        "en": "On steep hillsides where flat land is scarce, farmers cut the slope into stacked horizontal terraces, turning a single sloping surface into many usable levels. Rice terraces across Asia have used this vertical, multi-level approach for centuries.",
+        "zh": "在平地稀少的陡坡上,農民把山坡開闢成一階階水平的梯田,把單一斜面變成許多可耕作的層次。亞洲各地的水稻梯田,數百年來便運用這種垂直、多層的方式。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Multi-storey car park", "zh": "立體停車場" },
+      "body": {
+        "en": "When ground area is limited, cars are parked on stacked floors instead of one flat lot, multiplying capacity by building upward into the vertical dimension.",
+        "zh": "當地面面積有限時,汽車被停放在層層堆疊的樓層上,而非攤在單一平面停車場,藉由向上發展的垂直維度使容量倍增。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Multi-level highway interchange", "zh": "多層立體交流道" },
+      "body": {
+        "en": "Crossing traffic streams are separated onto stacked ramps and flyovers so vehicles pass over and under one another without stopping. Using the vertical dimension removes the conflict that a flat intersection creates.",
+        "zh": "交會的車流被分配到層層疊起的匝道與高架橋上,使車輛彼此上下穿越而不必停等。利用垂直維度,消除了平面路口原本會產生的交會衝突。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Bunk beds", "zh": "上下舖床" },
+      "body": {
+        "en": "In a small room, a second sleeping surface is stacked directly above the first, using the vertical dimension to double sleeping capacity within the same floor footprint.",
+        "zh": "在狹小的房間裡,把第二個舖位直接疊在第一個之上,利用垂直維度,在相同地板面積內讓睡眠容量加倍。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Foldable smartphone", "zh": "摺疊手機" },
+      "body": {
+        "en": "A folding phone uses the third dimension to reconcile two conflicting sizes: unfolded it is a tablet-sized screen, folded it fits a pocket. Bending into the extra dimension lets one device be both big and small. (Samsung Galaxy Fold, 2019.)",
+        "zh": "摺疊手機利用第三維度調和兩個互相衝突的尺寸:攤開時是平板大小的大螢幕,摺起後又能放進口袋。透過在額外維度上彎折,讓同一台裝置既大又小。(三星 Galaxy Fold,2019 年。)"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Matrix organization", "zh": "矩陣式組織" },
+      "body": {
+        "en": "Instead of a single chain of command, employees report along two dimensions at once, for example a functional manager and a project manager, so one person's expertise can serve several projects. (Emerged in U.S. aerospace in the 1950s.)",
+        "zh": "員工不再只隸屬於單一指揮鏈,而是同時沿兩個維度回報,例如同時對職能主管與專案主管負責,使一個人的專業能同時服務多個專案。(源自 1950 年代美國航太業。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matrix_management"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "QR code (2-D barcode)", "zh": "QR Code(二維條碼)" },
+      "body": {
+        "en": "A one-dimensional barcode stores data along a single line of stripes; a QR code adds a second dimension, encoding data in a grid of squares read both horizontally and vertically, so it holds far more information in the same footprint. (Invented by Denso Wave, 1994.)",
+        "zh": "一維條碼只在單一方向的條紋上儲存資料;QR Code 加入第二個維度,把資料編碼在可橫向、縱向同時讀取的方格網格中,因此在相同面積內能容納多出許多倍的資訊。(Denso Wave 於 1994 年發明。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/QR_code"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "OLAP data cube", "zh": "OLAP 資料立方體" },
+      "body": {
+        "en": "Business analytics arranges measures such as sales along multiple dimensions at once (time, product, region), so a query can slice and pivot the same numbers across any combination of axes instead of scanning a single flat table.",
+        "zh": "商業分析把銷售額等指標同時沿多個維度排列(時間、產品、地區),使查詢能在任意軸的組合上切片、樞紐同一批數字,而不必掃描單一的平面表格。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Word embeddings", "zh": "詞向量嵌入" },
+      "body": {
+        "en": "Word2vec maps each word to a point in a high-dimensional vector space, so meaning becomes geometry: words used in similar contexts sit close together, and relationships appear as directions. Moving language into a many-dimensional space lets machines reason about semantics with vector arithmetic. (Google, 2013.)",
+        "zh": "Word2vec 把每個詞映射到高維向量空間中的一個點,使語意化為幾何:語境相近的詞彼此靠近,詞與詞的關係則呈現為方向。把語言搬進多維空間,讓機器能以向量運算來推理語意。(Google,2013 年。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Word2vec"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Neural radiance fields (NeRF)", "zh": "神經輻射場(NeRF)" },
+      "body": {
+        "en": "NeRF takes a handful of ordinary 2-D photographs and lifts them into a continuous 3-D representation, learning the colour and density of every point in a volume so the scene can be viewed from angles never photographed. It reconstructs the missing third dimension. (Introduced 2020.)",
+        "zh": "NeRF 以少量普通的二維照片為輸入,將其提升為連續的三維表示,學習體積中每一點的顏色與密度,使場景能從未曾拍攝過的角度觀看。它重建了缺失的第三維度。(2020 年提出。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Neural_radiance_field"
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — QR code", "url": "https://en.wikipedia.org/wiki/QR_code" },
+    { "label": "Wikipedia — Word2vec", "url": "https://en.wikipedia.org/wiki/Word2vec" },
+    { "label": "Wikipedia — Neural radiance field", "url": "https://en.wikipedia.org/wiki/Neural_radiance_field" }
+  ]
+}

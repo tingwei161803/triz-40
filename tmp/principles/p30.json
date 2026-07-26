@@ -1,0 +1,122 @@
+{
+  "id": 30,
+  "slug": "flexible-shells",
+  "name": { "en": "Flexible Shells and Thin Films", "zh": "撓性殼與薄膜" },
+  "aliases": {
+    "en": ["Flexible membranes", "Thin films"],
+    "zh": ["柔性薄膜", "薄膜與軟殼"]
+  },
+  "definition": {
+    "en": "Use flexible shells and thin films in place of bulky three-dimensional structures, and use them to isolate an object from its surroundings. A thin membrane can enclose, protect, or separate with a small fraction of the material and weight of a solid form.",
+    "zh": "用撓性殼與薄膜取代笨重的三維立體結構,並用它們把物體與周遭環境隔離。一層薄膜只需固體形式的一小部分材料與重量,就能包覆、保護或區隔。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Use flexible shells and thin films instead of three-dimensional structures.",
+      "zh": "用撓性殼與薄膜取代三維立體結構。"
+    },
+    {
+      "en": "Isolate the object from its external environment using flexible shells and thin films.",
+      "zh": "用撓性殼與薄膜把物體與外部環境隔離。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "The cell membrane", "zh": "細胞膜" },
+      "body": {
+        "en": "Every living cell is wrapped in a thin lipid-bilayer film that separates and protects its interior from the outside world. Evolution isolated life with a flexible membrane rather than a rigid wall.",
+        "zh": "每個活細胞都被一層薄薄的脂質雙層膜包裹,把內部與外界區隔並加以保護。演化用一層撓性薄膜,而非剛硬的牆,把生命隔離開來。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cell_membrane"
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "Tents and yurts", "zh": "帳篷與蒙古包" },
+      "body": {
+        "en": "A hide or felt skin stretched over a light frame gives shelter without heavy walls, and is among the oldest human dwellings. The flexible shell keeps out weather at a fraction of the material of a solid building.",
+        "zh": "把獸皮或毛氈張在輕巧的骨架上,不需厚重的牆就能遮風避雨,是人類最古老的住所之一。這層撓性外殼用固體建築一小部分的材料,就能擋住風雨。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Tensile membrane roofs", "zh": "張力薄膜屋頂" },
+      "body": {
+        "en": "Frei Otto's roof for the 1972 Munich Olympic Stadium spans huge areas with pretensioned fabric membranes instead of heavy rigid structure. Thin film in tension does the work of massive beams and slabs.",
+        "zh": "弗萊·奧托為 1972 年慕尼黑奧運體育場設計的屋頂,用預張的織物薄膜跨越大面積,取代笨重的剛性結構。受張力的薄膜,完成了粗大樑板才能做的事。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tensile_structure"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Diaphragm pumps and sensors", "zh": "隔膜泵與感測器" },
+      "body": {
+        "en": "A flexing membrane replaces a rigid piston to move fluid in a diaphragm pump or to register pressure in a sensor, while sealing the mechanism from the medium. The thin film both actuates and isolates.",
+        "zh": "在隔膜泵中,一片可撓動的膜取代剛性活塞來推送流體;在感測器中則用來偵測壓力,同時把機構與介質隔開。這層薄膜既作動、又隔離。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Cling film and vacuum packaging", "zh": "保鮮膜與真空包裝" },
+      "body": {
+        "en": "Cling film, shrink wrap, and vacuum packs seal food in a thin plastic skin that isolates it from air and moisture. A film a fraction of a millimetre thick replaces a rigid container.",
+        "zh": "保鮮膜、收縮膜與真空包裝,用一層薄塑膠皮把食物封住,隔絕空氣與水氣。一層不到一毫米厚的薄膜,就取代了硬質容器。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Non-stick and protective coatings", "zh": "不沾與保護塗層" },
+      "body": {
+        "en": "A PTFE film on a pan or a screen protector on a phone changes how a surface behaves without adding a bulky part. The thin film isolates the base material and gives it a new property.",
+        "zh": "鍋面上的鐵氟龍塗層,或手機上的保護貼,不必加上笨重的部件就改變了表面的行為。薄膜把基材隔離,並賦予它新的性質。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Flexible pouch packaging", "zh": "軟袋包裝" },
+      "body": {
+        "en": "Stand-up pouches replace rigid cans, bottles, and boxes for foods, detergents, and refills. A flexible film shell cuts material, weight, and shipping cost while still isolating the product.",
+        "zh": "站立軟袋在食品、清潔劑與補充包上取代硬質的罐、瓶與盒。撓性薄膜外殼在仍能隔離產品的同時,減少材料、重量與運輸成本。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Containers and sandboxes", "zh": "容器與沙箱" },
+      "body": {
+        "en": "A container wraps an application in a lightweight isolating shell that separates it from the host, without the bulk of a full virtual machine. The thin boundary isolates the process much as a membrane isolates a cell.",
+        "zh": "容器用一層輕量的隔離外殼把應用程式包起來,將它與主機區隔,而不需一整套虛擬機的笨重。這層薄邊界隔離程序,就像細胞膜隔離細胞一樣。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Thin clients and browser apps", "zh": "精簡客戶端與瀏覽器應用" },
+      "body": {
+        "en": "A thin client or browser app is a lightweight front-end shell, while the heavy computation runs on the server. The bulky local install is replaced by a slim layer that only renders and relays.",
+        "zh": "精簡客戶端或瀏覽器應用是一層輕量的前端外殼,繁重的運算則跑在伺服器上。笨重的本機安裝被一層只負責呈現與轉送的薄層取代。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "LoRA and adapter layers", "zh": "LoRA 與轉接層" },
+      "body": {
+        "en": "LoRA wraps a large frozen foundation model in thin trainable low-rank layers, adapting it to a task without touching the bulk of its weights. The lightweight film of parameters isolates the change from the underlying model.",
+        "zh": "LoRA 在龐大的凍結基礎模型外,包上一層薄薄、可訓練的低秩層,不動用大部分權重就讓模型適配新任務。這層輕量的參數薄膜,把改動與底層模型隔離開來。"
+      },
+      "sourceUrl": "https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Flexible thin-film and e-skin sensors", "zh": "撓性薄膜與電子皮膚感測器" },
+      "body": {
+        "en": "Bendable thin-film electronics and electronic skin let AI-driven wearables sense health signals or give prosthetics a sense of touch, conforming to the body. Sensing moves from rigid boards to a flexible film worn like a second skin.",
+        "zh": "可彎曲的薄膜電子與電子皮膚,讓 AI 驅動的穿戴裝置偵測健康訊號,或讓義肢具備觸覺,並貼合身體。感測從剛性電路板,轉移到像第二層皮膚般穿戴的撓性薄膜上。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — The 40 Principles (Flexible shells and thin films)", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Cell membrane", "url": "https://en.wikipedia.org/wiki/Cell_membrane" },
+    { "label": "Wikipedia — Tensile structure", "url": "https://en.wikipedia.org/wiki/Tensile_structure" },
+    { "label": "Hu et al. — LoRA: Low-Rank Adaptation of Large Language Models (2021)", "url": "https://arxiv.org/abs/2106.09685" }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": 22,
+  "slug": "blessing-in-disguise",
+  "name": { "en": "Blessing in Disguise", "zh": "轉害為利" },
+  "aliases": {
+    "en": ["Convert Harm into Benefit", "Turn Lemons into Lemonade"],
+    "zh": ["化害為利", "因禍得福"]
+  },
+  "definition": {
+    "en": "Turn a harmful factor or situation into a useful one. Use a harm to achieve a positive effect, combine two harms so they cancel each other, or amplify a harm until it stops being harmful.",
+    "zh": "把有害的因素或情境轉化為有用的東西。利用有害因素來達成正面效果、把兩個有害作用結合使其相互抵消,或將有害因素放大到不再有害的程度。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Use harmful factors (especially harmful effects of the environment or surroundings) to achieve a positive effect.",
+      "zh": "利用有害因素(尤其是環境或周遭的有害效應)來達成正面效果。"
+    },
+    {
+      "en": "Eliminate a harmful action by combining it with another harmful action.",
+      "zh": "把一個有害作用與另一個有害作用結合,藉此消除它。"
+    },
+    {
+      "en": "Amplify a harmful factor to such a degree that it is no longer harmful.",
+      "zh": "把有害因素放大到某種程度,使它不再有害。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Nile floods depositing fertile silt", "zh": "尼羅河氾濫沉積肥沃淤泥" },
+      "body": {
+        "en": "The Nile's annual flood was a destructive event, yet it left behind a layer of nutrient-rich silt that renewed the fields. Ancient Egyptian agriculture turned a recurring hazard into the very foundation of its harvests.",
+        "zh": "尼羅河每年的氾濫是破壞性的事件,卻在退去後留下一層富含養分的淤泥,使農田重獲肥力。古埃及農業把一場反覆發生的災害,轉化為收成的根基。"
+      }
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "Backfire to stop a wildfire", "zh": "以逆火阻止野火" },
+      "body": {
+        "en": "Firefighters deliberately set a controlled fire ahead of an advancing wildfire to burn away the fuel in its path. Fire, the very thing they are fighting, is used to defeat fire by combining two harmful burns so the larger one starves.",
+        "zh": "消防員在逼近的野火前方刻意點燃受控的火,先燒掉火勢前進路徑上的燃料。他們正在對抗的火,被用來擊敗火——把兩場有害的燃燒結合,讓較大的那場因缺乏燃料而熄滅。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Regenerative braking", "zh": "再生煞車" },
+      "body": {
+        "en": "Braking normally throws away a vehicle's kinetic energy as waste heat. Regenerative braking runs the motor as a generator during deceleration, capturing that would-be-wasted energy and storing it back in the battery.",
+        "zh": "煞車通常把車輛的動能當作廢熱丟掉。再生煞車在減速時讓馬達當發電機運轉,把原本會浪費掉的能量回收並存回電池。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Regenerative_braking"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Turbocharger driven by exhaust gas", "zh": "以廢氣驅動的渦輪增壓器" },
+      "body": {
+        "en": "Exhaust gas is a hot, high-energy waste stream that engines normally dump. A turbocharger routes it through a turbine to compress the intake air, converting a wasteful byproduct into extra engine power.",
+        "zh": "廢氣是引擎通常直接排掉的高溫、高能量廢流。渦輪增壓器讓廢氣通過渦輪來壓縮進氣,把浪費掉的副產物轉化為額外的引擎動力。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Turbocharger"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Fermentation of food", "zh": "食物發酵" },
+      "body": {
+        "en": "Yogurt, kimchi, cheese, and sourdough all rely on microbial action that, uncontrolled, would simply be spoilage. By steering the harmful process of decay, we get preservation and new flavors instead of rot.",
+        "zh": "優格、泡菜、起司與酸種麵包都仰賴微生物作用,而這種作用若失控就只是腐敗。藉由引導腐壞這個有害過程,我們得到的是保存與新風味,而不是腐爛。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "3M Post-it Note from a failed adhesive", "zh": "3M 便利貼源自失敗的黏著劑" },
+      "body": {
+        "en": "In 1968 Spencer Silver at 3M accidentally made a weak, reusable adhesive that failed its intended purpose. Rather than discarding the flaw, 3M later paired it with Art Fry's bookmark idea to create the Post-it Note, turning a failure into a signature product.",
+        "zh": "1968 年 3M 的 Spencer Silver 意外做出一種黏性弱、可重複撕貼的黏著劑,無法達成原本的用途。3M 並未把這個缺陷丟棄,後來把它與 Art Fry 的書籤點子結合,做出便利貼,把失敗變成招牌產品。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Post-it_note"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Chaos engineering (Netflix Chaos Monkey)", "zh": "混沌工程(Netflix Chaos Monkey)" },
+      "body": {
+        "en": "Netflix built a tool that deliberately kills random production servers during business hours. The self-inflicted harm forces teams to build systems that survive failure, so a source of outages becomes a driver of resilience.",
+        "zh": "Netflix 打造了一個工具,在營業時間內刻意隨機關閉正式環境的伺服器。這種自找的傷害迫使團隊打造能在故障中存活的系統,於是一個造成當機的來源反而成了提升韌性的動力。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chaos_engineering"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Fuzz testing with malformed input", "zh": "以畸形輸入進行模糊測試" },
+      "body": {
+        "en": "Fuzzing bombards a program with deliberately malformed and hostile inputs to make it crash. The harmful data is used constructively: every crash it triggers reveals a bug or security hole to fix before an attacker finds it.",
+        "zh": "模糊測試用刻意畸形、帶敵意的輸入猛烈轟炸程式,讓它當機。這些有害資料被建設性地運用:它觸發的每一次當機,都揭露一個可在攻擊者發現前修補的漏洞或資安缺口。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Adversarial training", "zh": "對抗訓練" },
+      "body": {
+        "en": "Adversarial examples are inputs crafted to fool a model. Adversarial training deliberately feeds these harmful examples in during learning, so the model becomes robust precisely against the attacks that were meant to break it.",
+        "zh": "對抗樣本是刻意設計來欺騙模型的輸入。對抗訓練在學習過程中刻意餵入這些有害樣本,使模型正好對那些原本要擊垮它的攻擊產生抵抗力。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Generative adversarial networks (GANs)", "zh": "生成對抗網路(GAN)" },
+      "body": {
+        "en": "A GAN pits a generator against a discriminator whose whole job is to expose the generator's fakes. This built-in adversary is a harmful pressure that is harnessed: the competition is exactly what pushes the generator toward realistic output.",
+        "zh": "GAN 讓生成器對抗一個判別器,而判別器的任務就是揭穿生成器的假貨。這個內建的對手是一種被駕馭的有害壓力:正是這場競爭把生成器推向逼真的輸出。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Generative_adversarial_network"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Differential privacy noise", "zh": "差分隱私雜訊" },
+      "body": {
+        "en": "Adding noise to data normally degrades its accuracy. Differential privacy amplifies that harm on purpose, injecting carefully calibrated noise until individual records can no longer be recovered, turning a defect into a mathematical privacy guarantee.",
+        "zh": "在資料中加入雜訊通常會損害其準確度。差分隱私刻意放大這種傷害,注入經過精心校準的雜訊,直到個別紀錄再也無法被還原,把一個缺陷變成數學上的隱私保證。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — Principle 22: Blessing in Disguise", "url": "https://www.triz40.com/TRIZ/Principle-22.php" },
+    { "label": "TRIZ.org — 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "The TRIZ Journal — 40 Inventive Business Principles", "url": "https://the-trizjournal.com/40-inventive-business-principles-examples/" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" }
+  ]
+}

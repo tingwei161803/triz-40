@@ -1,0 +1,128 @@
+{
+  "id": 14,
+  "slug": "spheroidality",
+  "name": { "en": "Spheroidality / Curvature", "zh": "曲面化" },
+  "aliases": {
+    "en": ["Curvature", "Spheroidality-Curvature", "Curvilinearity"],
+    "zh": ["球面化", "曲率化", "曲線化"]
+  },
+  "definition": {
+    "en": "Replace straight lines and flat surfaces with curves, and cubes with spheres; use rollers, balls, and spirals; and move from linear to rotary motion. Curved and rounded forms distribute stress, reduce friction, and let motion continue smoothly.",
+    "zh": "用曲線取代直線、用曲面取代平面,用球體取代方塊;採用滾子、滾珠與螺旋;並把直線運動改為旋轉運動。彎曲與圓潤的形狀能分散應力、降低摩擦,並讓運動平順地持續下去。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Instead of rectilinear parts, surfaces, or forms, use curvilinear ones; move from flat surfaces to spherical ones, from cubes to balls.",
+      "zh": "不用直線的零件、表面或形狀,改用曲線的;從平面走向球面,從方塊走向球體。"
+    },
+    {
+      "en": "Use rollers, balls, spirals, and domes.",
+      "zh": "使用滾子、滾珠、螺旋與穹頂。"
+    },
+    {
+      "en": "Go from linear to rotary motion; make use of centrifugal force.",
+      "zh": "把直線運動改為旋轉運動;善用離心力。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "The arch and the dome", "zh": "拱與穹頂" },
+      "body": {
+        "en": "Roman builders replaced the flat stone lintel, which cracks under its own span, with the arch and the dome, whose curvature channels weight into compression along the curve. The rounded form let them span far wider openings and enclose great halls like the Pantheon.",
+        "zh": "羅馬工匠用拱與穹頂取代會因跨距而斷裂的平直石過樑,靠曲率把重量沿著弧線導引成壓應力。這種圓弧形狀讓他們得以跨越寬得多的開口,並罩住像萬神殿那樣的大廳。"
+      },
+      "sourceUrl": "https://sixsigmastudyguide.com/theory-of-inventive-problem-solving-triz/"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Ball and roller bearings", "zh": "滾珠與滾子軸承" },
+      "body": {
+        "en": "A plain sliding surface wastes energy to friction; a bearing inserts hardened balls or rollers so the surfaces roll over one another instead of dragging. Substituting curved rolling elements for flat sliding contact is a direct application of curvature.",
+        "zh": "單純的滑動面會把能量浪費在摩擦上;軸承則置入淬硬的滾珠或滾子,讓表面彼此滾動而不是拖曳。用曲面的滾動元件取代平面的滑動接觸,正是曲面化的直接應用。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Helical and spiral gears", "zh": "斜齒輪與螺旋齒輪" },
+      "body": {
+        "en": "Straight-cut spur gears engage one whole tooth at a time and clatter; helical gears wind the teeth along a curve so contact rolls on gradually and quietly. Curving the tooth line spreads the load and smooths the transmission of motion.",
+        "zh": "直齒的正齒輪一次整齒嚙合,會發出撞擊聲;斜齒輪則讓齒沿著曲線盤繞,使接觸漸進地滾入、運轉安靜。把齒線彎成曲線能分散負載,並讓運動的傳遞更平順。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "The ball-point pen", "zh": "原子筆" },
+      "body": {
+        "en": "A ball-point pen writes by rolling a tiny hardened sphere in its socket, which picks up ink on one side and lays it down on the paper on the other. The rolling ball replaces the scratchy dragging nib with smooth curved motion.",
+        "zh": "原子筆書寫時,是讓筆頭裡一顆微小的淬硬球體在座槽中滾動,一側沾起墨水、另一側把墨水抹到紙上。滾動的球體以平順的曲面運動取代了會刮紙、拖曳的筆尖。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "The computer mouse", "zh": "電腦滑鼠" },
+      "body": {
+        "en": "Early mice translated hand motion into cursor movement through a rolling ball underneath, and modern optical mice track a curved surface reflection. Either way, converting sliding hand motion into a rolling or rotational readout is what makes pointing feel effortless.",
+        "zh": "早期的滑鼠靠底部一顆滾球把手部移動轉換為游標移動,現代光學滑鼠則追蹤曲面的反射光。無論哪一種,把滑動的手部動作轉成滾動或旋轉的讀值,正是讓指向操作毫不費力的關鍵。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "The circular economy", "zh": "循環經濟" },
+      "body": {
+        "en": "The traditional economy runs a straight line from take to make to waste; the circular economy bends that line into a loop where products are reused, repaired, and recycled back into supply. Turning a linear flow into a closed curve keeps materials in play instead of discarding them.",
+        "zh": "傳統經濟是一條「取用—製造—丟棄」的直線;循環經濟則把這條線彎成一個環,讓產品被再利用、維修,並回收重新進入供給。把線性流程變成封閉的曲線,能讓材料持續運轉,而不是被丟棄。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Ring buffer", "zh": "環形緩衝區" },
+      "body": {
+        "en": "A ring buffer takes a fixed-size array and connects its end back to its beginning, so a producer and consumer can keep wrapping around it indefinitely without shifting data. Bending a straight buffer into a circle turns a bounded space into an endless stream.",
+        "zh": "環形緩衝區把一段固定大小的陣列首尾相接,讓生產者與消費者能無限地繞著它循環,而不必搬移資料。把一段直線的緩衝區彎成圓形,就把有限的空間變成源源不絕的串流。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Circular_buffer"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Consistent hashing ring", "zh": "一致性雜湊環" },
+      "body": {
+        "en": "Consistent hashing places both servers and keys on points around a circle, so a key belongs to the next server clockwise. Because the layout is a ring, adding or removing a node only remaps the small arc of keys near it rather than reshuffling everything.",
+        "zh": "一致性雜湊把伺服器與鍵都放在一個圓周上的點,讓每個鍵歸屬於順時針方向的下一台伺服器。正因為佈局是一個環,新增或移除節點時只需重新對應它附近那一小段弧上的鍵,而不必把全部重新洗牌。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Consistent_hashing"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Rotary position embeddings (RoPE)", "zh": "旋轉位置編碼(RoPE)" },
+      "body": {
+        "en": "RoPE encodes a token's position by rotating pairs of features in the query and key vectors by an angle proportional to the position. Because position is baked in as a rotation, the dot product between two tokens naturally depends on their relative distance.",
+        "zh": "RoPE 把 token 的位置編碼進去的方式,是將查詢與鍵向量中成對的特徵旋轉一個與位置成正比的角度。由於位置是以旋轉的形式嵌入的,兩個 token 之間的內積自然就取決於它們的相對距離。"
+      },
+      "sourceUrl": "https://nn.labml.ai/transformers/rope/index.html"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Embeddings on the unit hypersphere", "zh": "單位超球面上的嵌入向量" },
+      "body": {
+        "en": "Many models L2-normalize their embeddings so every vector lies on the surface of a unit hypersphere, which makes cosine similarity the natural measure and lets interpolation follow the sphere with spherical linear interpolation (slerp). Projecting flat vector space onto a curved surface gives geometry that behaves well for similarity.",
+        "zh": "許多模型會把嵌入向量做 L2 正規化,讓每個向量都落在單位超球面的表面上,使餘弦相似度成為自然的度量,並讓內插能以球面線性插值(slerp)沿著球面進行。把平直的向量空間投影到彎曲的表面上,能得到對相似度運算表現良好的幾何結構。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Cyclical feature encoding", "zh": "週期性特徵編碼" },
+      "body": {
+        "en": "Feeding an hour of day as the number 0 to 23 tells a model that 23:00 and 01:00 are far apart, which is false; encoding the hour as sine and cosine places it on a circle so late night and early morning sit next to each other. Wrapping a linear scale onto a curve captures periodic structure a straight axis cannot.",
+        "zh": "把一天中的小時當成 0 到 23 的數字餵給模型,會讓它以為 23:00 與 01:00 相距很遠,這並不正確;改用正弦與餘弦把小時編碼,就等於把它放到一個圓上,讓深夜與清晨彼此相鄰。把線性刻度纏繞到曲線上,能捕捉到直線座標軸無法表達的週期結構。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Six Sigma Study Guide — Theory of Inventive Problem Solving (TRIZ)", "url": "https://sixsigmastudyguide.com/theory-of-inventive-problem-solving-triz/" },
+    { "label": "Wikipedia — Circular buffer", "url": "https://en.wikipedia.org/wiki/Circular_buffer" },
+    { "label": "Wikipedia — Consistent hashing", "url": "https://en.wikipedia.org/wiki/Consistent_hashing" },
+    { "label": "labml.ai — Rotary Positional Embeddings (RoPE)", "url": "https://nn.labml.ai/transformers/rope/index.html" }
+  ]
+}

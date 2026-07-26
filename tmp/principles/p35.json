@@ -1,0 +1,129 @@
+{
+  "id": 35,
+  "slug": "parameter-changes",
+  "name": { "en": "Parameter Changes", "zh": "參數改變" },
+  "aliases": { "en": ["Transformation of Properties", "Changing Physical or Chemical State"], "zh": ["性質轉變", "改變物理化學狀態"] },
+  "definition": {
+    "en": "Change a parameter of the object: its physical state, its concentration or consistency, its degree of flexibility, or its temperature. Adjusting one property can make the object easier to store, transport, or use.",
+    "zh": "改變物體的某項參數:物理狀態、濃度或稠度、柔軟或彈性的程度、或溫度。調整一項性質,往往就能讓物體更容易儲存、運輸或使用。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Change the object's physical state (e.g., to a gas, liquid, or solid).",
+      "zh": "改變物體的物理狀態(如變成氣態、液態或固態)。"
+    },
+    {
+      "en": "Change the concentration or consistency.",
+      "zh": "改變濃度或稠度。"
+    },
+    {
+      "en": "Change the degree of flexibility.",
+      "zh": "改變柔軟或彈性的程度。"
+    },
+    {
+      "en": "Change the temperature.",
+      "zh": "改變溫度。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Firing clay into ceramic", "zh": "把陶土燒成陶器" },
+      "body": {
+        "en": "A potter shapes soft, workable clay and then fires it, driving off water and fusing the particles into hard, durable ceramic. Heat changes the material's state from plastic to rigid, locking in the chosen form.",
+        "zh": "陶匠先把柔軟好塑的陶土捏出形狀,再入窯燒製,趕走水分並使顆粒熔結成堅硬耐久的陶瓷。熱把材料的狀態從可塑變為剛硬,把選定的造型定住。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Liquefied natural gas", "zh": "液化天然氣" },
+      "body": {
+        "en": "Natural gas is cooled to about minus 162 degrees Celsius until it condenses into a liquid roughly one six-hundredth of its gaseous volume. Changing its physical state makes it dense enough to ship across oceans in tankers.",
+        "zh": "天然氣被冷卻到約攝氏零下 162 度,凝結成液體,體積約只剩氣態的六百分之一。改變它的物理狀態,使它密到足以用油輪跨洋運送。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liquefied_natural_gas"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Vulcanizing rubber", "zh": "橡膠硫化" },
+      "body": {
+        "en": "Goodyear's vulcanization heats natural rubber with sulfur, cross-linking its polymer chains. The change turns a soft, sticky substance into a tough, elastic material that keeps its shape, which is what makes durable tires possible.",
+        "zh": "固特異的硫化法把天然橡膠與硫加熱,使其聚合物鏈交聯。這一改變把黏軟的物質變成堅韌有彈性、能保持形狀的材料,耐用的輪胎才得以成真。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vulcanization"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Quenching and tempering steel", "zh": "鋼的淬火與回火" },
+      "body": {
+        "en": "Heating steel and cooling it at controlled rates changes its hardness and toughness without changing its shape. By tuning temperature, the same alloy can be made either hard and brittle or springy and tough for a given job.",
+        "zh": "把鋼加熱並以受控速率冷卻,可在不改變形狀的前提下改變它的硬度與韌性。透過調控溫度,同一種合金既可做得又硬又脆,也可做得富彈性又強韌,以配合不同用途。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Freeze-dried food and instant coffee", "zh": "冷凍乾燥食品與即溶咖啡" },
+      "body": {
+        "en": "Freeze drying removes water from brewed coffee or fruit by sublimation, leaving a light, shelf-stable solid that rehydrates later. Changing the water content and state trades away weight and spoilage while keeping flavor.",
+        "zh": "冷凍乾燥藉昇華把沖煮咖啡或水果中的水分去除,留下輕巧、耐儲存、日後可復水的固體。改變含水量與狀態,以此換掉重量與腐敗,又保住風味。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Freeze_drying"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Concentrated and multi-form detergents", "zh": "濃縮與多型態清潔劑" },
+      "body": {
+        "en": "The same cleaning product is sold as a bar, a powder, a concentrated liquid, or a gel. Changing concentration and consistency lets makers cut shipping weight and lets users pick the form that suits the task.",
+        "zh": "同一種清潔產品被做成肥皂塊、粉狀、濃縮液或凝膠。改變濃度與稠度,讓廠商減少運輸重量,也讓使用者挑選最適合當下任務的型態。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Coca-Cola's concentrate model", "zh": "可口可樂的濃縮糖漿模式" },
+      "body": {
+        "en": "Coca-Cola ships a highly concentrated syrup to local bottlers, who add water and carbonation before sale. Transporting the product in concentrated form slashes shipping cost, since the bulky water is added near the customer.",
+        "zh": "可口可樂把高度濃縮的糖漿運給各地的裝瓶商,由他們在出售前加水、充碳酸。以濃縮型態運送產品,大幅降低運輸成本,因為佔體積的水是在靠近顧客處才加入。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Data compression", "zh": "資料壓縮" },
+      "body": {
+        "en": "Compression re-encodes data into a denser form for storage or transfer, then decompresses it back for use. Changing the 'consistency' of the data cuts bandwidth and disk cost while the information itself is preserved.",
+        "zh": "壓縮把資料重新編碼成更緊密的型態以便儲存或傳輸,使用時再解壓縮還原。改變資料的「稠度」,在保留資訊本身的同時,降低頻寬與磁碟成本。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Hot and cold storage tiers", "zh": "冷熱儲存分層" },
+      "body": {
+        "en": "Cloud storage offers 'hot' tiers for instant access and 'cold' tiers like archival storage that are far cheaper but slow to retrieve. Moving rarely used data to a colder tier borrows the temperature idea to trade access speed for cost.",
+        "zh": "雲端儲存提供可即時存取的「熱」層,以及像封存儲存那樣便宜許多但取回較慢的「冷」層。把少用的資料移到較冷的層,借用了溫度的概念,以存取速度換取成本。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Model quantization", "zh": "模型量化" },
+      "body": {
+        "en": "Quantization lowers the numerical precision of a model's weights, for example from 32-bit floats to 8-bit or 4-bit integers. Changing this parameter shrinks the model and speeds up inference, usually with little loss of accuracy.",
+        "zh": "量化降低模型權重的數值精度,例如從 32 位元浮點數降到 8 位元或 4 位元整數。改變這項參數,能縮小模型並加快推論,而準確度通常只損失一點點。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Sampling temperature in language models", "zh": "語言模型的取樣溫度" },
+      "body": {
+        "en": "The temperature parameter reshapes a model's output distribution: a low temperature makes it sharp and deterministic, a high one makes it flatter and more random. Turning this single knob tunes the balance between safe, predictable text and creative, varied text.",
+        "zh": "溫度參數會重塑模型的輸出分佈:低溫使分佈變得尖銳而確定,高溫則使它變得平坦而更隨機。轉動這一個旋鈕,就能調節「穩妥可預測」與「有創意、多變化」之間的平衡。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Softmax_function"
+    }
+  ],
+  "sources": [
+    { "label": "Wikipedia — Liquefied natural gas", "url": "https://en.wikipedia.org/wiki/Liquefied_natural_gas" },
+    { "label": "Wikipedia — Vulcanization", "url": "https://en.wikipedia.org/wiki/Vulcanization" },
+    { "label": "Wikipedia — Freeze drying", "url": "https://en.wikipedia.org/wiki/Freeze_drying" },
+    { "label": "Wikipedia — Softmax function (temperature)", "url": "https://en.wikipedia.org/wiki/Softmax_function" },
+    { "label": "triz40.com — 40 Inventive Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php?lang=en" }
+  ]
+}

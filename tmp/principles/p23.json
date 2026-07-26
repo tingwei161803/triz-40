@@ -1,0 +1,121 @@
+{
+  "id": 23,
+  "slug": "feedback",
+  "name": { "en": "Feedback", "zh": "回饋" },
+  "aliases": {
+    "en": ["Feedback loop", "Referring back"],
+    "zh": ["回饋機制", "反饋"]
+  },
+  "definition": {
+    "en": "Introduce feedback: measure the output of a process and feed that information back to regulate it. If feedback already exists, change its magnitude or sensitivity to improve control.",
+    "zh": "引入回饋:量測流程的輸出,並把該資訊回饋回去以調節流程。若回饋已經存在,就改變其大小或靈敏度以改善控制。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Introduce feedback (referring back, cross-checking) to improve a process or action.",
+      "zh": "引入回饋(回頭參照、交叉檢查)以改善流程或作用。"
+    },
+    {
+      "en": "If feedback is already used, change its magnitude or influence.",
+      "zh": "若已使用回饋,改變其大小或影響力。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Ktesibios' float-regulator water clock", "zh": "克特西比烏斯的浮子調節水鐘" },
+      "body": {
+        "en": "Around 250 BCE Ktesibios built a water clock in which a float senses the water level in a reservoir and adjusts the inflow to keep that level constant. The self-correcting float is one of the earliest known automatic feedback devices.",
+        "zh": "約公元前 250 年,克特西比烏斯打造了一具水鐘,其中的浮子感測水槽的水位並調節進水量,以維持水位恆定。這個自我修正的浮子,是已知最早的自動回饋裝置之一。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Watt's centrifugal governor", "zh": "瓦特的離心調速器" },
+      "body": {
+        "en": "Spinning flyweights on a steam engine rise as speed increases and, through linkage, close the steam valve. The engine's own output is fed back to throttle its input, holding a steady speed without a human operator.",
+        "zh": "蒸汽機上旋轉的飛重會隨轉速上升而張開,並透過連桿關小蒸汽閥。引擎自身的輸出被回饋回去以節制其輸入,無需人為操作就能維持穩定轉速。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Automotive cruise control", "zh": "汽車定速巡航" },
+      "body": {
+        "en": "Cruise control continuously measures actual road speed, compares it with the target, and adjusts the throttle to close the gap. On a hill it feeds the growing error back into more throttle to hold the set speed.",
+        "zh": "定速巡航持續量測實際車速,與目標值比較,並調整節氣門以縮小差距。上坡時,它把逐漸擴大的誤差回饋成更大的節氣門開度,以維持設定速度。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Home thermostat", "zh": "家用恆溫器" },
+      "body": {
+        "en": "A thermostat senses room temperature and switches the heater or air conditioner on and off to hold a setpoint. The measured temperature is fed back as the signal that decides when to act.",
+        "zh": "恆溫器感測室溫,並開關暖氣或冷氣以維持設定溫度。量測到的溫度被當作回饋訊號,用來決定何時動作。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Statistical process control", "zh": "統計製程管制" },
+      "body": {
+        "en": "On a production line, measurements are plotted on control charts and fed back to operators. When a reading drifts toward the control limits, the feedback prompts an adjustment before defective units are produced.",
+        "zh": "在生產線上,量測值被繪製在管制圖上並回饋給操作人員。當讀數漂向管制界限時,回饋會促使人員在生產出不良品之前先做調整。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Lean Startup build-measure-learn loop", "zh": "精實創業的建構—量測—學習循環" },
+      "body": {
+        "en": "A startup ships a minimal product, measures how real customers respond, and feeds that evidence back into the next iteration. Each turn of the loop tightens the fit between product and market instead of relying on upfront guesses.",
+        "zh": "新創公司先推出最小可行產品,量測真實顧客的反應,再把這些證據回饋到下一次迭代。每一次循環都讓產品與市場更貼合,而不是仰賴事前的猜測。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "TCP congestion control", "zh": "TCP 壅塞控制" },
+      "body": {
+        "en": "A TCP sender watches for acknowledgements and packet loss and treats them as feedback about network congestion. It grows the sending window when packets arrive and shrinks it on loss, steering throughput away from collapse.",
+        "zh": "TCP 傳送端觀察確認封包與封包遺失,把它們當作網路壅塞的回饋。封包順利抵達時就擴大傳送視窗,遺失時就縮小,讓吞吐量避開崩潰。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/TCP_congestion_control"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "A/B testing", "zh": "A/B 測試" },
+      "body": {
+        "en": "Two versions of a page are shown to different user groups, and their behavior (clicks, conversions) is measured. That behavioral feedback decides which variant ships, replacing opinion with a closed loop of evidence.",
+        "zh": "把一個頁面的兩個版本分別呈現給不同的使用者群,並量測他們的行為(點擊、轉換)。這種行為回饋決定哪個版本上線,用一個由證據構成的閉環取代主觀意見。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Backpropagation", "zh": "反向傳播" },
+      "body": {
+        "en": "During training, the error between a network's prediction and the correct answer is propagated backward through its layers to adjust the weights. This error feedback is the signal that drives the model to learn.",
+        "zh": "訓練時,網路的預測與正確答案之間的誤差會反向傳播穿過各層,以調整權重。這個誤差回饋正是驅動模型學習的訊號。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Reinforcement learning from human feedback (RLHF)", "zh": "基於人類回饋的強化學習(RLHF)" },
+      "body": {
+        "en": "Human raters rank a model's responses, and those preferences train a reward model. The reward model then feeds a continuous quality signal back into fine-tuning, steering the language model toward answers people prefer.",
+        "zh": "人類評分者對模型的回應進行排序,這些偏好用來訓練一個獎勵模型。獎勵模型再把持續的品質訊號回饋到微調過程,把語言模型導向人們偏好的答案。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Recommendation systems learning from clicks", "zh": "從點擊中學習的推薦系統" },
+      "body": {
+        "en": "A recommender shows items and watches which ones users click, watch, or skip. That interaction feedback continuously updates the model's estimate of each user's taste, so recommendations sharpen with every session.",
+        "zh": "推薦系統呈現項目,並觀察使用者點擊、觀看或略過哪些。這種互動回饋持續更新模型對每位使用者品味的估計,使推薦隨每次使用而愈加精準。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — Principle 23: Feedback", "url": "https://www.triz40.com/TRIZ/Principle-23.php" },
+    { "label": "TRIZ.org — 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "The TRIZ Journal — 40 Inventive Business Principles", "url": "https://the-trizjournal.com/40-inventive-business-principles-examples/" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" }
+  ]
+}

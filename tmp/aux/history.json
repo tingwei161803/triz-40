@@ -1,0 +1,169 @@
+{
+  "events": [
+    {
+      "date": "1926",
+      "title": {
+        "en": "Birth in Tashkent",
+        "zh": "生於塔什干"
+      },
+      "body": {
+        "en": "Genrikh Saulovich Altshuller is born on 15 October 1926 in Tashkent, in the Uzbek Soviet Socialist Republic, and grows up mostly in Baku, Azerbaijan. He is the future creator of TRIZ, the Theory of Inventive Problem Solving.",
+        "zh": "1926 年 10 月 15 日,根里希·薩烏洛維奇·阿奇舒勒(Genrikh Altshuller)出生於烏茲別克蘇維埃社會主義共和國的塔什干,童年多半在亞塞拜然的巴庫度過。他日後創立了 TRIZ(萃思),即發明問題解決理論。"
+      }
+    },
+    {
+      "date": "1943",
+      "title": {
+        "en": "First author's certificate as a teenager",
+        "zh": "少年時期取得第一張發明證書"
+      },
+      "body": {
+        "en": "While still a secondary-school student, at about age 17, Altshuller receives his first Soviet author's certificate (patent) for an underwater diving apparatus. His early inventing convinces him that creativity should be teachable rather than a matter of luck.",
+        "zh": "阿奇舒勒還在念中學、約 17 歲時,便以一項水下潛水裝置取得他人生第一張蘇聯發明證書(專利)。這段少年發明經驗讓他相信:創造力應該是可以傳授的,而非只能靠運氣。"
+      }
+    },
+    {
+      "date": "1946",
+      "title": {
+        "en": "Working in a naval patent office",
+        "zh": "進入海軍專利部門"
+      },
+      "body": {
+        "en": "Around age 20 Altshuller is assigned to the patent department of the Caspian Sea military flotilla, where inventors come to him for help. Unable to find a systematic method for inventing, he begins studying large numbers of patents to look for repeating patterns behind strong inventions.",
+        "zh": "約莫 20 歲時,阿奇舒勒被派往裏海艦隊的專利部門,發明人紛紛來找他協助。由於遍尋不著一套系統化的發明方法,他開始大量研究專利,想找出優秀發明背後反覆出現的規律。"
+      }
+    },
+    {
+      "date": "1948",
+      "title": {
+        "en": "Letter to Stalin",
+        "zh": "上書史達林"
+      },
+      "body": {
+        "en": "In December 1948 Altshuller writes a letter addressed personally to Stalin, criticising the chaotic and unscientific way the USSR handled invention and arguing that a teachable theory of inventing could transform Soviet technology. The letter later becomes the pretext for his arrest.",
+        "zh": "1948 年 12 月,阿奇舒勒寫了一封直接呈給史達林的信,批評蘇聯處理發明的方式混亂而不科學,並主張一套可傳授的發明理論能徹底改造蘇聯技術。這封信後來成為他被捕的藉口。"
+      }
+    },
+    {
+      "date": "1950",
+      "title": {
+        "en": "Arrest and the Vorkuta Gulag",
+        "zh": "被捕入沃爾庫塔勞改營"
+      },
+      "body": {
+        "en": "In 1950 Altshuller and his colleague Rafael Shapiro are arrested and charged with \"inventor's sabotage.\" He is sentenced to 25 years of hard labour and sent to the Vorkuta Gulag in the Arctic. Even in the camp he keeps interviewing fellow prisoners who are scientists and refining his ideas.",
+        "zh": "1950 年,阿奇舒勒與同事沙皮羅(Rafael Shapiro)被捕,罪名是「發明破壞」。他被判處 25 年苦役,送往北極圈的沃爾庫塔勞改營。即使身陷囹圄,他仍持續向同為囚犯的科學家請益,不斷打磨自己的理論。"
+      }
+    },
+    {
+      "date": "1954",
+      "title": {
+        "en": "Release after Stalin's death",
+        "zh": "史達林死後獲釋"
+      },
+      "body": {
+        "en": "Following Stalin's death in 1953, Altshuller is released in 1954 and returns to Baku. He resumes his research into the patterns of invention with renewed intensity, now convinced that the method can be turned into a formal theory.",
+        "zh": "史達林於 1953 年去世後,阿奇舒勒在 1954 年獲釋,回到巴庫。他更加投入地重拾對發明規律的研究,此時已深信這套方法能發展成一門正式的理論。"
+      }
+    },
+    {
+      "date": "1956",
+      "title": {
+        "en": "First TRIZ paper published",
+        "zh": "首篇 TRIZ 論文發表"
+      },
+      "body": {
+        "en": "Altshuller and Shapiro publish \"On the Psychology of Inventive Creativity\" in the journal Voprosy Psikhologii (Issues of Psychology), No. 6, 1956. Challenging the belief that inventions come from random flashes of insight, it is regarded as the official birth of TRIZ.",
+        "zh": "阿奇舒勒與沙皮羅在《心理學問題》(Voprosy Psikhologii)期刊 1956 年第 6 期發表〈論發明創造的心理學〉。這篇論文推翻了「發明來自隨機靈光一閃」的觀念,被視為 TRIZ 正式誕生的標誌。"
+      }
+    },
+    {
+      "date": "1961",
+      "title": {
+        "en": "First book: How to Learn to Invent",
+        "zh": "首部著作《如何學會發明》"
+      },
+      "body": {
+        "en": "Altshuller publishes his first book, How to Learn to Invent, popularising the idea that inventing follows learnable rules. It presents an early set of inventive principles distilled from his patent analysis.",
+        "zh": "阿奇舒勒出版第一本書《如何學會發明》,推廣「發明有規律可循、可以學會」的理念,並提出從專利分析中歸納出的早期發明原則雛形。"
+      }
+    },
+    {
+      "date": "1969",
+      "title": {
+        "en": "The Innovation Algorithm and the 40 Principles",
+        "zh": "《發明演算法》與 40 項原則"
+      },
+      "body": {
+        "en": "By around 1969 Altshuller has analysed roughly 40,000 patent abstracts and publishes Algorithm of Invention. From this work come the core tools of classical TRIZ: the 40 Inventive Principles, the 39 engineering parameters, and the Contradiction Matrix.",
+        "zh": "到 1969 年前後,阿奇舒勒已分析約四萬件專利摘要,並出版《發明演算法》。古典 TRIZ 的核心工具——40 項發明原則、39 個工程參數與矛盾矩陣——皆源自這批研究。"
+      }
+    },
+    {
+      "date": "1971",
+      "title": {
+        "en": "First school for teaching TRIZ",
+        "zh": "第一所 TRIZ 教學機構"
+      },
+      "body": {
+        "en": "In 1971 Altshuller founds the Azerbaijan Public Institute for Inventive Creativity in Baku, the first institution dedicated to teaching TRIZ. A network of volunteer TRIZ schools spreads across the Soviet Union over the following decade.",
+        "zh": "1971 年,阿奇舒勒在巴庫創辦「亞塞拜然發明創造公共學院」,這是第一所專門教授 TRIZ 的機構。往後十年間,由志願者經營的 TRIZ 學校在蘇聯各地遍地開花。"
+      }
+    },
+    {
+      "date": "1979–1984",
+      "title": {
+        "en": "Major books mature the theory",
+        "zh": "重要著作讓理論成熟"
+      },
+      "body": {
+        "en": "Altshuller publishes Creativity as an Exact Science (1979), which lays out TRIZ as a systematic discipline, and And Suddenly the Inventor Appeared (1984), which teaches the theory to schoolchildren through stories. Together they cement TRIZ as both a rigorous method and a teachable craft.",
+        "zh": "阿奇舒勒出版《作為精確科學的創造力》(1979),將 TRIZ 闡述為一套系統化的學科;又出版《於是發明家出現了》(1984),透過故事把理論教給中小學生。兩書共同奠定了 TRIZ 既是嚴謹方法、也是可傳授技藝的地位。"
+      }
+    },
+    {
+      "date": "1989",
+      "title": {
+        "en": "Russian TRIZ Association founded",
+        "zh": "俄羅斯 TRIZ 協會成立"
+      },
+      "body": {
+        "en": "In 1989 the TRIZ community formalises itself as the Russian (later International) TRIZ Association, with Altshuller as its first president. The movement now has a formal organisation, conferences, and a growing body of practitioners.",
+        "zh": "1989 年,TRIZ 社群正式組成俄羅斯(後為國際)TRIZ 協會,阿奇舒勒出任首任會長。這個運動至此有了正式組織、學術會議,以及日益壯大的實務工作者群體。"
+      }
+    },
+    {
+      "date": "1991",
+      "title": {
+        "en": "TRIZ spreads to the West",
+        "zh": "TRIZ 傳向西方"
+      },
+      "body": {
+        "en": "The collapse of the Soviet Union in 1991 lets many TRIZ experts emigrate, carrying the method to the United States, Europe, and East Asia. New organisations such as the Altshuller Institute for TRIZ Studies (Boston, 1995) and companies like Ideation International bring TRIZ to a global audience.",
+        "zh": "1991 年蘇聯解體,大批 TRIZ 專家得以移居國外,把這套方法帶往美國、歐洲與東亞。阿奇舒勒 TRIZ 研究學院(1995 年於波士頓成立)等新組織,以及 Ideation International 等公司,把 TRIZ 推向全球。"
+      }
+    },
+    {
+      "date": "1998",
+      "title": {
+        "en": "Death in Petrozavodsk",
+        "zh": "於彼得羅扎沃茨克逝世"
+      },
+      "body": {
+        "en": "Having moved to Petrozavodsk in northwestern Russia around 1990, Altshuller dies there on 24 September 1998 from complications of Parkinson's disease. He leaves behind a body of work that has reshaped how engineers think about problem solving.",
+        "zh": "阿奇舒勒約於 1990 年遷居俄羅斯西北部的彼得羅扎沃茨克,並於 1998 年 9 月 24 日在當地因帕金森氏症併發症去世。他留下的研究成果,徹底改變了工程師看待問題解決的方式。"
+      }
+    },
+    {
+      "date": "2000s–present",
+      "title": {
+        "en": "Corporate adoption and TRIZ meets AI",
+        "zh": "企業採用與 TRIZ 遇上 AI"
+      },
+      "body": {
+        "en": "From the late 1990s onward, corporations adopt TRIZ at scale: Samsung introduces it in 1997–1998 and by 2003 credits it with dozens of new patents. Today TRIZ is combined with software: patent-mining, machine learning over patent databases, and large language models are used to suggest inventive principles and automate contradiction analysis.",
+        "zh": "從 1990 年代末起,企業開始大規模採用 TRIZ:三星於 1997–1998 年導入,到 2003 年已將數十項新專利歸功於此。如今 TRIZ 更與軟體結合:專利探勘、對專利資料庫做機器學習,以及用大型語言模型來建議發明原則、自動化矛盾分析,都是新的發展方向。"
+      }
+    }
+  ]
+}

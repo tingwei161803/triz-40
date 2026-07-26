@@ -1,0 +1,344 @@
+{
+  "questions": [
+    {
+      "q": {
+        "en": "A supermarket sells salad in small single-serving bags instead of one large head of lettuce. Which principle is at work?",
+        "zh": "超市把沙拉分裝成一份份的小袋出售,而不是賣一整顆生菜。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Merging", "zh": "合併" },
+        { "en": "Segmentation", "zh": "分割" },
+        { "en": "Local Quality", "zh": "局部品質" },
+        { "en": "Taking Out", "zh": "抽取" }
+      ],
+      "answerIndex": 1,
+      "explain": {
+        "en": "Dividing one bulky item into independent, portion-sized parts is Segmentation. It lets shoppers buy and use exactly the amount they need.",
+        "zh": "把一個大件物品分成獨立的、以份為單位的小部分,正是分割原則。消費者因此能只買、只用剛好需要的份量。"
+      }
+    },
+    {
+      "q": {
+        "en": "A split air conditioner puts the noisy, hot compressor outdoors and keeps only the quiet cooling unit inside the room. Which principle is at work?",
+        "zh": "分離式冷氣把吵雜又發熱的壓縮機放到室外,室內只留下安靜的冷卻單元。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Taking Out", "zh": "抽取" },
+        { "en": "Segmentation", "zh": "分割" },
+        { "en": "Nested Doll", "zh": "套疊" },
+        { "en": "Merging", "zh": "合併" }
+      ],
+      "answerIndex": 0,
+      "explain": {
+        "en": "Removing just the disturbing part—the noisy, heat-generating compressor—and placing it elsewhere is Taking Out. The useful cooling stays where it is wanted.",
+        "zh": "只把會造成干擾的部分(吵雜又發熱的壓縮機)抽離,移到別處,就是抽取原則。有用的冷卻作用則留在需要它的地方。"
+      }
+    },
+    {
+      "q": {
+        "en": "A refrigerator has a very cold freezer, a normal fridge section, and a milder crisper drawer for vegetables, all in one appliance. Which principle is at work?",
+        "zh": "一台冰箱裡有極冷的冷凍室、一般的冷藏室,以及溫度較和緩、放蔬菜的保鮮抽屜,全在同一台家電中。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Homogeneity", "zh": "同質性" },
+        { "en": "Universality", "zh": "萬用" },
+        { "en": "Local Quality", "zh": "局部品質" },
+        { "en": "Segmentation", "zh": "分割" }
+      ],
+      "answerIndex": 2,
+      "explain": {
+        "en": "Giving different regions of one object different, locally optimal conditions is Local Quality. Each zone is tuned to what the food stored there needs.",
+        "zh": "讓同一物件的不同區域各自具備最適合當地的條件,就是局部品質原則。每個區域都針對存放於此的食物需求加以調校。"
+      }
+    },
+    {
+      "q": {
+        "en": "An ergonomic keyboard is split and angled into an irregular, non-mirror shape so it matches the natural position of the hands. Which principle is at work?",
+        "zh": "人體工學鍵盤被切開並傾斜成不規則、非左右對稱的形狀,以貼合雙手的自然擺位。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Asymmetry", "zh": "非對稱" },
+        { "en": "Dynamics", "zh": "動態化" },
+        { "en": "Spheroidality / Curvature", "zh": "曲面化" },
+        { "en": "Local Quality", "zh": "局部品質" }
+      ],
+      "answerIndex": 0,
+      "explain": {
+        "en": "Replacing a symmetrical form with an asymmetrical one that better fits its purpose is Asymmetry. Human hands are not symmetric to the keyboard's centreline, so the shape follows them.",
+        "zh": "把對稱的外形改為更貼合用途的非對稱外形,就是非對稱原則。人的雙手相對於鍵盤中線並不對稱,因此外形順著雙手而變。"
+      }
+    },
+    {
+      "q": {
+        "en": "A combine harvester reaps the crop, threshes the grain, and winnows away the chaff, all in a single pass through the field. Which principle is at work?",
+        "zh": "聯合收割機在田裡跑一趟,就同時完成割取作物、脫粒、以及揚去穀殼的工作。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Universality", "zh": "萬用" },
+        { "en": "Nested Doll", "zh": "套疊" },
+        { "en": "Merging", "zh": "合併" },
+        { "en": "Segmentation", "zh": "分割" }
+      ],
+      "answerIndex": 2,
+      "explain": {
+        "en": "Bringing several operations that used to be separate machines together into one continuous process is Merging. Combining them in parallel removes the handling between steps.",
+        "zh": "把原本分屬不同機器的多道作業合在一起、串成一個連續流程,就是合併原則。將它們並排整合,省去了各步驟之間的搬運。"
+      }
+    },
+    {
+      "q": {
+        "en": "A sofa bed serves as a couch during the day and unfolds into a bed at night. Which principle is at work?",
+        "zh": "沙發床白天當沙發用,晚上攤開來變成一張床。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Merging", "zh": "合併" },
+        { "en": "Universality", "zh": "萬用" },
+        { "en": "Nested Doll", "zh": "套疊" },
+        { "en": "Local Quality", "zh": "局部品質" }
+      ],
+      "answerIndex": 1,
+      "explain": {
+        "en": "Making one object perform multiple functions so another object becomes unnecessary is Universality. A single piece of furniture does the job of both a couch and a bed.",
+        "zh": "讓一個物件身兼多種功能,使另一個物件變得多餘,就是萬用原則。一件家具同時做了沙發與床兩者的工作。"
+      }
+    },
+    {
+      "q": {
+        "en": "Russian matryoshka dolls each open to reveal a smaller doll nested inside the last. Which principle is at work?",
+        "zh": "俄羅斯套娃一個打開後,裡面藏著一個更小的娃娃,層層相套。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Nested Doll", "zh": "套疊" },
+        { "en": "Segmentation", "zh": "分割" },
+        { "en": "Merging", "zh": "合併" },
+        { "en": "Another Dimension", "zh": "移至新維度" }
+      ],
+      "answerIndex": 0,
+      "explain": {
+        "en": "Placing one object inside another, which in turn sits inside a third, is the Nested Doll principle—Altshuller's own namesake example. It saves space when objects are not all in use at once.",
+        "zh": "把一個物件放進另一個之中、後者又放進第三個之中,正是套疊原則——這也是阿奇舒勒為此原則命名時所用的原型例子。當物件不必同時使用時,這樣能節省空間。"
+      }
+    },
+    {
+      "q": {
+        "en": "Reinforced concrete beams are cast with their steel rods pulled into tension in advance, so the finished beam resists sagging under load. Which principle is at work?",
+        "zh": "預力混凝土梁在澆置時,先把內部的鋼筋預先拉伸受張,使成品梁在承載時更能抵抗下垂。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Preliminary Action", "zh": "預先作用" },
+        { "en": "Beforehand Cushioning", "zh": "事先緩衝" },
+        { "en": "Preliminary Anti-action", "zh": "預先反作用" },
+        { "en": "Mechanical Vibration", "zh": "機械振動" }
+      ],
+      "answerIndex": 2,
+      "explain": {
+        "en": "Introducing a stress opposite to the harmful one before the load is applied is Preliminary Anti-action. The pre-tension cancels out the tension the load would later create.",
+        "zh": "在承載之前,先施加一個與有害應力相反的作用,就是預先反作用原則。預先拉伸產生的張力,正好抵消日後荷重所帶來的張力。"
+      }
+    },
+    {
+      "q": {
+        "en": "A baker preheats the oven to the target temperature before putting the bread in. Which principle is at work?",
+        "zh": "烘焙師在把麵包放進去之前,先把烤箱預熱到目標溫度。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Preliminary Action", "zh": "預先作用" },
+        { "en": "Preliminary Anti-action", "zh": "預先反作用" },
+        { "en": "Continuity of Useful Action", "zh": "連續有效作用" },
+        { "en": "Periodic Action", "zh": "週期性作用" }
+      ],
+      "answerIndex": 0,
+      "explain": {
+        "en": "Carrying out a required action in advance, so it is ready the moment it is needed, is Preliminary Action. The oven is already hot when the bread goes in, so baking starts correctly at once.",
+        "zh": "把必要的動作預先做好,讓它在需要的當下已就緒,就是預先作用原則。麵包放入時烤箱已達溫,烘烤便能立刻正確地開始。"
+      }
+    },
+    {
+      "q": {
+        "en": "Fragile goods are wrapped in bubble wrap before shipping to absorb knocks in transit. Which principle is at work?",
+        "zh": "易碎品在寄送前先用氣泡布包起來,以吸收運送途中的碰撞。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Flexible Shells and Thin Films", "zh": "撓性殼與薄膜" },
+        { "en": "Beforehand Cushioning", "zh": "事先緩衝" },
+        { "en": "Porous Materials", "zh": "多孔材料" },
+        { "en": "Pneumatics and Hydraulics", "zh": "氣壓與液壓" }
+      ],
+      "answerIndex": 1,
+      "explain": {
+        "en": "Adding protection in advance to compensate for the relatively low reliability of a fragile object is Beforehand Cushioning. The wrap is placed there before any impact can occur.",
+        "zh": "事先加上防護,以彌補易碎物件相對偏低的可靠度,就是事先緩衝原則。氣泡布在任何撞擊發生之前就已包覆到位。"
+      }
+    },
+    {
+      "q": {
+        "en": "A traffic roundabout replaces a stop-and-go intersection, letting cars flow through without ever fully stopping. Which principle is at work?",
+        "zh": "圓環取代了走走停停的十字路口,讓車輛不必完全停下就能通過。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "The Other Way Round", "zh": "反向操作" },
+        { "en": "Skipping", "zh": "快速作業" },
+        { "en": "Continuity of Useful Action", "zh": "連續有效作用" },
+        { "en": "Periodic Action", "zh": "週期性作用" }
+      ],
+      "answerIndex": 2,
+      "explain": {
+        "en": "Keeping the useful action—traffic movement—running without idle interruptions is Continuity of Useful Action. Eliminating the full stops removes the wasted, non-moving intervals.",
+        "zh": "讓有用的作用(車流移動)持續進行、不出現閒置中斷,就是連續有效作用原則。去除完全停車的環節,消除了那些浪費掉、車輛不動的空檔。"
+      }
+    },
+    {
+      "q": {
+        "en": "A factory pipes its waste heat to warm nearby homes instead of venting it to the air. Which principle is at work?",
+        "zh": "工廠把原本要排放到空氣中的廢熱,用管線輸送去為附近的住宅供暖。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Blessing in Disguise", "zh": "轉害為利" },
+        { "en": "Self-service", "zh": "自我服務" },
+        { "en": "Taking Out", "zh": "抽取" },
+        { "en": "Discarding and Recovering", "zh": "拋棄與再生" }
+      ],
+      "answerIndex": 0,
+      "explain": {
+        "en": "Turning a harmful or wasted factor into a source of benefit is Blessing in Disguise. Heat that was a disposal problem becomes a useful energy supply.",
+        "zh": "把有害或被浪費的因素轉化為效益的來源,就是轉害為利原則。原本是處理難題的廢熱,搖身變成有用的能源供應。"
+      }
+    },
+    {
+      "q": {
+        "en": "A thermostat measures room temperature and switches the heater on or off to hold the room at a set point. Which principle is at work?",
+        "zh": "恆溫器量測室溫,並開關暖氣以把房間維持在設定溫度。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Periodic Action", "zh": "週期性作用" },
+        { "en": "Feedback", "zh": "回饋" },
+        { "en": "Dynamics", "zh": "動態化" },
+        { "en": "Intermediary", "zh": "中介物" }
+      ],
+      "answerIndex": 1,
+      "explain": {
+        "en": "Measuring an output and using it to adjust the process is Feedback. The same idea drives software autoscaling, where measured load decides how many servers run.",
+        "zh": "量測輸出結果,並用它來調整過程,就是回饋原則。同樣的概念也驅動了軟體的自動擴縮——由量測到的負載決定要運行多少台伺服器。"
+      }
+    },
+    {
+      "q": {
+        "en": "A drinking straw has a ribbed section near the top so the rigid tube can bend to any angle you like. Which principle is at work?",
+        "zh": "吸管靠近頂端有一段波紋設計,讓原本硬挺的管子可以彎折成你想要的任何角度。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Spheroidality / Curvature", "zh": "曲面化" },
+        { "en": "Segmentation", "zh": "分割" },
+        { "en": "Dynamics", "zh": "動態化" },
+        { "en": "Local Quality", "zh": "局部品質" }
+      ],
+      "answerIndex": 2,
+      "explain": {
+        "en": "Making a rigid object able to move or change shape to suit conditions is Dynamics. The bendable neck lets a single fixed part adapt to many drinking angles.",
+        "zh": "讓原本剛性的物件變得能夠移動或改變形狀以適應情境,就是動態化原則。可彎折的頸部使一個固定零件得以適應各種喝飲料的角度。"
+      }
+    },
+    {
+      "q": {
+        "en": "Ball bearings use rolling spheres between two rings to let a shaft spin with very little friction. Which principle is at work?",
+        "zh": "滾珠軸承在兩圈之間放入滾動的圓珠,讓軸能以極小的摩擦轉動。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Spheroidality / Curvature", "zh": "曲面化" },
+        { "en": "Mechanical Vibration", "zh": "機械振動" },
+        { "en": "Dynamics", "zh": "動態化" },
+        { "en": "Homogeneity", "zh": "同質性" }
+      ],
+      "answerIndex": 0,
+      "explain": {
+        "en": "Replacing flat, sliding surfaces with rounded, rolling ones is Spheroidality (Curvature). Rolling spheres turn high sliding friction into much lower rolling friction.",
+        "zh": "把平面、滑動的接觸面換成圓形、滾動的接觸面,就是曲面化原則。滾動的圓珠把高的滑動摩擦轉為低得多的滾動摩擦。"
+      }
+    },
+    {
+      "q": {
+        "en": "An ultrasonic cleaner removes grime from jewellery by shaking it with high-frequency sound waves in a liquid bath. Which principle is at work?",
+        "zh": "超音波清洗機把首飾泡在液體中,以高頻聲波使其震動,藉此洗去汙垢。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Periodic Action", "zh": "週期性作用" },
+        { "en": "Porous Materials", "zh": "多孔材料" },
+        { "en": "Mechanical Vibration", "zh": "機械振動" },
+        { "en": "Pneumatics and Hydraulics", "zh": "氣壓與液壓" }
+      ],
+      "answerIndex": 2,
+      "explain": {
+        "en": "Using oscillation—here high-frequency ultrasonic vibration—to accomplish a task is Mechanical Vibration. The rapid shaking dislodges dirt from surfaces a brush could never reach.",
+        "zh": "利用振盪(此處為高頻超音波振動)來完成工作,就是機械振動原則。快速震動能鬆脫刷子永遠碰不到的表面上的髒汙。"
+      }
+    },
+    {
+      "q": {
+        "en": "In a factory, pipes and floor lanes are painted in standard colours—yellow for walkways, red for fire lines—so their purpose is read at a glance. Which principle is at work?",
+        "zh": "工廠裡的管線與地面通道漆上標準顏色——黃色代表走道、紅色代表消防線——讓人一眼就能看懂用途。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Copying", "zh": "複製" },
+        { "en": "Color Changes", "zh": "改變顏色" },
+        { "en": "Local Quality", "zh": "局部品質" },
+        { "en": "Homogeneity", "zh": "同質性" }
+      ],
+      "answerIndex": 1,
+      "explain": {
+        "en": "Changing the colour of an object to make information about it easy to see is Color Changes. The coding lets people identify each element's function instantly.",
+        "zh": "改變物件的顏色,好讓與它相關的資訊變得一目了然,就是改變顏色原則。這套色彩編碼讓人能立即辨識每個元素的功能。"
+      }
+    },
+    {
+      "q": {
+        "en": "Trainee pilots practise emergencies in a flight simulator instead of risking a real aircraft. Which principle is at work?",
+        "zh": "受訓飛行員在飛行模擬器中演練緊急狀況,而不必拿真飛機冒險。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Copying", "zh": "複製" },
+        { "en": "Cheap Short-living Objects", "zh": "廉價短壽物品" },
+        { "en": "Intermediary", "zh": "中介物" },
+        { "en": "Preliminary Action", "zh": "預先作用" }
+      ],
+      "answerIndex": 0,
+      "explain": {
+        "en": "Using a simulated or virtual copy in place of the real, expensive, or dangerous object is Copying. The simulator reproduces the aircraft's behaviour without the risk or cost of real flight.",
+        "zh": "用模擬或虛擬的複製品來取代真實、昂貴或危險的物件,就是複製原則。模擬器重現了飛機的行為,卻沒有真實飛行的風險與成本。"
+      }
+    },
+    {
+      "q": {
+        "en": "A café serves drinks in disposable paper cups that are used once and thrown away. Which principle is at work?",
+        "zh": "咖啡店用一次性的紙杯裝飲料,用完即丟。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Discarding and Recovering", "zh": "拋棄與再生" },
+        { "en": "Segmentation", "zh": "分割" },
+        { "en": "Cheap Short-living Objects", "zh": "廉價短壽物品" },
+        { "en": "Universality", "zh": "萬用" }
+      ],
+      "answerIndex": 2,
+      "explain": {
+        "en": "Replacing one expensive, durable object with many cheap, disposable ones is the Cheap Short-living Objects principle. A low-cost cup that lasts one use avoids the cost of washing and storing ceramic mugs.",
+        "zh": "用許多廉價、可丟棄的物品,取代單一昂貴、耐用的物件,就是廉價短壽物品原則。只用一次的低成本紙杯,省去了清洗與存放陶瓷杯的成本。"
+      }
+    },
+    {
+      "q": {
+        "en": "Surgeons close a wound with dissolvable stitches that the body gradually absorbs, so no removal visit is needed. Which principle is at work?",
+        "zh": "外科醫師用可吸收縫線縫合傷口,讓身體慢慢將其分解吸收,不必再回診拆線。這運用了哪項原則?"
+      },
+      "options": [
+        { "en": "Phase Transitions", "zh": "相變化" },
+        { "en": "Cheap Short-living Objects", "zh": "廉價短壽物品" },
+        { "en": "Self-service", "zh": "自我服務" },
+        { "en": "Discarding and Recovering", "zh": "拋棄與再生" }
+      ],
+      "answerIndex": 3,
+      "explain": {
+        "en": "Letting a part disappear on its own once it has done its job—here by dissolving into the body—is Discarding and Recovering. The stitch is eliminated exactly when it is no longer needed, without a second procedure.",
+        "zh": "讓一個部件在完成任務後自行消失(此處是溶解並被身體吸收),就是拋棄與再生原則。縫線恰好在不再需要時被消除,而且不必再做第二次處置。"
+      }
+    }
+  ]
+}

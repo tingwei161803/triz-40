@@ -1,0 +1,121 @@
+{
+  "id": 31,
+  "slug": "porous-materials",
+  "name": { "en": "Porous Materials", "zh": "多孔材料" },
+  "aliases": { "en": ["Porosity", "Use of Porous Materials"], "zh": ["多孔性", "孔隙化"] },
+  "definition": {
+    "en": "Make an object porous, or add porous elements such as inserts and coatings. If the object is already porous, use its pores to hold or deliver a useful substance or function.",
+    "zh": "把物體變成多孔的,或加入多孔的嵌件、塗層等元素。如果物體本來就是多孔的,就利用這些孔隙來存放或輸送有用的物質或功能。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Make an object porous or add porous elements (inserts, coatings, etc.).",
+      "zh": "把物體變成多孔的,或加入多孔的元素(嵌件、塗層等)。"
+    },
+    {
+      "en": "If an object is already porous, use the pores to introduce a useful substance or function.",
+      "zh": "如果物體本來就是多孔的,利用這些孔隙引入有用的物質或功能。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Pneumatized bird bones", "zh": "鳥類的氣腔骨" },
+      "body": {
+        "en": "Many birds evolved hollow, air-filled bones threaded with internal struts. The porosity strips out weight for flight while the struts preserve strength, exactly the trade-off of making an object porous.",
+        "zh": "許多鳥類演化出中空、充氣、內部有支柱交錯的骨骼。這種多孔結構去掉了飛行所需削減的重量,而內部支柱又保住強度,正是把物體變得多孔以減重卻不失功能的取捨。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Lightening holes in structures", "zh": "結構件的減重孔" },
+      "body": {
+        "en": "Aircraft ribs, brackets, and racing-car parts are drilled with rows of holes. Removing material where stress is low makes the part porous and lighter without meaningfully weakening it.",
+        "zh": "飛機肋板、支架與賽車零件上會鑽出一排排的孔。在受力低的地方挖掉材料,讓零件變得多孔而更輕,又幾乎不損及強度。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Sintered self-lubricating bearings", "zh": "燒結自潤軸承" },
+      "body": {
+        "en": "Oilite-type bearings are made of porous sintered bronze whose pores are soaked with oil. The pores draw oil in by capillary action and release it when heat or pressure rises, so the bearing lubricates itself.",
+        "zh": "Oilite 這類軸承由多孔燒結青銅製成,孔隙裡吸滿了油。孔隙靠毛細作用把油吸入,受熱或受壓升高時又把油釋出,使軸承能自行潤滑。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plain_bearing"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Metal-organic frameworks for gas storage", "zh": "金屬有機骨架儲氣" },
+      "body": {
+        "en": "Metal-organic frameworks (MOFs) are crystalline solids riddled with nanoscale pores and enormous internal surface area. They store hydrogen, methane, or CO2 by packing gas molecules into those pores, an object made porous specifically to hold a useful substance.",
+        "zh": "金屬有機骨架(MOF)是充滿奈米級孔隙、內部表面積極大的結晶固體。它把氫、甲烷或二氧化碳分子塞進這些孔隙中儲存,正是為了容納有用物質而把材料做成多孔的。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Gore-Tex breathable membrane", "zh": "Gore-Tex 透氣膜" },
+      "body": {
+        "en": "Gore-Tex is expanded PTFE pierced by billions of pores about 0.2 micrometres across. Each pore is far too small for a liquid water droplet yet far larger than a water-vapour molecule, so the porous film keeps rain out while letting sweat escape.",
+        "zh": "Gore-Tex 是膨體 PTFE,布滿數十億個約 0.2 微米的孔。每個孔遠小於液態水滴,卻遠大於水蒸氣分子,於是這層多孔薄膜擋得住雨水,又能讓汗氣排出。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Activated carbon filters", "zh": "活性碳濾芯" },
+      "body": {
+        "en": "Water and air purifiers use activated carbon, a material processed to have a vast network of tiny pores. Contaminant molecules are trapped inside those pores by adsorption, so the porosity is what does the cleaning.",
+        "zh": "淨水與空氣清淨機用的活性碳,是經過處理、內部布滿大量微孔的材料。污染物分子被吸附困在這些孔隙裡,靠的正是這身多孔結構來過濾。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Open innovation", "zh": "開放式創新" },
+      "body": {
+        "en": "In open innovation a company deliberately makes its boundary permeable so external ideas, technologies, and routes to market can flow in and out. The firm is treated like a porous body that lets useful knowledge pass through instead of a sealed one.",
+        "zh": "開放式創新讓公司刻意把邊界變得可穿透,使外部的點子、技術與通路能雙向流入流出。公司被當成一個多孔的個體,讓有用的知識穿透進來,而不是密不透風。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Open_innovation"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Sparse files", "zh": "稀疏檔案" },
+      "body": {
+        "en": "A sparse file records long runs of empty bytes as small metadata 'holes' instead of writing real zero blocks to disk. The file is effectively porous, so a 100 GB disk image with 2 GB of real data occupies only about 2 GB.",
+        "zh": "稀疏檔案把大段空白位元組記成小小的中繼資料「孔洞」,而不是真的把零區塊寫到磁碟。檔案因此變得多孔:一個 100 GB 的磁碟映像若只有 2 GB 實資料,實際只佔約 2 GB。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sparse_file"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Sparse matrix storage", "zh": "稀疏矩陣儲存" },
+      "body": {
+        "en": "Scientific and graph computations store matrices that are mostly zeros in formats like CSR, keeping only the non-zero entries and their positions. Leaving the zeros as implicit 'holes' cuts memory and speeds up the maths.",
+        "zh": "科學計算與圖運算會用 CSR 之類的格式儲存幾乎全是零的矩陣,只保留非零元素與其位置。把零當成隱含的「孔洞」略去,既省記憶體又加快運算。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Neural network pruning", "zh": "神經網路剪枝" },
+      "body": {
+        "en": "Pruning removes the weights and connections that contribute least, turning a dense network into a sparse, porous one. The model shrinks and runs faster while keeping most of its accuracy, the same weight-for-strength trade-off as drilling holes in metal.",
+        "zh": "剪枝會移除貢獻最小的權重與連結,把稠密網路變成稀疏、多孔的網路。模型變小、跑得更快,又保住大部分準確度,和在金屬上鑽孔減重卻保強度是同一種取捨。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Dropout regularization", "zh": "Dropout 正則化" },
+      "body": {
+        "en": "During training, dropout randomly switches off a fraction of neurons on each pass, punching temporary holes in the network. Forcing the model to work while porous stops it relying on any single unit and reduces overfitting.",
+        "zh": "訓練時 dropout 會在每一次前向傳遞隨機關閉一部分神經元,等於在網路上臨時打洞。逼模型在多孔狀態下運作,使它不依賴任何單一單元,降低過度擬合。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "triz40.com — 40 Inventive Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php?lang=en" },
+    { "label": "Wikipedia — Plain bearing (sintered/Oilite)", "url": "https://en.wikipedia.org/wiki/Plain_bearing" },
+    { "label": "Wikipedia — Metal-organic framework", "url": "https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework" },
+    { "label": "Wikipedia — Sparse file", "url": "https://en.wikipedia.org/wiki/Sparse_file" },
+    { "label": "Wikipedia — Open innovation", "url": "https://en.wikipedia.org/wiki/Open_innovation" }
+  ]
+}

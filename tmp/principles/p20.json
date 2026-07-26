@@ -1,0 +1,113 @@
+{
+  "id": 20,
+  "slug": "continuity-of-useful-action",
+  "name": { "en": "Continuity of Useful Action", "zh": "連續有效作用" },
+  "aliases": {
+    "en": ["Continuous Useful Action", "Continuity of Action"],
+    "zh": ["連續作用", "持續有效作用"]
+  },
+  "definition": {
+    "en": "Carry the useful work on continuously, with every part of the system working at full load all the time; eliminate idle intervals and the dead, non-productive motions between working strokes.",
+    "zh": "讓有用的工作持續不斷地進行,系統的每個部件都隨時滿載運轉;消除閒置的空檔,以及各次工作行程之間無生產力的空動作。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Carry on work continuously; make all parts of the object work at full load at all times.",
+      "zh": "持續不斷地工作;使物體的每個部件隨時都在滿載運轉。"
+    },
+    {
+      "en": "Eliminate idle and intermediate (non-working) motions.",
+      "zh": "消除閒置與中間的(非工作)空動作。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Noria (water-lifting wheel)", "zh": "水車(諾利亞提水輪)" },
+      "body": {
+        "en": "A noria is a large wheel rimmed with buckets, turned by the river's own current; as it rotates it scoops water at the bottom and empties it into an aqueduct at the top, without pause, for as long as the river flows. Useful work runs continuously with no operator.",
+        "zh": "諾利亞是一種邊緣裝滿水斗的大輪,由河水本身的水流帶動;它一邊旋轉,一邊在底部舀水、在頂部把水倒進引水槽,只要河水不停就永不間斷。有用的工作持續運轉,且無須人力操作。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Continuous casting of steel", "zh": "鋼的連續鑄造" },
+      "body": {
+        "en": "Instead of pouring steel into separate moulds to make ingots one at a time, continuous casting solidifies molten steel into an unbroken strand that is cut to length as it emerges, running the process without stop-start interruptions and greatly raising yield.",
+        "zh": "連續鑄造不再把鋼水逐一倒入分開的鑄模製成鋼錠,而是把熔鋼凝固成一條不間斷的連鑄胚,在其產出時裁切成段,使製程免除停停走走的中斷,大幅提升良率。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Continuous_casting"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Bidirectional printing", "zh": "雙向列印" },
+      "body": {
+        "en": "Early printers printed only as the head moved one way, then wasted the return stroke; bidirectional printers print on both passes, eliminating the idle travel so the head is doing useful work in both directions. A classic 'remove the dead motion' case.",
+        "zh": "早期印表機只在列印頭朝一個方向移動時列印,回程行程則被浪費掉;雙向列印機在來回兩趟都列印,消除了空跑,使列印頭在兩個方向上都在做有用的工作。這是「消除空動作」的經典案例。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Flywheel energy storage", "zh": "飛輪儲能" },
+      "body": {
+        "en": "A flywheel keeps spinning between an engine's power strokes, storing energy during each pulse and releasing it in the gaps, so the shaft delivers smooth, continuous torque instead of a lurching on-off drive.",
+        "zh": "飛輪在引擎的動力行程之間持續旋轉,於每次脈衝時儲存能量、在間歇時釋放,使軸輸出平順而連續的扭矩,而非一頓一頓的開關式驅動。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Escalator vs elevator", "zh": "電扶梯與電梯" },
+      "body": {
+        "en": "An elevator sits idle between trips and carries people only in batches; an escalator's steps move continuously, so it accepts and delivers passengers without waiting. Continuous motion replaces the stop-and-wait cycle.",
+        "zh": "電梯在兩趟之間閒置,且只能一批批載人;電扶梯的階梯持續移動,因此能不必等待地隨到隨載、隨到隨送。連續的運動取代了停等的循環。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Follow-the-sun operations", "zh": "日不落(接力)作業" },
+      "body": {
+        "en": "Global companies hand work between offices in different time zones at each day's end, so a project or support queue is worked on around the clock instead of pausing overnight. The useful work never stops, even though no individual works continuously.",
+        "zh": "跨國公司在每天下班時,把工作交接給不同時區的辦事處,使專案或客服佇列全天候有人處理,而不會在夜間停擺。有用的工作從不停歇,儘管沒有任何一個人是連續工作的。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Continuous integration and delivery (CI/CD)", "zh": "持續整合與持續交付(CI/CD)" },
+      "body": {
+        "en": "Rather than integrating and releasing software in large, infrequent batches, CI/CD merges, tests and ships small changes continuously as they are made, keeping the pipeline always flowing and shrinking the idle gap between writing code and running it in production.",
+        "zh": "CI/CD 不再把軟體以龐大、稀疏的批次整合與發布,而是在變更產生的當下就持續地合併、測試並出貨小型變更,讓管線隨時保持流動,並縮短「寫完程式」到「上線運行」之間的閒置空檔。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Stream processing", "zh": "串流處理" },
+      "body": {
+        "en": "Batch systems accumulate data and process it in periodic dumps, leaving results stale between runs; stream processors such as Kafka or Flink consume and compute over events continuously as they arrive, keeping outputs always up to date. Continuous flow replaces the idle wait of batching.",
+        "zh": "批次系統把資料累積起來,以週期性的方式一次處理,兩次執行之間結果都是過期的;Kafka、Flink 等串流處理器則在事件抵達的當下就持續消費並運算,使輸出隨時保持最新。連續流動取代了批次處理的閒置等待。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Continuous batching in LLM serving", "zh": "大型語言模型服務的連續批次處理" },
+      "body": {
+        "en": "Naive LLM serving waits for a whole batch of requests to finish before starting the next, leaving the GPU idle whenever some replies are shorter. Continuous batching (as in vLLM) slots new requests into the running batch the moment a slot frees, keeping the accelerator at full load. Eliminating idle GPU time is the core idea.",
+        "zh": "樸素的大型語言模型服務會等一整批請求全部完成才開始下一批,只要有些回覆較短,GPU 就會空等。連續批次處理(如 vLLM)在有空位騰出的當下,就把新請求插進正在運行的批次,使加速器維持滿載。消除 GPU 的閒置時間,正是其核心思想。"
+      },
+      "sourceUrl": "https://docs.vllm.ai/en/latest/"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Online (continual) learning", "zh": "線上(持續)學習" },
+      "body": {
+        "en": "Instead of retraining a model in occasional large batches, online learning updates it continuously from a stream of incoming data, so the model keeps improving in step with the world rather than going stale between periodic retrains.",
+        "zh": "線上學習不採用偶爾一次的大批次重新訓練,而是從持續湧入的資料流中不斷更新模型,使模型與外在世界同步地持續改進,而非在兩次週期性重訓之間逐漸過時。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Continuous casting", "url": "https://en.wikipedia.org/wiki/Continuous_casting" },
+    { "label": "vLLM documentation — continuous batching & PagedAttention", "url": "https://docs.vllm.ai/en/latest/" }
+  ]
+}

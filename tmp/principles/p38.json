@@ -1,0 +1,124 @@
+{
+  "id": 38,
+  "slug": "strong-oxidants",
+  "name": { "en": "Strong Oxidants", "zh": "強氧化劑" },
+  "aliases": {
+    "en": ["Accelerated Oxidation", "Enriched Atmosphere"],
+    "zh": ["加速氧化", "富氧環境"]
+  },
+  "definition": {
+    "en": "Intensify a process by supplying a more reactive agent — enriching the air with oxygen, using pure oxygen, or moving on to ozone or ionized oxygen. More broadly, drive a system harder with a stronger, more aggressive stressor to make it react faster or reveal its limits.",
+    "zh": "用更活潑的作用劑來強化一個過程——例如把空氣富氧化、改用純氧,再進一步用臭氧或離子化氧。更廣義地說,就是用更強、更激進的壓力源去推逼系統,使它反應更快或顯露極限。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Replace common air with oxygen-enriched air.",
+      "zh": "以富氧空氣取代一般空氣。"
+    },
+    {
+      "en": "Replace enriched air with pure oxygen.",
+      "zh": "以純氧取代富氧空氣。"
+    },
+    {
+      "en": "Expose air or oxygen to ionizing radiation, or use ionized oxygen; go further to ozone.",
+      "zh": "以游離輻射照射空氣或氧氣,或使用離子化氧;更進一步改用臭氧。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Bellows and blast in smelting", "zh": "冶煉中的風箱與鼓風" },
+      "body": {
+        "en": "Ancient smiths pumped bellows to force extra air into the forge or furnace; the added oxygen raised the combustion temperature enough to smelt ore and work metal. Feeding more oxygen to the fire is the oldest form of enriching the reacting atmosphere.",
+        "zh": "古代工匠用風箱把額外的空氣鼓入爐火;多出來的氧氣把燃燒溫度拉高到足以冶煉礦石、鍛打金屬。給爐火供給更多氧氣,正是最古老的富氧化作法。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Basic oxygen steelmaking", "zh": "鹼性氧氣煉鋼" },
+      "body": {
+        "en": "A water-cooled lance blows high-purity oxygen onto molten pig iron, rapidly oxidizing away carbon and other impurities in about 20 minutes to make steel. Switching from air to pure oxygen is exactly the escalation the principle describes, and it makes over half the world's steel.",
+        "zh": "水冷噴槍把高純度氧氣吹到熔融生鐵上,約 20 分鐘內就快速氧化掉碳與其他雜質而煉成鋼。從空氣升級到純氧,正是本原則所描述的強化手法,全球逾半數的鋼都這樣生產。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Basic_oxygen_steelmaking"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Oxy-fuel cutting torch", "zh": "氧燃料切割炬" },
+      "body": {
+        "en": "An oxy-acetylene torch preheats steel, then blasts a jet of pure oxygen that oxidizes the iron and blows the molten oxide away, cutting through thick plate. The pure-oxygen stream is what turns a hot flame into a cutting tool.",
+        "zh": "氧乙炔切割炬先預熱鋼材,再噴出一股純氧,使鐵氧化並把熔融氧化物吹走,切穿厚板。正是這股純氧,把高溫火焰變成了切割工具。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Hydrogen peroxide disinfection", "zh": "過氧化氫消毒" },
+      "body": {
+        "en": "Hydrogen peroxide poured on a wound or used to treat water is a strong oxidant that tears apart the cell walls of microbes, killing them. The disinfecting power is the oxidizer aggressively attacking organic matter.",
+        "zh": "倒在傷口上或用於水處理的過氧化氫是一種強氧化劑,會破壞微生物的細胞壁而將其殺死。消毒力就來自氧化劑對有機物的猛烈攻擊。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Oxygen bleach and ozone water treatment", "zh": "氧系漂白劑與臭氧水處理" },
+      "body": {
+        "en": "Oxygen (percarbonate) bleach releases active oxygen to break down laundry stains, and municipal plants bubble ozone through water to oxidize pathogens and contaminants. Both step up from ordinary air to a much stronger oxidizer to finish the job.",
+        "zh": "氧系(過碳酸鈉)漂白劑釋出活性氧來分解衣物污漬,自來水廠則把臭氧通入水中氧化病原與污染物。兩者都從一般空氣升級到強得多的氧化劑來完成任務。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Bank regulatory stress tests", "zh": "銀行監理壓力測試" },
+      "body": {
+        "en": "Regulators subject banks to deliberately severe hypothetical scenarios — deep recessions, market crashes — to expose weak capital positions before a real crisis does. Applying an intensified, worst-case stressor to surface hidden fragility is the management version of using a stronger oxidant.",
+        "zh": "監理機關讓銀行面對刻意設計的嚴苛假想情境——深度衰退、市場崩盤——以在真正危機發生前,揭露脆弱的資本狀況。用加劇的最壞情境去逼出隱藏的脆弱,正是把「用更強氧化劑」搬到管理上的版本。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Chaos engineering", "zh": "混沌工程" },
+      "body": {
+        "en": "Netflix's Chaos Monkey deliberately kills servers in live production so teams are forced to build systems that survive failure. Injecting a strong, aggressive stressor on purpose accelerates the discovery of weaknesses, the software counterpart of an intensified oxidizing attack.",
+        "zh": "Netflix 的 Chaos Monkey 會在正式環境中刻意關掉伺服器,逼團隊打造能撐過故障的系統。故意注入強烈、激進的壓力源來加速找出弱點,正是「加劇氧化攻擊」在軟體上的對應。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chaos_engineering"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Fuzz testing", "zh": "模糊測試" },
+      "body": {
+        "en": "Fuzzers bombard a program with huge volumes of malformed and random inputs to rapidly trigger crashes and security bugs that normal testing misses. The aggressive, high-intensity input stream is a strong stressor that oxidizes the code's hidden defects out into the open.",
+        "zh": "模糊測試工具用大量畸形與隨機輸入猛轟程式,快速觸發一般測試漏掉的當機與安全漏洞。這股激進而高強度的輸入流,就是一種強壓力源,把程式碼中隱藏的缺陷「氧化」出來。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Adversarial training", "zh": "對抗訓練" },
+      "body": {
+        "en": "To harden a model, adversarial training generates worst-case perturbed inputs from a strong attacker and trains on them, so the model learns to withstand the hardest cases. A stronger adversary acts like a stronger oxidant — the fiercer the attack during training, the tougher the model becomes.",
+        "zh": "為了讓模型更堅固,對抗訓練會用強力攻擊者產生最壞情況的擾動輸入並拿來訓練,使模型學會抵禦最難的案例。更強的對手就像更強的氧化劑——訓練時攻擊越猛,模型就越耐打。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Red-teaming language models", "zh": "語言模型的紅隊測試" },
+      "body": {
+        "en": "Red teams, increasingly aided by automated adversarial attackers, hammer a language model with aggressive, adversarial prompts to surface harmful or unsafe outputs before release. The deliberately hostile probing is a strong stressor applied to force failure modes into view.",
+        "zh": "紅隊(越來越常搭配自動化的對抗攻擊者)用激進的對抗提示猛攻語言模型,在發布前逼出有害或不安全的輸出。這種刻意帶敵意的探測,就是施加強壓力源,把失效模式逼現出來。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Hard-negative mining", "zh": "困難負樣本挖掘" },
+      "body": {
+        "en": "Instead of training on easy examples, hard-negative mining selects the most confusing, difficult samples that sit near the decision boundary, concentrating the model's effort where it learns most. Feeding the model the hardest cases is a more potent training stressor that sharpens it faster.",
+        "zh": "困難負樣本挖掘不拿簡單樣本訓練,而是挑出最容易混淆、落在決策邊界附近的難樣本,把模型的學習集中在收穫最大之處。餵給模型最難的案例,是一種更強效的訓練壓力,能讓它更快變得銳利。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Basic oxygen steelmaking", "url": "https://en.wikipedia.org/wiki/Basic_oxygen_steelmaking" },
+    { "label": "Wikipedia — Chaos engineering", "url": "https://en.wikipedia.org/wiki/Chaos_engineering" }
+  ]
+}

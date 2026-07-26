@@ -1,0 +1,244 @@
+{
+  "terms": [
+    {
+      "term": {
+        "en": "TRIZ",
+        "zh": "TRIZ(萃思)"
+      },
+      "def": {
+        "en": "A Russian acronym for the Theory of Inventive Problem Solving, developed by Genrikh Altshuller from the study of tens of thousands of patents. It holds that inventive problems and their solutions follow repeating patterns that can be learned and applied deliberately.",
+        "zh": "俄文「發明問題解決理論」的縮寫,由阿奇舒勒研究數萬件專利後發展而成。其核心主張是:發明問題與其解法存在可反覆歸納的模式,能夠被學習並刻意運用。"
+      }
+    },
+    {
+      "term": {
+        "en": "40 Inventive Principles",
+        "zh": "40 項發明原則"
+      },
+      "def": {
+        "en": "A set of 40 generic strategies—such as Segmentation, Merging, and Prior Action—that describe recurring ways engineers have resolved contradictions in successful inventions. They are the best-known tool of classical TRIZ.",
+        "zh": "40 條通用策略(如分割、合併、預先作用等),描述工程師在成功發明中反覆用來化解矛盾的做法,是古典 TRIZ 最廣為人知的工具。"
+      }
+    },
+    {
+      "term": {
+        "en": "Technical Contradiction",
+        "zh": "技術矛盾"
+      },
+      "def": {
+        "en": "A situation where improving one parameter of a system makes another parameter worse—for example, making a part stronger also makes it heavier. TRIZ treats resolving such trade-offs, rather than compromising, as the heart of inventive design.",
+        "zh": "當改善系統的某個參數時,另一個參數卻隨之惡化的情況——例如把零件做得更強,重量也跟著增加。TRIZ 認為發明設計的核心,在於「化解」這類取捨,而非折衷妥協。"
+      }
+    },
+    {
+      "term": {
+        "en": "Physical Contradiction",
+        "zh": "物理矛盾"
+      },
+      "def": {
+        "en": "A situation where a single parameter must take two opposite values at once—for example, an aircraft's landing gear must be present (for landing) and absent (for low drag in flight). It is usually resolved with the separation principles.",
+        "zh": "指同一個參數必須同時取兩個相反的值——例如飛機的起落架必須存在(降落時)又必須不存在(飛行時以降低阻力)。這類矛盾通常以分離原理來化解。"
+      }
+    },
+    {
+      "term": {
+        "en": "Administrative Contradiction",
+        "zh": "管理矛盾"
+      },
+      "def": {
+        "en": "The vague, surface-level statement of a problem—\"we need better results but don't know how\"—that has a goal but no identified technical conflict. TRIZ reframes it into a technical or physical contradiction that can actually be solved.",
+        "zh": "指問題最表層、模糊的陳述——「我們需要更好的成果,卻不知如何達成」——只有目標,卻尚未指出具體的技術衝突。TRIZ 會把它重新表述為可真正著手解決的技術矛盾或物理矛盾。"
+      }
+    },
+    {
+      "term": {
+        "en": "39 Engineering Parameters",
+        "zh": "39 個工程參數"
+      },
+      "def": {
+        "en": "A standardised list of 39 generalised characteristics—weight, speed, strength, ease of manufacture, and so on—used to describe the two sides of a technical contradiction so it can be looked up in the Contradiction Matrix.",
+        "zh": "一份標準化的 39 個通用特性清單(重量、速度、強度、製造難易度等),用來描述技術矛盾的兩端,以便在矛盾矩陣中查找對應解法。"
+      }
+    },
+    {
+      "term": {
+        "en": "Contradiction Matrix",
+        "zh": "矛盾矩陣"
+      },
+      "def": {
+        "en": "A 39×39 lookup table whose rows are the parameter to improve and columns the parameter that worsens. Each cell recommends the inventive principles most often used to resolve that particular contradiction.",
+        "zh": "一張 39×39 的查詢表,列為「欲改善的參數」、欄為「隨之惡化的參數」。每個格子會列出化解該項矛盾時最常用到的發明原則。"
+      }
+    },
+    {
+      "term": {
+        "en": "Ideality",
+        "zh": "理想性"
+      },
+      "def": {
+        "en": "A measure of a system's value defined as the sum of its useful functions divided by the sum of its costs and harms. TRIZ pushes designs toward ever-higher ideality—more benefit for less cost and fewer side effects.",
+        "zh": "衡量系統價值的指標,定義為「有用功能的總和」除以「成本與有害作用的總和」。TRIZ 追求讓設計朝更高的理想性演進——以更低成本、更少副作用換取更多效益。"
+      }
+    },
+    {
+      "term": {
+        "en": "Ideal Final Result (IFR)",
+        "zh": "理想最終結果(IFR)"
+      },
+      "def": {
+        "en": "An imagined end state in which the required function is delivered by itself, with no machinery, cost, or harm. Describing the IFR first frees the designer from current constraints and points toward the most elegant solution.",
+        "zh": "一種設想的終極狀態:所需功能彷彿自行實現,不需任何裝置、成本或有害作用。先描繪出理想最終結果,能讓設計者擺脫現有限制,指向最精巧的解法。"
+      }
+    },
+    {
+      "term": {
+        "en": "ARIZ",
+        "zh": "ARIZ(發明問題解決演算法)"
+      },
+      "def": {
+        "en": "The Algorithm for Inventive Problem Solving, a step-by-step procedure for tackling difficult problems where the right tool is not obvious. It guides the user from a fuzzy problem through contradiction analysis to a solution, and was refined across many versions from 1956 to the 1980s.",
+        "zh": "「發明問題解決演算法」,一套針對難題、在解法工具尚不明朗時使用的逐步流程。它引導使用者從模糊的問題,經由矛盾分析,一路推導出解法;自 1956 年至 1980 年代歷經多次改版精進。"
+      }
+    },
+    {
+      "term": {
+        "en": "Substance-Field (Su-Field) Analysis",
+        "zh": "物質-場分析"
+      },
+      "def": {
+        "en": "A modelling method that represents any function as two substances interacting through a field (mechanical, thermal, electromagnetic, and so on). Incomplete or harmful models reveal exactly what must be added or changed to make the function work well.",
+        "zh": "一種建模方法,把任何功能表示為「兩個物質透過某種場(機械、熱、電磁等)產生交互作用」。當模型不完整或含有害作用時,便能精確揭示需要新增或改變什麼,才能讓功能順利運作。"
+      }
+    },
+    {
+      "term": {
+        "en": "Field",
+        "zh": "場"
+      },
+      "def": {
+        "en": "In Su-Field analysis, the form of energy or interaction—mechanical, acoustic, thermal, chemical, electric, magnetic—through which one substance acts on another. Choosing a different field is often the key to an inventive solution.",
+        "zh": "在物質-場分析中,指一個物質作用於另一個物質時所憑藉的能量或交互形式——機械、聲、熱、化學、電、磁等。改用不同的場,往往正是找到發明解法的關鍵。"
+      }
+    },
+    {
+      "term": {
+        "en": "76 Standard Solutions",
+        "zh": "76 個標準解"
+      },
+      "def": {
+        "en": "A structured catalogue of 76 typical fixes for Su-Field models—ways to complete an incomplete model, remove a harmful interaction, or improve an existing one. They provide off-the-shelf moves once a problem has been modelled.",
+        "zh": "針對物質-場模型的 76 種典型解法所組成的結構化清單——包含補全不完整模型、消除有害交互作用、或改良既有作用等做法。問題一旦完成建模,便能從中直接取用現成的解題手法。"
+      }
+    },
+    {
+      "term": {
+        "en": "S-Curve (Technology Evolution)",
+        "zh": "S 曲線(技術演化)"
+      },
+      "def": {
+        "en": "The observation that a technical system's performance over time follows an S-shape: slow infancy, rapid growth, then maturity and stagnation. Recognising where a system sits on its S-curve helps predict when to innovate or switch to a new technology.",
+        "zh": "一項觀察:技術系統的效能隨時間演變呈 S 形——起步緩慢、快速成長,接著邁向成熟與停滯。辨識系統目前位於 S 曲線的哪個階段,有助於判斷何時該創新、或改採新技術。"
+      }
+    },
+    {
+      "term": {
+        "en": "Nine Windows (System Operator)",
+        "zh": "九宮格(系統算子)"
+      },
+      "def": {
+        "en": "A 3×3 thinking grid that views a problem across system levels (sub-system, system, super-system) and across time (past, present, future). It counters tunnel vision by prompting the solver to look beyond the object in front of them.",
+        "zh": "一個 3×3 的思考格子,從系統層級(子系統、系統、超系統)與時間軸(過去、現在、未來)兩個維度來檢視問題。它促使解題者把眼光放到眼前物件之外,藉此對抗思考的隧道視野。"
+      }
+    },
+    {
+      "term": {
+        "en": "Resources",
+        "zh": "資源"
+      },
+      "def": {
+        "en": "Any substance, field, space, time, or property already present in or around the system that can be put to use at little or no cost. TRIZ prizes solutions that exploit existing resources rather than adding new components.",
+        "zh": "指系統內部或周遭已經存在、幾乎不需成本即可加以利用的任何物質、場、空間、時間或特性。TRIZ 特別推崇「善用既有資源」而非「新增元件」的解法。"
+      }
+    },
+    {
+      "term": {
+        "en": "Trimming",
+        "zh": "裁剪"
+      },
+      "def": {
+        "en": "Deliberately removing a component and reassigning its useful function to another part, a resource, or the object being acted upon. Trimming lowers cost and complexity while pushing the design toward higher ideality.",
+        "zh": "刻意移除某個元件,並把它原本的有用功能改交給其他零件、某項資源、或被作用的物件承擔。裁剪能降低成本與複雜度,同時推動設計朝更高理想性邁進。"
+      }
+    },
+    {
+      "term": {
+        "en": "Function Analysis",
+        "zh": "功能分析"
+      },
+      "def": {
+        "en": "A method that maps a system as components and the functions they perform on one another, classifying each as useful, harmful, insufficient, or excessive. The resulting model exposes where to trim, improve, or resolve a conflict.",
+        "zh": "一種把系統拆解為「元件」及其「彼此執行的功能」的方法,並將每項功能歸類為有用、有害、不足或過度。所得的模型能清楚呈現該在何處裁剪、改良或化解衝突。"
+      }
+    },
+    {
+      "term": {
+        "en": "Trends of Engineering System Evolution",
+        "zh": "技術系統演化趨勢"
+      },
+      "def": {
+        "en": "A set of empirical patterns describing how technical systems tend to develop over time—toward increased dynamism, greater use of fields, transition to the micro level, and increased ideality. They are used to forecast a technology's next generation.",
+        "zh": "一組經驗性的規律,描述技術系統隨時間演化的傾向——趨於更動態、更多利用場、轉向微觀層次,以及提高理想性等。這些趨勢常用來預測一項技術的下一世代樣貌。"
+      }
+    },
+    {
+      "term": {
+        "en": "Psychological Inertia",
+        "zh": "心理慣性"
+      },
+      "def": {
+        "en": "The mental habit of framing a problem in familiar, specialist terms and reaching for the usual solution, which blocks people from seeing radically different options. Many TRIZ tools exist specifically to break this inertia.",
+        "zh": "指人們習慣用熟悉、專業的框架來看待問題,並直接伸手去拿慣用解法的思維定勢,這會妨礙人看見截然不同的可能性。許多 TRIZ 工具正是為了打破這種慣性而設計。"
+      }
+    },
+    {
+      "term": {
+        "en": "Separation Principles",
+        "zh": "分離原理"
+      },
+      "def": {
+        "en": "The main way TRIZ resolves physical contradictions, by separating the conflicting requirements in space, in time, between the parts and the whole, or upon condition. For example, a bicycle chain is rigid across each link yet flexible along its length.",
+        "zh": "TRIZ 化解物理矛盾的主要手段,做法是把相互衝突的需求在「空間上、時間上、部分與整體之間、或依條件」加以分離。例如自行車鏈條在每一節上是剛性的,整條卻又是柔性的。"
+      }
+    },
+    {
+      "term": {
+        "en": "Modelling by Little People (Smart Little People)",
+        "zh": "聰明小人法"
+      },
+      "def": {
+        "en": "A creative technique in which the problem zone is imagined as a crowd of tiny people who can be told to behave however the solution needs. Picturing them helps overcome psychological inertia and reveals new arrangements a rigid model would hide.",
+        "zh": "一種創意技巧:把問題發生的區域想像成一群可以任意指揮的微小人偶,讓他們照著解法所需的方式行動。透過這樣的具象化,能克服心理慣性,揭示僵固模型會遮蔽掉的新排列方式。"
+      }
+    },
+    {
+      "term": {
+        "en": "Levels of Invention",
+        "zh": "發明等級(專利五級)"
+      },
+      "def": {
+        "en": "Altshuller's classification of solutions into five levels, from routine tweaks within one specialty (Level 1) up to rare discoveries that open a whole new field of science (Level 5). His analysis found that most patents sit at the lower, more routine levels.",
+        "zh": "阿奇舒勒把解法分為五個等級,從單一專業內的例行微調(第 1 級)到罕見、能開創全新科學領域的重大發現(第 5 級)。他的分析發現,絕大多數專利都落在偏低、較例行的等級。"
+      }
+    },
+    {
+      "term": {
+        "en": "Scientific Effects Database",
+        "zh": "科學效應知識庫"
+      },
+      "def": {
+        "en": "An organised knowledge base linking functions you want to achieve (to move, to heat, to detect) with the physical, chemical, and geometric effects that can deliver them. It lets a designer borrow effects from outside their own field.",
+        "zh": "一個經過整理的知識庫,把「你想達成的功能」(移動、加熱、偵測等)對應到能實現這些功能的物理、化學與幾何效應。它讓設計者得以借用自身專業領域以外的各種效應。"
+      }
+    }
+  ]
+}

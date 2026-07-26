@@ -1,0 +1,112 @@
+{
+  "id": 3,
+  "slug": "local-quality",
+  "name": { "en": "Local Quality", "zh": "局部品質" },
+  "aliases": { "en": ["Local Property", "Non-uniformity"], "zh": ["局部特性", "不均勻化"] },
+  "definition": {
+    "en": "Change a structure or environment from uniform to non-uniform, make each part operate under the conditions that suit it best, and let each part perform a different useful function. Instead of one compromise everywhere, each region gets exactly the property it needs.",
+    "zh": "把結構或環境從均勻改為不均勻,讓每個部分都在最適合自己的條件下運作,並讓每個部分各自承擔不同而有用的功能。與其到處都用同一種折衷,不如讓每個區域都取得它真正需要的特性。"
+  },
+  "subPrinciples": [
+    { "en": "Change an object's structure (or its external environment) from uniform to non-uniform.", "zh": "把物體的結構(或其外部環境)從均勻改為不均勻。" },
+    { "en": "Make each part of an object function in the conditions most suitable for its operation.", "zh": "讓物體的每個部分,都在最適合其運作的條件下工作。" },
+    { "en": "Make each part of an object fulfill a different and useful function.", "zh": "讓物體的每個部分各自承擔不同而有用的功能。" }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Differentially hardened sword blade", "zh": "差別硬化的刀刃" },
+      "body": {
+        "en": "Swordsmiths coat a blade's spine with clay before quenching so only the edge cools fast and turns hard, while the spine stays soft and tough. One blade thus carries two local qualities: a wear-resistant edge and a shock-absorbing back.",
+        "zh": "刀匠在淬火前於刀背敷上黏土,讓只有刀刃快速冷卻而變硬,刀背則保持柔軟而堅韌。一把刀因此擁有兩種局部特性:耐磨的刀刃與吸震的刀背。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Differential_heat_treatment"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Claw hammer", "zh": "羊角錘" },
+      "body": {
+        "en": "A claw hammer puts a flat striking face on one side of the head and a curved claw for pulling nails on the other. The two ends are locally shaped for opposite tasks: driving nails in and prying them out.",
+        "zh": "羊角錘的錘頭一側是打擊用的平面,另一側是拔釘用的彎鉤。兩端各自為相反的任務——把釘子敲入與撬出——做了在地化的造形。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Case-hardened gears", "zh": "表面硬化齒輪" },
+      "body": {
+        "en": "Gear teeth are carburized so the surface becomes hard and wear-resistant while the core stays tough and ductile. The part is deliberately non-uniform: hard where it rubs, tough where it must absorb shock.",
+        "zh": "齒輪的齒面經滲碳處理而變得堅硬耐磨,芯部則保持堅韌有延展性。這個零件刻意做成不均勻:摩擦處硬,需承受衝擊處韌。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Pencil with an eraser", "zh": "帶橡皮擦的鉛筆" },
+      "body": {
+        "en": "A pencil combines a graphite core for writing at one end with a rubber tip for erasing at the other. Each end is given a different, locally useful function within a single tool.",
+        "zh": "鉛筆一端是書寫用的石墨筆芯,另一端是擦除用的橡皮。同一支工具中,每一端都被賦予不同而在地有用的功能。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Refrigerator with distinct zones", "zh": "分區控溫冰箱" },
+      "body": {
+        "en": "A fridge is not one uniform cold box: the freezer, the chiller, the crisper drawer, and the door shelves are each held at the temperature and humidity that suit their contents. Each region is tuned to its own local conditions.",
+        "zh": "冰箱不是一個溫度均勻的冷箱:冷凍室、冷藏室、蔬果保鮮抽屜與門邊層架,各自維持適合其內容物的溫度與濕度。每個區域都依自己的局部條件做了調校。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Specialized departments and roles", "zh": "專業分工的部門與職務" },
+      "body": {
+        "en": "Instead of every employee doing everything, a firm creates specialized units, such as sales, engineering, finance, and support, each staffed and equipped for its own kind of work. The organization becomes non-uniform so each part operates under conditions suited to its task.",
+        "zh": "公司不讓每位員工什麼都做,而是設立專業單位——業務、工程、財務、客服——各自配置適合其工作的人力與資源。組織因此變得不均勻,讓每個部分都在適合其任務的條件下運作。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Tiered (hot, warm, cold) storage", "zh": "分層(熱、溫、冷)儲存" },
+      "body": {
+        "en": "A storage system keeps frequently accessed data on fast, expensive media and rarely used data on slow, cheap media. Rather than one uniform tier, each data region sits on the medium whose cost and speed suit its access pattern.",
+        "zh": "儲存系統把常存取的資料放在快速昂貴的媒介,把很少用到的資料放在緩慢廉價的媒介。與其用單一均勻的層級,不如讓每一段資料都落在成本與速度最適合其存取模式的媒介上。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Selective database indexing", "zh": "選擇性資料庫索引" },
+      "body": {
+        "en": "Rather than treating all columns alike, a database is given indexes only on the columns that queries actually filter or sort by. The structure is made non-uniform so lookup effort is invested exactly where it pays off.",
+        "zh": "資料庫不對所有欄位一視同仁,而是只在查詢實際會篩選或排序的欄位上建立索引。結構被做成不均勻,讓查找的成本剛好投注在有回報的地方。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Mixed-precision training", "zh": "混合精度訓練" },
+      "body": {
+        "en": "Deep-learning training stores most values in low-precision 16-bit format for speed but keeps sensitive accumulations, such as the master weights, in 32-bit. Precision is applied non-uniformly: cheap where it is safe, high where the math is delicate.",
+        "zh": "深度學習訓練把大多數數值以低精度的 16 位元格式儲存以加快速度,卻把敏感的累加值(例如主權重)保留在 32 位元。精度被不均勻地分配:安全處用低精度,運算細緻處用高精度。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Attention mechanism", "zh": "注意力機制" },
+      "body": {
+        "en": "A transformer's attention layer assigns each part of the input a different weight, letting the model dwell on the tokens that matter for the current prediction. Processing is made non-uniform across the sequence rather than treating every token equally.",
+        "zh": "Transformer 的注意力層為輸入的每個部分分配不同的權重,讓模型能停留在對當前預測重要的 token 上。處理過程在整個序列上變得不均勻,而不是對每個 token 一視同仁。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "LoRA domain adapters", "zh": "LoRA 領域適配器" },
+      "body": {
+        "en": "Low-rank adapters (LoRA) attach small trainable modules to a frozen base model, one per domain or task. Each adapter tailors the shared model to its own local conditions, such as legal, medical, or coding text, without disturbing the others.",
+        "zh": "低秩適配器(LoRA)在凍結的基礎模型上外掛小型可訓練模組,每個領域或任務各一個。每個適配器把共用模型調整到自己的局部條件——法律、醫療、程式碼——而不影響其他適配器。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "triz40.com — The 40 Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" },
+    { "label": "Oxford Creativity — TRIZ", "url": "https://www.triz.co.uk/" },
+    { "label": "Wikipedia — Differential heat treatment", "url": "https://en.wikipedia.org/wiki/Differential_heat_treatment" }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": 5,
+  "slug": "merging",
+  "name": { "en": "Merging", "zh": "合併" },
+  "aliases": { "en": ["Consolidation", "Combining", "Integration"], "zh": ["整合", "結合", "併合"] },
+  "definition": {
+    "en": "Bring identical or similar objects together in space, or make similar operations run together and in parallel in time. Combining many like elements into one system yields economies, shared structure, and effects that a single element cannot produce.",
+    "zh": "把相同或相似的物體在空間上聚合在一起,或讓相似的操作在時間上並行、連續地一起進行。把許多同類元素併成一個系統,能帶來規模效益、共用結構,以及單一元素做不到的效果。"
+  },
+  "subPrinciples": [
+    { "en": "Bring closer together or merge identical or similar objects; assemble identical or similar parts to perform parallel operations.", "zh": "把相同或相似的物體聚合(或合併)在一起;集合相同或相似的部件以進行並行的作業。" },
+    { "en": "Make operations contiguous or parallel; bring them together in time.", "zh": "讓操作變得連續或並行;把它們在時間上聚合在一起。" }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Endosymbiosis (mitochondria in cells)", "zh": "內共生(細胞中的粒線體)" },
+      "body": {
+        "en": "Complex cells arose when one microbe engulfed another and the two merged into a single organism, the engulfed partner becoming the mitochondrion. Evolution combined two separate living things into one more capable unit.",
+        "zh": "當一個微生物吞入另一個、兩者併成單一生物時,複雜細胞於焉出現,被吞入的夥伴成了粒線體。演化把兩個獨立的生命體合併成一個更有能力的單元。"
+      }
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "A bundle of sticks", "zh": "一捆木棒" },
+      "body": {
+        "en": "A single stick snaps easily, but many sticks bound together resist breaking, the moral of Aesop's fable and a real structural fact. Merging identical weak elements produces a bundle far stronger than the sum of its parts.",
+        "zh": "單根木棒一折就斷,但許多木棒綁在一起就難以折斷——這是《伊索寓言》的寓意,也是真實的結構事實。把相同的脆弱元素合併,能造出遠比各部分加總更堅固的一束。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Combine harvester", "zh": "聯合收割機" },
+      "body": {
+        "en": "The combine gets its name from combining three formerly separate operations, reaping, threshing, and winnowing, into one continuous pass through the field. Merging the steps in time turns days of labor into a single machine's work.",
+        "zh": "聯合收割機的名字來自它把過去三道分開的工序——收割、脫粒、風選——合併成在田裡連續完成的一趟作業。把這些步驟在時間上合併,讓原本要好幾天的人力工作,變成一台機器就能完成。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Combine_harvester"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Multi-blade razor", "zh": "多刀片刮鬍刀" },
+      "body": {
+        "en": "A cartridge razor lines up several identical blades in one head so each stroke cuts the whiskers multiple times. Merging identical blades into a single tool gives a closer shave in one pass.",
+        "zh": "刮鬍刀的刀頭把數片相同的刀片排在一起,讓每刷一次就對鬍鬚切割多次。把相同的刀片合併到單一工具上,一刷就能刮得更乾淨。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "All-in-one printer", "zh": "多功能事務機" },
+      "body": {
+        "en": "An all-in-one machine merges a printer, scanner, copier, and fax into one device that shares a single paper path, power supply, and control panel. Combining the similar machines saves desk space and cost.",
+        "zh": "多功能事務機把印表機、掃描器、影印機與傳真機合併成一台裝置,共用同一條進紙路徑、電源與控制面板。把這些相似的機器合併,省下桌面空間與成本。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Mergers and acquisitions", "zh": "併購(M&A)" },
+      "body": {
+        "en": "In a merger, two companies consolidate into a single entity to combine their markets, capabilities, and overhead. Bringing similar organizations together aims to yield scale and shared functions that neither had alone.",
+        "zh": "在合併案中,兩家公司整併成單一實體,以結合各自的市場、能力與後勤。把相似的組織合併在一起,目的是取得任一方單獨都沒有的規模與共用職能。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mergers_and_acquisitions"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Version-control merge", "zh": "版本控制的合併" },
+      "body": {
+        "en": "A merge in a version-control system like Git combines the changes from two divergent lines of development back into one branch. Parallel work by many contributors is brought together into a single, unified history.",
+        "zh": "在 Git 這類版本控制系統中,合併會把兩條分歧的開發線所做的變更重新併回一條分支。許多貢獻者的並行工作被聚合成單一、統一的歷史。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Request batching", "zh": "請求批次化" },
+      "body": {
+        "en": "Instead of sending many tiny queries one by one, a client bundles them into a single batched request to the server. Merging the calls cuts round-trips and network overhead dramatically.",
+        "zh": "客戶端不再把許多微小的查詢一個一個送出,而是把它們打包成單一的批次請求送給伺服器。把這些呼叫合併,能大幅減少往返次數與網路開銷。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Model merging (model soups)", "zh": "模型合併(model soups)" },
+      "body": {
+        "en": "Model merging averages the weights of several models fine-tuned from the same base into one combined model. Merging their parameters can raise accuracy and robustness without any extra inference cost, unlike running an ensemble.",
+        "zh": "模型合併把數個從同一基礎微調而來的模型的權重取平均,併成一個結合後的模型。合併它們的參數能提升準確度與穩健性,而且不像跑集成那樣增加任何推論成本。"
+      },
+      "sourceUrl": "https://arxiv.org/abs/2203.05482"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Continuous batching in LLM serving", "zh": "LLM 服務的連續批次處理" },
+      "body": {
+        "en": "An LLM inference server such as vLLM dynamically merges incoming user requests into one running batch that grows and shrinks as tokens are generated. Combining requests keeps the GPU busy and can raise throughput many times over.",
+        "zh": "像 vLLM 這樣的 LLM 推論伺服器,會動態地把湧入的使用者請求合併進一個運作中的批次,這個批次會隨著 token 的生成而增減。把請求合併能讓 GPU 保持忙碌,吞吐量可提升數倍。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Ensemble learning", "zh": "集成學習" },
+      "body": {
+        "en": "Ensemble methods such as random forests and boosting combine the predictions of many models into one stronger prediction. Merging diverse weak learners cancels out their individual errors and yields higher accuracy than any single model.",
+        "zh": "隨機森林、boosting 等集成方法,把許多模型的預測合併成單一而更強的預測。把多樣的弱學習器合併,能抵銷它們各自的誤差,得到比任一單一模型更高的準確度。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "triz40.com — The 40 Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" },
+    { "label": "Wikipedia — Combine harvester", "url": "https://en.wikipedia.org/wiki/Combine_harvester" },
+    { "label": "Wikipedia — Mergers and acquisitions", "url": "https://en.wikipedia.org/wiki/Mergers_and_acquisitions" },
+    { "label": "Model soups (Wortsman et al., 2022) — arXiv", "url": "https://arxiv.org/abs/2203.05482" }
+  ]
+}

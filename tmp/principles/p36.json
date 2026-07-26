@@ -1,0 +1,118 @@
+{
+  "id": 36,
+  "slug": "phase-transitions",
+  "name": { "en": "Phase Transitions", "zh": "相變化" },
+  "aliases": {
+    "en": ["Phase Transformation", "Phase Change"],
+    "zh": ["相變", "相轉變"]
+  },
+  "definition": {
+    "en": "Use the physical phenomena that occur during a change of state — such as volume change or the absorption and release of latent heat — to do useful work. The transition between phases (solid, liquid, gas) can also be exploited as an abrupt, threshold-like switch in a system's behavior.",
+    "zh": "利用物質在相變(固、液、氣之間轉換)時發生的物理現象——例如體積變化、潛熱的吸收或釋放——來完成有用的工作。相與相之間的轉換,本身也可以當成一種臨界、突變式的開關來運用。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Use phenomena occurring during phase transitions, such as volume changes or the loss or absorption of heat.",
+      "zh": "運用相變過程中發生的現象,例如體積變化,或放熱與吸熱。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Frost weathering splitting rock", "zh": "凍融風化裂解岩石" },
+      "body": {
+        "en": "Water seeps into cracks in rock, freezes overnight and expands by about 9%, prying the crack wider; repeated freeze-thaw cycles eventually break the rock apart. The work is done entirely by the volume change of the liquid-to-solid phase transition.",
+        "zh": "水滲入岩石裂縫,夜間結冰時體積膨脹約 9%,把裂縫撐得更開;反覆的凍融循環最終使岩石崩解。做功完全來自液態轉固態相變時的體積變化。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Heat pump and refrigeration cycle", "zh": "熱泵與製冷循環" },
+      "body": {
+        "en": "A refrigerant is cycled so that it evaporates on the cold side, absorbing latent heat, and condenses on the warm side, releasing it, pumping heat from cold to hot. The whole machine runs on the heat absorbed and released during liquid-vapor phase transitions.",
+        "zh": "冷媒在循環中於低溫側蒸發、吸收潛熱,於高溫側冷凝、釋放潛熱,把熱量從冷端搬到熱端。整台機器就是靠液氣相變時吸放的潛熱在運作。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Phase_transition"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Heat pipe", "zh": "熱管" },
+      "body": {
+        "en": "A sealed heat pipe contains a working fluid that evaporates at the hot end and condenses at the cold end, carrying large amounts of heat with almost no temperature drop. It moves heat far more effectively than solid metal by riding the latent heat of the phase change.",
+        "zh": "密封的熱管內含工作流體,在熱端蒸發、冷端冷凝,幾乎沒有溫差就能搬運大量熱量。它靠相變潛熱傳熱,效率遠高於實心金屬。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Reusable sodium acetate hand warmer", "zh": "可重複使用的醋酸鈉暖手包" },
+      "body": {
+        "en": "Clicking a metal disc in a supersaturated sodium acetate solution triggers crystallization, and the liquid-to-solid transition releases its latent heat of fusion (about 264–289 J/g), warming the pack to around 54°C. Boiling it re-dissolves the crystals to reset it.",
+        "zh": "按壓過飽和醋酸鈉溶液中的金屬片會觸發結晶,液態轉固態的相變釋放出熔化潛熱(約 264–289 J/g),讓暖手包升溫到約 54°C。用水煮沸使晶體再溶解即可重複使用。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Phase-change cooling vest", "zh": "相變化降溫背心" },
+      "body": {
+        "en": "A cooling vest holds pouches of a phase-change material engineered to melt at around 18°C; as it melts it absorbs body heat, keeping the wearer cool for hours. The comfort comes from the latent heat soaked up during the solid-to-liquid transition.",
+        "zh": "降溫背心內含相變材料的小包,設計成約 18°C 熔化;熔化時吸收體熱,讓穿戴者維持涼爽數小時。降溫效果來自固態轉液態時吸收的潛熱。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Dry-ice cold-chain logistics", "zh": "乾冰冷鏈物流" },
+      "body": {
+        "en": "To ship vaccines and frozen food, carriers pack boxes with solid CO2 (dry ice), which sublimes directly to gas and absorbs heat, holding cargo below freezing for days without any powered refrigeration. The logistics model is built on the heat absorbed during a solid-to-gas phase transition.",
+        "zh": "運送疫苗與冷凍食品時,業者在箱內放入固態二氧化碳(乾冰),它直接昇華為氣體並吸熱,不需任何耗電製冷就能讓貨物維持冰點以下數天。整套物流模式建立在固態轉氣態相變所吸收的熱量上。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Satisfiability phase transition", "zh": "可滿足性相變" },
+      "body": {
+        "en": "In random 3-SAT, as the ratio of clauses to variables crosses about 4.27, instances flip abruptly from almost-always solvable to almost-always unsolvable, with the hardest problems clustered right at that threshold. Computer scientists call this sharp, threshold-like switch a phase transition.",
+        "zh": "在隨機 3-SAT 問題中,當子句數與變數數的比值越過約 4.27 時,問題會從「幾乎都可解」突然翻轉成「幾乎都不可解」,而最難的實例正好聚集在這個臨界點附近。電腦科學家把這種銳利的臨界切換稱為相變。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Giant component in random networks", "zh": "隨機網路中的巨型連通分量" },
+      "body": {
+        "en": "In an Erdős–Rényi random graph, as edges are added past a critical density (average degree 1), a giant connected component emerges abruptly, jumping from scattered small pieces to one network spanning most nodes. This percolation threshold is the canonical phase transition of network science.",
+        "zh": "在 Erdős–Rényi 隨機圖中,當加入的邊超過臨界密度(平均度數為 1)時,一個巨型連通分量會突然出現,從零散的小片段瞬間變成涵蓋大多數節點的單一網路。這個滲流臨界點正是網路科學的經典相變。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Grokking in neural networks", "zh": "神經網路的頓悟(grokking)" },
+      "body": {
+        "en": "Power et al. (2022) found that small networks can sit at perfect training accuracy but chance-level test accuracy for a long time, then abruptly generalize almost perfectly. This sudden, delayed jump behaves like a phase transition in the model's internal representations.",
+        "zh": "Power 等人(2022)發現,小型網路可能長時間停留在訓練準確率滿分、但測試準確率如同亂猜的狀態,接著突然幾乎完美地泛化。這種延遲而突發的躍升,就像模型內部表徵的一次相變。"
+      },
+      "sourceUrl": "https://arxiv.org/abs/2201.02177"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Emergent abilities at scale", "zh": "隨規模浮現的能力" },
+      "body": {
+        "en": "Wei et al. (2022) documented abilities such as multi-step arithmetic that stay at chance level until a model passes a critical scale, then rise sharply — behavior the authors describe as a phase transition. The capability is absent in smaller models and appears abruptly in larger ones.",
+        "zh": "Wei 等人(2022)記錄到像多步驟算術這類能力,在模型跨過某個臨界規模前一直停在亂猜水準,之後才急遽提升——作者將此描述為相變。這種能力在小模型中不存在,到大模型才突然出現。"
+      },
+      "sourceUrl": "https://arxiv.org/abs/2206.07682"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Simulated annealing", "zh": "模擬退火" },
+      "body": {
+        "en": "Simulated annealing borrows directly from metallurgy: a 'temperature' parameter is lowered on a schedule so the search first explores widely, like a hot disordered melt, then settles into a low-energy solution, like a cooling crystal. The algorithm mimics the ordering that happens across a physical phase change.",
+        "zh": "模擬退火直接借用冶金學的概念:依排程降低一個「溫度」參數,使搜尋先廣泛探索(像高溫無序的熔融態),再逐漸收斂到低能量解(像冷卻結晶)。這個演算法模仿了物理相變過程中的有序化。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Phase transition", "url": "https://en.wikipedia.org/wiki/Phase_transition" },
+    { "label": "Power et al. (2022) — Grokking: Generalization Beyond Overfitting", "url": "https://arxiv.org/abs/2201.02177" },
+    { "label": "Wei et al. (2022) — Emergent Abilities of Large Language Models", "url": "https://arxiv.org/abs/2206.07682" }
+  ]
+}

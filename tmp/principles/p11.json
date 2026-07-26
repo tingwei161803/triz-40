@@ -1,0 +1,128 @@
+{
+  "id": 11,
+  "slug": "beforehand-cushioning",
+  "name": { "en": "Beforehand Cushioning", "zh": "事先緩衝" },
+  "aliases": {
+    "en": ["Cushion in Advance", "Compensate Beforehand", "Prepared Compensation"],
+    "zh": ["預先補償", "事先補償", "預備緩衝"]
+  },
+  "definition": {
+    "en": "Prepare emergency or backup means in advance to compensate for the relatively low reliability of an object or process. Because failure can never be fully eliminated, you pre-position countermeasures so that when something does go wrong, the damage is already contained.",
+    "zh": "事先準備好緊急或備援手段,用來補償物體或流程本來就不夠高的可靠度。既然故障無法完全消除,就預先佈署因應措施,讓事情真的出錯時,損害早已被控制住。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Prepare emergency means beforehand to compensate for the relatively low reliability of an object.",
+      "zh": "事先準備緊急手段,以補償物體相對偏低的可靠度。"
+    },
+    {
+      "en": "Provide backups, reserves, or safety margins so a single failure does not become a catastrophe.",
+      "zh": "提供備援、儲備或安全餘裕,讓單一故障不會演變成災難。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Grain reserves against famine", "zh": "防饑荒的存糧" },
+      "body": {
+        "en": "Ancient societies stored surplus grain in silos and granaries during good harvests to survive later lean years. The reserve is prepared in advance precisely because rainfall and harvests are unreliable, cushioning the shock of a bad season.",
+        "zh": "古代社會在豐收時把多餘的穀物存進穀倉與糧窖,以熬過日後的歉收年。這批儲備正是因為雨量與收成不可靠而預先備妥,用來緩衝荒年的衝擊。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Automobile airbag", "zh": "汽車安全氣囊" },
+      "body": {
+        "en": "An airbag sits folded and inert inside the steering wheel until a crash is detected, then inflates in milliseconds to cushion the occupant. It is an emergency means installed long beforehand to compensate for the ever-present possibility of a collision.",
+        "zh": "安全氣囊平時折疊、靜置在方向盤內,一旦偵測到撞擊便在數毫秒內充氣以緩衝乘員。它是遠早於事件就裝好的緊急手段,用來補償隨時可能發生碰撞的風險。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Pressure relief valve", "zh": "洩壓安全閥" },
+      "body": {
+        "en": "A safety valve on a boiler or pressure vessel is set to open automatically when internal pressure exceeds a safe threshold, venting before anything ruptures. It is a pre-installed fail-safe that compensates for the vessel's imperfect pressure control.",
+        "zh": "鍋爐或壓力容器上的安全閥設定為內部壓力超過安全門檻時自動開啟,在任何破裂發生前先行洩壓。這是預先裝設的失效保護,用來補償容器壓力控制的不完美。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Home smoke alarm and fire extinguisher", "zh": "居家煙霧警報器與滅火器" },
+      "body": {
+        "en": "A household keeps a smoke alarm and a fire extinguisher on hand although a fire may never happen. These emergency means are prepared in advance so that if ignition does occur, warning and suppression are already within reach.",
+        "zh": "家庭平時就備妥煙霧警報器與滅火器,即使火災或許永遠不會發生。這些緊急手段預先備妥,萬一真的起火,警示與滅火手段早已隨手可得。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Spare tire in the trunk", "zh": "後車廂的備胎" },
+      "body": {
+        "en": "A car carries a spare wheel that is dead weight almost all the time, yet it is exactly what lets a driver recover from an unpredictable puncture on the road. The backup is provisioned in advance to compensate for a tire's finite reliability.",
+        "zh": "汽車攜帶一顆幾乎全程都是死重的備胎,但它正是駕駛人在路上遇到無法預測的爆胎時得以脫困的關鍵。這個備援是預先配置的,用來補償輪胎有限的可靠度。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Insurance and emergency reserves", "zh": "保險與緊急準備金" },
+      "body": {
+        "en": "Individuals and firms pay premiums or set aside cash reserves before any loss occurs, so that a fire, lawsuit, or downturn does not wipe them out. The buffer is funded in advance to absorb the financial impact of inherently uncertain events.",
+        "zh": "個人與企業在任何損失發生之前就繳付保費或提撥現金準備金,好讓火災、訴訟或景氣下滑不至於將他們擊垮。這道緩衝在事前就備妥資金,用來吸收本質上不確定事件的財務衝擊。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Safety stock in supply chains", "zh": "供應鏈的安全庫存" },
+      "body": {
+        "en": "Operations teams hold extra buffer inventory beyond forecast demand so that a late shipment or a demand spike does not stop the line or empty the shelf. The reserve is positioned beforehand to cushion the unreliability of suppliers and forecasts.",
+        "zh": "營運團隊會在預測需求之外多備一層緩衝庫存,好讓到貨延誤或需求暴增不會讓產線停擺或貨架淨空。這批儲備在事前佈署,用來緩衝供應商與預測的不可靠。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Autosave and database backups", "zh": "自動存檔與資料庫備份" },
+      "body": {
+        "en": "Editors autosave drafts every few seconds and databases take periodic snapshots, so a crash or accidental deletion loses only minutes of work. The saved state is captured in advance to compensate for the unreliability of processes and hardware.",
+        "zh": "編輯器每隔幾秒自動存檔草稿,資料庫則定期建立快照,讓當機或誤刪只損失幾分鐘的工作。這些狀態是預先保存的,用來補償程序與硬體的不可靠。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "RAID and failover redundancy", "zh": "磁碟陣列與容錯移轉冗餘" },
+      "body": {
+        "en": "RAID keeps spare disks and parity so a drive can die without data loss, and hot-standby servers wait to take over the instant a primary fails. This redundancy is provisioned in advance to compensate for the certainty that individual components eventually fail.",
+        "zh": "磁碟陣列(RAID)保有備援磁碟與同位資料,讓某顆磁碟損壞也不會遺失資料;熱備援伺服器則隨時待命,在主機一故障就立刻接手。這種冗餘是預先配置的,用來補償「個別元件終將故障」這件必然的事。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Model checkpointing during training", "zh": "訓練期間的模型檢查點" },
+      "body": {
+        "en": "Long training runs periodically checkpoint the model weights, optimizer state, and scheduler so that a GPU or node failure can be recovered by resuming from the last checkpoint instead of restarting from scratch. The saved state is a beforehand cushion against the low reliability of very long jobs on large clusters.",
+        "zh": "長時間的訓練會定期把模型權重、優化器狀態與排程器狀態存成檢查點,讓 GPU 或節點故障時能從最後一個檢查點續跑,而不必從頭重來。這些保存的狀態就是對「大型叢集上超長任務可靠度偏低」所做的事先緩衝。"
+      },
+      "sourceUrl": "https://www.giskard.ai/glossary/machine-learning-checkpointing"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Redundant sensor fusion in self-driving cars", "zh": "自駕車的冗餘感測器融合" },
+      "body": {
+        "en": "Autonomous vehicles carry overlapping cameras, radar, and lidar so that when one sensor is degraded by glare, fog, or rain, the others still supply a reliable picture. The redundancy is designed in beforehand to cushion the unreliability of any single perception channel.",
+        "zh": "自駕車搭載相互重疊的相機、雷達與光達,讓某一種感測器因強光、濃霧或雨勢而失準時,其他感測器仍能提供可靠的環境影像。這種冗餘是事先設計進去的,用來緩衝任何單一感知通道的不可靠。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Guardrails and fallbacks in LLM applications", "zh": "大型語言模型應用的護欄與後備機制" },
+      "body": {
+        "en": "Production LLM systems wrap the model with content filters, output validators, and a fallback path that retries a backup model or returns a safe default when the primary response is unsafe, malformed, or unavailable. These safeguards are prepared in advance to compensate for the model's probabilistic, occasionally unreliable output.",
+        "zh": "正式環境的大型語言模型系統會在模型外圍包上內容過濾、輸出驗證,以及一條後備路徑:當主要回應不安全、格式錯誤或無法取得時,改用備援模型重試或回傳安全預設值。這些防護措施都是事先備妥的,用來補償模型機率式、偶爾不可靠的輸出。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Six Sigma Study Guide — Theory of Inventive Problem Solving (TRIZ)", "url": "https://sixsigmastudyguide.com/theory-of-inventive-problem-solving-triz/" },
+    { "label": "Giskard — Machine Learning Checkpointing", "url": "https://www.giskard.ai/glossary/machine-learning-checkpointing" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" }
+  ]
+}

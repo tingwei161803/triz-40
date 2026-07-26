@@ -1,0 +1,123 @@
+{
+  "id": 18,
+  "slug": "mechanical-vibration",
+  "name": { "en": "Mechanical Vibration", "zh": "機械振動" },
+  "aliases": {
+    "en": ["Vibration", "Oscillation"],
+    "zh": ["振動", "震盪"]
+  },
+  "definition": {
+    "en": "Set an object oscillating or vibrating to do useful work. If it already oscillates, raise the frequency (even to ultrasonic) or exploit its resonant frequency, and use piezoelectric or field-driven vibration where mechanical shaking is impractical.",
+    "zh": "讓物體振動或震盪以完成有用的工作。若它本就在振動,就提高頻率(甚至到超音波),或利用其共振頻率;在機械式搖動不便時,改用壓電或場驅動的振動。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Cause an object to oscillate or vibrate.",
+      "zh": "使物體產生振動或震盪。"
+    },
+    {
+      "en": "If oscillation already exists, increase its frequency, even up to ultrasonic.",
+      "zh": "若已有振動,提高其頻率,甚至提高到超音波範圍。"
+    },
+    {
+      "en": "Use an object's resonant frequency.",
+      "zh": "利用物體的共振頻率。"
+    },
+    {
+      "en": "Replace mechanical vibration with piezoelectric or field-induced oscillation.",
+      "zh": "以壓電或場致震盪取代機械振動。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Sieving by shaking", "zh": "篩動過篩" },
+      "body": {
+        "en": "To separate fine flour from coarse bran, or gravel by size, people shake a sieve back and forth; the oscillation makes small particles find and drop through the mesh far faster than gravity alone. Hand-shaken sieves are among the oldest grading tools.",
+        "zh": "為了把細麵粉與粗麩皮分開,或依大小篩分砂石,人們前後搖動篩子;這種震動使小顆粒比單靠重力更快找到並落過篩孔。手搖篩是最古老的分級工具之一。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Concrete vibrator", "zh": "混凝土振動棒" },
+      "body": {
+        "en": "After pouring concrete, an immersion vibrator is inserted to shake the wet mix; the vibration collapses air voids and lets the material flow into every corner of the formwork, producing a dense, strong casting.",
+        "zh": "混凝土澆置後,把插入式振動棒伸入濕拌料中震動;振動使氣泡潰散,並讓材料流入模板的每個角落,形成緻密而堅固的成品。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Ultrasonic cleaning bath", "zh": "超音波清洗槽" },
+      "body": {
+        "en": "Delicate parts, jewellery, or lab glassware are cleaned by immersing them in liquid driven at ultrasonic frequency; the high-frequency vibration creates tiny collapsing bubbles (cavitation) that scrub surfaces and reach crevices a brush cannot. This is the 'raise the frequency' sub-principle in action.",
+        "zh": "精密零件、珠寶或實驗玻璃器皿,可浸入以超音波頻率驅動的液體中清洗;高頻振動產生微小的潰破氣泡(空蝕),能刷洗表面並深入刷子無法觸及的縫隙。這正是「提高頻率」子原則的體現。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Shock-wave lithotripsy", "zh": "體外震波碎石" },
+      "body": {
+        "en": "Kidney stones are broken up without surgery by focusing acoustic shock waves through the body onto the stone; the vibrational energy fragments the hard mass into pieces small enough to pass naturally. (First used on kidney stones in 1980.)",
+        "zh": "腎結石可不經手術即被擊碎:將聲學震波穿過人體聚焦於結石上,振動能量把堅硬的結石碎裂成足以自然排出的小塊。(1980 年首次用於腎結石。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lithotripsy"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Sonic electric toothbrush", "zh": "音波電動牙刷" },
+      "body": {
+        "en": "A sonic toothbrush vibrates its bristles tens of thousands of times per minute; the high-frequency oscillation both sweeps away plaque and drives fluid between teeth, cleaning better than the slow strokes of a manual brush.",
+        "zh": "音波牙刷讓刷毛每分鐘振動數萬次;高頻震動一方面掃除牙菌斑,一方面推動液流進入齒縫,清潔效果勝過手動牙刷緩慢的來回刷動。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "High-frequency trading", "zh": "高頻交易" },
+      "body": {
+        "en": "High-frequency trading takes the everyday action of buying and selling and pushes its frequency to the extreme, thousands of orders per second, so tiny per-trade edges accumulate into profit. It is the 'increase the frequency of the action' idea applied to markets.",
+        "zh": "高頻交易把「買進賣出」這個日常動作的頻率推到極致,每秒數千筆委託,使每筆微小的價差累積成利潤。這是把「提高作用頻率」的想法套用到市場上。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Dithering", "zh": "抖動(Dithering)" },
+      "body": {
+        "en": "Before reducing an image or audio signal to fewer levels, a small, rapidly varying noise (dither) is added; this deliberate high-frequency 'vibration' breaks up visible banding and audible distortion, trading them for a faint, unobtrusive hiss. Adding oscillation improves the quantized result.",
+        "zh": "在把影像或音訊訊號降到較少的位階之前,先加入一種微小、快速變動的雜訊(抖動);這種刻意加入的高頻「振動」能打散可見的色帶與可聽的失真,把它們換成幾乎察覺不到的細微噪聲。加入震盪反而改善了量化後的結果。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Chaos Monkey / chaos engineering", "zh": "混沌工程(Chaos Monkey)" },
+      "body": {
+        "en": "Netflix's Chaos Monkey randomly kills live production servers to keep 'shaking' the system, forcing engineers to build services that survive constant small failures. The continual perturbation is a deliberate vibration that reveals weak points before real outages do. (Netflix, 2011.)",
+        "zh": "Netflix 的 Chaos Monkey 會隨機終止線上正式環境的伺服器,持續「搖晃」系統,迫使工程師打造出能在不斷發生的小故障下存活的服務。這種持續擾動就是一種刻意的振動,能在真正的大當機之前先暴露弱點。(Netflix,2011 年。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chaos_engineering"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Noise in stochastic gradient descent", "zh": "隨機梯度下降中的雜訊" },
+      "body": {
+        "en": "Because SGD estimates the gradient from small random mini-batches, each step carries a jitter; this built-in 'vibration' shakes the optimizer out of sharp, poor minima and helps it settle in flatter, better-generalizing solutions. The noise is not a defect but a useful oscillation.",
+        "zh": "由於隨機梯度下降是以小批隨機樣本估計梯度,每一步都帶有抖動;這種內建的「振動」能把最佳化過程從尖銳、不良的極小值中搖出,幫助它落到較平坦、泛化更好的解。這裡的雜訊不是缺陷,而是有用的震盪。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Denoising diffusion models", "zh": "去噪擴散模型" },
+      "body": {
+        "en": "Diffusion generative models work by gradually vibrating an image apart with added Gaussian noise, then training a network to reverse that noising step by step; generation starts from pure noise and is denoised into a picture. Controlled noising and de-noising is the engine of models like Stable Diffusion. (DDPM, 2020.)",
+        "zh": "擴散生成模型的作法,是先以逐步加入的高斯雜訊把影像「震散」,再訓練網路一步步逆轉這個加噪過程;生成時從純雜訊出發,逐步去噪成一張圖。可控的加噪與去噪,正是 Stable Diffusion 等模型的引擎。(DDPM,2020 年。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diffusion_model"
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Lithotripsy", "url": "https://en.wikipedia.org/wiki/Lithotripsy" },
+    { "label": "Wikipedia — Chaos engineering", "url": "https://en.wikipedia.org/wiki/Chaos_engineering" },
+    { "label": "Wikipedia — Diffusion model", "url": "https://en.wikipedia.org/wiki/Diffusion_model" }
+  ]
+}
