@@ -1,0 +1,122 @@
+{
+  "id": 34,
+  "slug": "discarding-recovering",
+  "name": { "en": "Discarding and Recovering", "zh": "拋棄與再生" },
+  "aliases": { "en": ["Rejecting and Regenerating", "Discarding and Regenerating"], "zh": ["丟棄與復原", "拋棄與復原"] },
+  "definition": {
+    "en": "Discard parts of an object once they have done their job, by dissolving, evaporating, or otherwise removing them. Conversely, restore consumable parts that are used up, doing so directly during operation.",
+    "zh": "當物體的某些部分完成任務後,就把它們拋棄——以溶解、蒸發或其他方式去除。反過來,對於會耗損的部分,則在運作過程中即時補充、再生。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Discard portions of an object that have fulfilled their function (dissolve, evaporate, etc.), or modify them during operation.",
+      "zh": "把已完成功能的部分拋棄(溶解、蒸發等),或在運作中即時改變它們。"
+    },
+    {
+      "en": "Conversely, restore consumable parts of an object directly during operation.",
+      "zh": "反過來,在運作過程中即時補充、再生已耗損的部分。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Deer antlers", "zh": "鹿角" },
+      "body": {
+        "en": "Deer grow a set of antlers, use them for a season, then shed them and regrow a fresh set the next year. Nature both discards the spent structure and regenerates a replacement on a cycle.",
+        "zh": "鹿長出一對角,用一季後便脫落,隔年再長出全新的一對。自然界既把用過的結構拋棄,又週期性地再生出替代品。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Antler"
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "Ever-growing rodent incisors", "zh": "不斷生長的囓齒動物門牙" },
+      "body": {
+        "en": "A rodent's front teeth wear down constantly from gnawing, so they grow continuously throughout life to make up the loss. The tool restores itself as fast as it is consumed.",
+        "zh": "囓齒動物的門牙因啃咬而不斷磨損,於是牠們的門牙終生持續生長來補足損耗。這件工具以與消耗相同的速度自我再生。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Multistage rocket staging", "zh": "多節火箭分節" },
+      "body": {
+        "en": "A launch vehicle jettisons each lower stage the moment its propellant runs out. Discarding the now-useless empty tank and engine sheds dead weight so the remaining rocket accelerates more efficiently.",
+        "zh": "運載火箭在每一節推進劑用盡的當下就拋掉那一節。把已無用的空油箱與引擎拋棄,甩掉死重,剩下的火箭便能更有效率地加速。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Multistage_rocket"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Ablative heat shields", "zh": "燒蝕式隔熱盾" },
+      "body": {
+        "en": "A re-entry capsule's heat shield is designed to char and erode away during descent. The material deliberately sacrifices itself, carrying the enormous heat off with the debris it sheds.",
+        "zh": "再入艙的隔熱盾被設計成在下降過程中焦化、逐層剝蝕。這材料刻意犧牲自己,把巨大的熱量隨著剝落的碎屑一起帶走。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Absorbable surgical sutures", "zh": "可吸收手術縫線" },
+      "body": {
+        "en": "Absorbable sutures hold a wound closed and are then broken down and absorbed by the body through hydrolysis. Once they have done their job they simply disappear, so no second procedure is needed to remove them.",
+        "zh": "可吸收縫線先把傷口固定,之後由人體透過水解分解並吸收掉。任務完成後它們就自行消失,無須再做一次拆線手術。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Surgical_suture"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Dissolving capsules and pods", "zh": "會溶解的膠囊與洗滌球" },
+      "body": {
+        "en": "A medicine capsule or a laundry pod uses a shell that carries and protects the dose, then dissolves the moment it is in the stomach or the wash water. The container discards itself once delivery is complete.",
+        "zh": "藥物膠囊或洗衣球用一層外殼盛裝並保護內容物,一進到胃裡或洗衣水中就溶解。容器在完成輸送後便自我拋棄。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Remanufacturing and the circular economy", "zh": "再製造與循環經濟" },
+      "body": {
+        "en": "Remanufacturers collect worn 'cores', engines, alternators, printer cartridges, then clean and rebuild them to like-new specification. Rather than discarding used products, the business recovers and regenerates their value.",
+        "zh": "再製造商回收磨損的「核心件」——引擎、發電機、碳粉匣——加以清潔並重建到近乎全新的規格。這門生意不是把用過的產品丟掉,而是把它們的價值回收、再生。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Remanufacturing"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Garbage collection", "zh": "垃圾回收" },
+      "body": {
+        "en": "A garbage collector automatically finds objects the program can no longer reach and reclaims their memory. Memory that has served its purpose is discarded and recovered for reuse, without the programmer freeing it by hand.",
+        "zh": "垃圾回收器會自動找出程式再也無法觸及的物件,並回收它們的記憶體。已完成用途的記憶體被拋棄並回收再利用,不必由程式設計師手動釋放。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "LRU cache eviction", "zh": "LRU 快取淘汰" },
+      "body": {
+        "en": "When a cache fills up, a least-recently-used policy discards the entries least likely to be needed again to make room for new ones. Old data is deliberately thrown out so the limited, fast store keeps holding what matters.",
+        "zh": "當快取滿了,最近最少使用(LRU)策略會淘汰最不可能再被用到的項目,好騰出空間給新資料。刻意把舊資料丟掉,讓有限而快速的儲存空間持續保有重要內容。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "KV-cache eviction for long contexts", "zh": "長脈絡的 KV 快取淘汰" },
+      "body": {
+        "en": "When a language model generates very long text, methods like sliding-window attention drop the key/value cache of the oldest tokens to keep memory bounded. Context that has aged out of relevance is discarded so generation can continue indefinitely.",
+        "zh": "當語言模型生成很長的文字時,滑動視窗注意力這類方法會丟棄最舊詞元的鍵/值(KV)快取,把記憶體用量控制住。已因時間久遠而不再相關的脈絡被拋棄,生成才能無限延續。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Gradient checkpointing", "zh": "梯度檢查點" },
+      "body": {
+        "en": "To train large models with limited memory, gradient checkpointing throws away most intermediate activations during the forward pass and recomputes them on demand during backpropagation. It discards data to save memory, then regenerates exactly what it needs, embodying both halves of the principle.",
+        "zh": "為了在有限記憶體下訓練大型模型,梯度檢查點在前向傳遞時丟掉大部分中間激活值,等反向傳播需要時再重新計算出來。它先拋棄資料以省記憶體,再精確再生所需的部分,同時體現了本原則的兩面。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "Wikipedia — Antler", "url": "https://en.wikipedia.org/wiki/Antler" },
+    { "label": "Wikipedia — Multistage rocket", "url": "https://en.wikipedia.org/wiki/Multistage_rocket" },
+    { "label": "Wikipedia — Surgical suture (absorbable)", "url": "https://en.wikipedia.org/wiki/Surgical_suture" },
+    { "label": "Wikipedia — Garbage collection (computer science)", "url": "https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)" },
+    { "label": "Wikipedia — Remanufacturing", "url": "https://en.wikipedia.org/wiki/Remanufacturing" }
+  ]
+}

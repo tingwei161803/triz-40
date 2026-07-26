@@ -1,0 +1,103 @@
+{
+  "id": 2,
+  "slug": "taking-out",
+  "name": { "en": "Taking Out", "zh": "抽取" },
+  "aliases": { "en": ["Extraction", "Separation", "Removal"], "zh": ["抽離", "分離", "移出"] },
+  "definition": {
+    "en": "Separate an interfering part or property from an object, or conversely single out the only part or property you actually need. You keep the useful element and leave behind the harmful, costly, or irrelevant rest.",
+    "zh": "把會干擾的部分或性質從物體中分離出來;或反過來,只單獨取出你真正需要的那一個部分或性質。保留有用的元素,捨棄有害、昂貴或無關的其餘部分。"
+  },
+  "subPrinciples": [
+    { "en": "Separate an interfering part or property from an object.", "zh": "把會干擾的部分或性質從物體中分離出來。" },
+    { "en": "Single out the only necessary part (or property) of an object.", "zh": "只單獨取出物體中唯一必要的部分(或性質)。" }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "The scarecrow", "zh": "稻草人" },
+      "body": {
+        "en": "A scarecrow keeps birds off a field by presenting only the deterrent property of a human, its shape and apparent presence, without an actual person standing guard. The useful threat is extracted and left in place while the farmer works elsewhere.",
+        "zh": "稻草人只把人類的嚇阻性質——外形與存在感——擺在田裡,就能趕走鳥類,而不需要真人站崗。有用的『威脅感』被抽取出來留在原地,農夫則能到別處工作。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Compressor placed outside the building", "zh": "壓縮機置於室外" },
+      "body": {
+        "en": "In an air-conditioning or refrigeration system, the noisy, heat-generating compressor is separated from the living space and mounted outdoors. The interfering noise and heat are taken out while the cooling function stays inside.",
+        "zh": "在空調或冷藏系統中,吵雜又發熱的壓縮機被分離到室外安裝。干擾的噪音與熱被抽離,製冷功能則留在室內。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Fiber-optic light guide", "zh": "光纖導光" },
+      "body": {
+        "en": "To light a spot that must stay cool or dry, a lamp is placed far away and only its light is piped in through optical fibers. The light is extracted and delivered while the heat, electricity, and bulk of the lamp are left behind.",
+        "zh": "要照亮一個必須保持低溫或乾燥的地方,可把燈放在遠處,只用光纖把光導引過來。光被抽取並傳送到定點,燈的熱、電與體積則被留在原處。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Decaffeinated coffee", "zh": "低咖啡因咖啡" },
+      "body": {
+        "en": "Decaffeination removes the caffeine from coffee beans while preserving the flavor compounds. The single unwanted property, caffeine, is taken out, leaving the drink otherwise intact.",
+        "zh": "低咖啡因製程把咖啡豆中的咖啡因移除,同時保留風味物質。單一不需要的性質——咖啡因——被抽離,飲品的其餘部分則維持不變。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Outsourcing non-core functions", "zh": "非核心業務外包" },
+      "body": {
+        "en": "A company hands off support functions such as payroll, IT, or facilities to outside specialists so it can concentrate on its core business. The distracting, non-core activities are separated out from the organization.",
+        "zh": "公司把薪資、資訊或設施等支援性業務交給外部專業廠商,好讓自己專注於核心事業。分散注意力的非核心活動,被從組織中抽離出去。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Content delivery network (CDN)", "zh": "內容傳遞網路(CDN)" },
+      "body": {
+        "en": "A CDN copies a website's static assets, its images, scripts, and video, out to edge servers close to users. The heavy, cacheable content is separated from the origin server so that only dynamic requests still travel the long distance.",
+        "zh": "CDN 把網站的靜態資產——圖片、指令碼、影片——抽取複製到靠近使用者的邊緣伺服器。體積大、可快取的內容被從來源伺服器分離出去,只有動態請求還需要長途傳輸。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Extracting configuration and secrets from code", "zh": "把設定與機密抽離程式碼" },
+      "body": {
+        "en": "Following twelve-factor practice, passwords, API keys, and environment-specific settings are pulled out of the source code and injected from the environment. The sensitive, changeable part is separated from the stable code so the same build runs safely anywhere.",
+        "zh": "依照 twelve-factor 的做法,密碼、API 金鑰與各環境專屬設定被從原始碼中抽離,改由環境注入。敏感、易變的部分與穩定的程式碼分離,讓同一份建置能安全地在任何環境執行。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Neural network pruning", "zh": "神經網路剪枝" },
+      "body": {
+        "en": "Pruning removes redundant weights or whole neurons from a trained network, singling out the parameters that actually matter. Taking out the dead weight yields a smaller, faster model with little loss of accuracy.",
+        "zh": "剪枝把訓練好的網路中冗餘的權重或整個神經元移除,只保留真正重要的參數。抽掉這些無用的權重後,模型變得更小更快,準確度幾乎不受影響。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pruning_(artificial_neural_network)"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Named-entity recognition", "zh": "命名實體辨識" },
+      "body": {
+        "en": "Named-entity recognition scans free text and pulls out just the structured items of interest, such as people, places, dates, and amounts. The single needed property is extracted from a noisy document and everything else is ignored.",
+        "zh": "命名實體辨識掃描自由文字,只抽取出感興趣的結構化項目——人名、地點、日期、金額。所需的單一資訊從雜亂的文件中被抽取出來,其餘一律略過。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Retrieval in RAG pipelines", "zh": "RAG 流程中的檢索" },
+      "body": {
+        "en": "Before a language model answers, a retriever pulls out only the handful of passages relevant to the question from a large corpus. The necessary evidence is singled out and handed to the model, leaving the rest of the knowledge base untouched.",
+        "zh": "在語言模型作答之前,檢索器先從龐大的語料庫中,只取出與問題相關的少數段落。必要的證據被單獨挑出交給模型,知識庫的其餘部分則原封不動。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "triz40.com — The 40 Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" },
+    { "label": "Oxford Creativity — TRIZ", "url": "https://www.triz.co.uk/" },
+    { "label": "Wikipedia — Pruning (artificial neural network)", "url": "https://en.wikipedia.org/wiki/Pruning_(artificial_neural_network)" }
+  ]
+}

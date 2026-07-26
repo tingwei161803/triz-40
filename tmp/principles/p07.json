@@ -1,0 +1,117 @@
+{
+  "id": 7,
+  "slug": "nesting",
+  "name": { "en": "Nested Doll", "zh": "套疊" },
+  "aliases": {
+    "en": ["Nesting", "Russian Dolls", "Matryoshka"],
+    "zh": ["巢狀", "俄羅斯娃娃", "嵌套"]
+  },
+  "definition": {
+    "en": "Place one object inside another, and that one inside a third, and so on. Alternatively, let one object pass through a cavity in another.",
+    "zh": "把一個物件放進另一個物件裡,再放進第三個,依此類推;或讓一個物件穿過另一個物件的空腔。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Place one object inside another; place each object, in turn, inside the next.",
+      "zh": "把一個物件放進另一個裡面,再逐層放進下一個。"
+    },
+    {
+      "en": "Make one part pass through a cavity in the other.",
+      "zh": "讓一個零件穿過另一個零件的空腔。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Russian nesting dolls (matryoshka)", "zh": "俄羅斯套娃(瑪特廖什卡)" },
+      "body": {
+        "en": "The traditional craft that names the principle: a set of hollow wooden dolls of decreasing size, each holding the next inside it, storing many objects within the footprint of the largest one.",
+        "zh": "為本原則命名的傳統工藝:一組由大到小的中空木娃娃,每個都套住下一個,用最大一個的體積收納了許多物件。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Telescoping antenna", "zh": "伸縮天線" },
+      "body": {
+        "en": "Tubes of shrinking diameter each slide inside the next, so a long antenna collapses into a short stack. Nesting lets a large extended length fit into a small stored space.",
+        "zh": "口徑依序縮小的管節逐層套入下一節,讓長天線收合成短短一疊;套疊使伸展後的大長度能收進很小的空間。"
+      },
+      "sourceUrl": "https://www.triz40.com/aff_Principles_TRIZ.php"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Retractable landing gear", "zh": "可收放起落架" },
+      "body": {
+        "en": "After take-off an aircraft folds its wheels up and stows them inside cavities in the fuselage and wings, so the gear rides through a hollow in the airframe instead of hanging in the airstream.",
+        "zh": "飛機起飛後把輪組收摺進機身與機翼的空腔內,起落架穿進機體的空腔中,而不再懸在氣流裡。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Stackable chairs", "zh": "可疊放的椅子" },
+      "body": {
+        "en": "Chairs shaped so each nests into the one below let a stack of many occupy roughly the floor space of a single chair, storing them by placing each object inside the next.",
+        "zh": "椅子的造型讓每張都能套進下一張,一疊多張只佔用約一張椅子的地面空間;靠「逐層套入」來收納。"
+      },
+      "sourceUrl": "https://www.triz40.com/aff_Principles_TRIZ.php"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Nesting measuring cups", "zh": "套疊量杯" },
+      "body": {
+        "en": "Graduated cups of decreasing size stack one inside another, so a full set of sizes stores as a single compact column in the drawer.",
+        "zh": "容量遞減的量杯一個套進一個,整組不同尺寸收納時變成抽屜裡一疊緊湊的圓柱。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Store within a store", "zh": "店中店" },
+      "body": {
+        "en": "A retailer hosts a branded concession — a pharmacy, coffee bar or electronics counter — inside its own floor space, nesting a smaller business within the larger one to share footfall and rent.",
+        "zh": "零售商在自家賣場空間內設置品牌專櫃(藥局、咖啡吧或 3C 櫃),把較小的事業體套進較大的事業體中,共享人流與租金。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Network packet encapsulation", "zh": "網路封包封裝" },
+      "body": {
+        "en": "As data goes down the stack, a web page's bytes are wrapped in an HTTP header, then a TCP header, then IP, then an Ethernet frame — each layer's packet nested inside the next, exactly like the dolls.",
+        "zh": "資料往協定堆疊下層傳遞時,網頁的位元組先被包上 HTTP 標頭,再包 TCP、再包 IP、再包成乙太網路訊框;每一層的封包都套在下一層裡,就像套娃一樣。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Encapsulation_(networking)"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Nested virtualization", "zh": "巢狀虛擬化" },
+      "body": {
+        "en": "A container runs inside a virtual machine that itself runs on a hypervisor, so execution environments sit one inside another, each isolated layer nested within the layer that hosts it.",
+        "zh": "一個容器跑在虛擬機裡,而虛擬機又跑在 hypervisor 上,執行環境一層套一層;每個隔離層都嵌在承載它的那一層之內。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Nested cross-validation", "zh": "巢狀交叉驗證" },
+      "body": {
+        "en": "An inner cross-validation loop selects hyperparameters while sitting entirely inside an outer loop that estimates performance, so the tuning fold is nested within the evaluation fold to avoid optimistic bias.",
+        "zh": "內層交叉驗證負責挑選超參數,完整地包在負責估計效能的外層迴圈裡;調參的折疊被套進評估的折疊中,以避免過度樂觀的偏誤。"
+      },
+      "sourceUrl": "https://scikit-learn.org/stable/modules/cross_validation.html"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Matryoshka embeddings", "zh": "套娃式表徵(Matryoshka embeddings)" },
+      "body": {
+        "en": "Matryoshka Representation Learning packs coarse-to-fine information into nested prefixes of one embedding vector, so it can be truncated to a shorter vector — like opening a smaller doll — without retraining.",
+        "zh": "套娃式表徵學習把由粗到細的資訊塞進同一個嵌入向量的巢狀前綴中,因此可以像打開較小的娃娃那樣把它截短成較短的向量,而無需重新訓練。"
+      },
+      "sourceUrl": "https://arxiv.org/abs/2205.13147"
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Encapsulation (networking)", "url": "https://en.wikipedia.org/wiki/Encapsulation_(networking)" },
+    { "label": "scikit-learn — Cross-validation (nested CV)", "url": "https://scikit-learn.org/stable/modules/cross_validation.html" },
+    { "label": "Kusupati et al. — Matryoshka Representation Learning (arXiv:2205.13147)", "url": "https://arxiv.org/abs/2205.13147" }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": 25,
+  "slug": "self-service",
+  "name": { "en": "Self-service", "zh": "自我服務" },
+  "aliases": {
+    "en": ["Self-servicing", "Self-maintenance"],
+    "zh": ["自助", "自我維護"]
+  },
+  "definition": {
+    "en": "Make an object serve itself by carrying out its own auxiliary and maintenance functions. In parallel, make use of waste resources, energy, or materials that would otherwise be discarded.",
+    "zh": "讓物體透過執行自身的輔助與維護功能來服務自己。同時,善用原本會被丟棄的廢棄資源、能量或物質。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Make an object serve itself by performing auxiliary and repair functions.",
+      "zh": "讓物體透過執行輔助與維修功能來服務自己。"
+    },
+    {
+      "en": "Use waste resources, energy, or substances.",
+      "zh": "利用廢棄的資源、能量或物質。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Manure and composting as fertilizer", "zh": "以糞肥與堆肥作肥料" },
+      "body": {
+        "en": "Traditional farms returned animal manure and crop residue to the fields to feed the next season's crop. The farm serves itself by turning its own waste stream into the fertilizer it needs, closing the loop.",
+        "zh": "傳統農場把動物糞便與作物殘渣還回田裡,滋養下一季的作物。農場藉由把自身的廢棄物流轉化為所需的肥料來服務自己,形成一個閉環。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Halogen lamp regenerative cycle", "zh": "鹵素燈的再生循環" },
+      "body": {
+        "en": "In a halogen bulb, tungsten that evaporates from the hot filament combines with halogen gas and is redeposited back onto the filament. The lamp repairs its own filament as it burns, extending its life without any external service.",
+        "zh": "在鹵素燈泡中,從高溫燈絲蒸發出的鎢與鹵素氣體結合,再重新沉積回燈絲上。燈泡在點亮的同時修復自己的燈絲,無需任何外部維護就延長了壽命。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Self-lubricating bearings", "zh": "自潤軸承" },
+      "body": {
+        "en": "An oil-impregnated bronze bearing stores lubricant in its porous structure. As it warms and rotates, it releases just enough oil to lubricate itself, so the bearing services its own maintenance needs.",
+        "zh": "含油青銅軸承把潤滑劑儲存在其多孔結構中。當它升溫並轉動時,會釋出剛好足夠的油來潤滑自己,因此軸承自行滿足了維護需求。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Robot vacuum returning to its dock", "zh": "自動回充的掃地機器人" },
+      "body": {
+        "en": "A robot vacuum cleans the floor and then, when low on charge, navigates itself back to its base to recharge (and on newer models, empties its own bin). It performs its own housekeeping between jobs.",
+        "zh": "掃地機器人清潔地板,電量偏低時會自行導航回到基座充電(較新機型還會自動清空集塵盒)。它在兩次工作之間自行處理自己的後勤。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Self-cleaning pyrolytic oven", "zh": "自我清潔的高溫裂解烤箱" },
+      "body": {
+        "en": "A pyrolytic oven runs a cycle that heats itself to around 500°C, burning baked-on food residue down to ash that can be wiped away. The oven uses its own core capability, heat, to clean itself.",
+        "zh": "高溫裂解烤箱會執行一段將自身加熱到約攝氏 500 度的循環,把烤焦附著的食物殘渣燒成可擦掉的灰燼。烤箱用自身的核心能力——熱——來清潔自己。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "IKEA flat-pack self-assembly", "zh": "IKEA 平整包裝自行組裝" },
+      "body": {
+        "en": "IKEA ships furniture flat and has the customer transport and assemble it. By handing part of the service to the buyer, the model cuts shipping and labor cost, letting the product effectively help produce itself.",
+        "zh": "IKEA 以平整包裝出貨家具,由顧客自行運送與組裝。藉由把一部分服務交給買家,這套模式降低了運輸與人力成本,讓產品實際上參與了自己的生產。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Automatic garbage collection", "zh": "自動垃圾回收" },
+      "body": {
+        "en": "A managed runtime tracks which objects are no longer reachable and reclaims their memory on its own. The program services its own memory hygiene, sparing the developer from manual allocation and freeing.",
+        "zh": "受管理的執行環境會追蹤哪些物件已無法被存取,並自行回收其記憶體。程式自行處理記憶體的整理工作,讓開發者免於手動配置與釋放。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Kubernetes self-healing", "zh": "Kubernetes 自我修復" },
+      "body": {
+        "en": "Kubernetes constantly compares the running state against the desired state, and when a container crashes it restarts or reschedules it automatically. The cluster repairs itself without an operator paging in.",
+        "zh": "Kubernetes 持續比對執行狀態與期望狀態,當容器崩潰時會自動重啟或重新排程。叢集自行修復,無需人員被呼叫進來處理。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "reCAPTCHA harnessing users' spare effort", "zh": "reCAPTCHA 善用使用者的餘力" },
+      "body": {
+        "en": "reCAPTCHA asked users solving a human-verification test to transcribe a word that OCR had failed to read on a scanned book. The system used a waste resource, the effort people already spent proving they were human, to digitize archives for free.",
+        "zh": "reCAPTCHA 讓通過人類驗證測試的使用者順便辨識一個 OCR 無法讀出的掃描書籍字詞。系統利用了一種廢棄資源——人們本來就花在證明自己是人的心力——免費地把檔案數位化。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/ReCAPTCHA"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Self-supervised learning", "zh": "自監督學習" },
+      "body": {
+        "en": "Self-supervised learning generates its own labels from unlabeled data, for example by masking a word and asking the model to predict it. The data supervises itself, so the model learns at scale without human annotation.",
+        "zh": "自監督學習從未標註的資料中自行產生標籤,例如遮住一個詞再讓模型預測它。資料自我監督,使模型能在無需人工標註的情況下大規模學習。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Self-supervised_learning"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Self-play in AlphaGo Zero", "zh": "AlphaGo Zero 的自我對弈" },
+      "body": {
+        "en": "AlphaGo Zero learned Go by playing millions of games against itself, with no human game records. It generates its own training data as it improves, serving as both its opponent and its teacher.",
+        "zh": "AlphaGo Zero 透過與自己對弈數百萬盤來學習圍棋,完全不用人類的棋譜。它在自我精進的同時產生自己的訓練資料,既是自己的對手,也是自己的老師。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/AlphaGo_Zero"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Self-instruct synthetic data", "zh": "Self-Instruct 合成資料" },
+      "body": {
+        "en": "A large language model can generate its own instruction-and-response examples, filter them, and then fine-tune on them. The model bootstraps its own training set, reducing dependence on hand-written data.",
+        "zh": "大型語言模型可以自行生成指令與回應的範例,篩選後再用它們來微調自己。模型自行引導出自己的訓練集,降低對人工撰寫資料的依賴。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — Principle 25: Self-service", "url": "https://www.triz40.com/TRIZ/Principle-25.php" },
+    { "label": "TRIZ.org — 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "The TRIZ Journal — 40 Inventive Business Principles", "url": "https://the-trizjournal.com/40-inventive-business-principles-examples/" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" }
+  ]
+}

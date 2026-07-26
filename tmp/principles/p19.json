@@ -1,0 +1,119 @@
+{
+  "id": 19,
+  "slug": "periodic-action",
+  "name": { "en": "Periodic Action", "zh": "週期性作用" },
+  "aliases": {
+    "en": ["Pulsed Action", "Intermittent Action"],
+    "zh": ["脈動作用", "間歇作用"]
+  },
+  "definition": {
+    "en": "Replace a continuous action with a periodic, pulsed one. If the action is already periodic, change its frequency or magnitude, and use the pauses between pulses to carry out an additional useful action.",
+    "zh": "以週期性的脈動作用取代連續作用。若作用本已是週期性的,就改變其頻率或幅度;並利用脈衝之間的間歇,執行另一項有用的作用。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Replace a continuous action with a periodic (pulsed) one.",
+      "zh": "以週期性(脈衝)作用取代連續作用。"
+    },
+    {
+      "en": "If the action is already periodic, change its frequency or magnitude.",
+      "zh": "若作用已是週期性的,改變其頻率或幅度。"
+    },
+    {
+      "en": "Use the pauses between impulses to perform an additional action.",
+      "zh": "利用脈衝之間的間歇,執行另一項作用。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Pulsatile blood circulation", "zh": "脈動式血液循環" },
+      "body": {
+        "en": "Rather than pushing blood as a steady continuous stream, the heart pumps in rhythmic pulses; the diastolic pauses between beats are exactly when the heart's own coronary arteries fill. Evolution uses periodic action, and the gaps do a second job.",
+        "zh": "心臟並非以穩定的連續水流推送血液,而是以有節律的脈衝跳動;心跳之間的舒張間歇,正是心臟自身冠狀動脈充血的時機。演化採用了週期性作用,而間歇還兼做了第二件工作。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Four-stroke internal combustion engine", "zh": "四行程內燃機" },
+      "body": {
+        "en": "A piston engine does not burn fuel continuously; it fires in discrete power strokes, and the intervening intake, compression and exhaust strokes use the pauses to prepare the next charge. Periodic combustion, with the gaps doing preparatory work.",
+        "zh": "活塞引擎並非連續燃燒燃料,而是以一次次分立的動力行程點火,其間的進氣、壓縮與排氣行程則利用間歇為下一次燃燒做準備。週期性的燃燒,間歇也在做前置工作。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Percussion (hammer) drilling", "zh": "衝擊式鑽孔" },
+      "body": {
+        "en": "A hammer drill delivers rapid periodic blows along the bit's axis while it rotates; the pulsed impacts shatter hard masonry that steady pressure alone could not penetrate. Turning a continuous push into pulses does the work.",
+        "zh": "衝擊鑽在旋轉的同時,沿鑽頭軸向施予快速的週期性敲擊;脈衝式的衝擊能擊碎單靠穩定壓力無法穿透的堅硬磚石。把連續推壓化為脈衝,才能完成工作。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Pulse-width modulation (PWM)", "zh": "脈寬調變(PWM)" },
+      "body": {
+        "en": "To dim an LED or set a motor's speed, PWM does not lower the voltage continuously; it switches full power on and off many times a second and varies the on-fraction of each cycle. Average power is controlled purely by the timing of periodic pulses.",
+        "zh": "要調暗 LED 或設定馬達轉速,PWM 並非連續地降低電壓,而是每秒把全功率開關數千次,並改變每個週期中「導通」所佔的比例。平均功率完全由週期性脈衝的時序來控制。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Flashing bicycle light", "zh": "閃爍自行車燈" },
+      "body": {
+        "en": "A blinking rear light is far more noticeable to drivers than a steady beam of the same power, and the off intervals cut battery drain. Switching from continuous to periodic emission improves both visibility and run time.",
+        "zh": "閃爍的尾燈比同樣功率的恆亮燈更容易被駕駛注意到,而熄滅的間歇又能減少電池耗電。從連續發光改為週期性發光,同時提升了辨識度與續航。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Agile sprints", "zh": "敏捷衝刺(Sprint)" },
+      "body": {
+        "en": "Scrum replaces open-ended continuous work with fixed-length sprints of one to four weeks, each delivering a usable increment; the review and retrospective in the gap between sprints feed improvements into the next cycle. Periodic cadence, with the pauses used to adjust course.",
+        "zh": "Scrum 以一到四週的固定長度衝刺,取代沒有節奏的連續工作,每個衝刺都交付一個可用的增量;衝刺之間的檢視與回顧會議,則把改進意見帶進下一個週期。週期性的節奏,並利用間歇來調整方向。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Scrum_(software_development)"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Scheduled batch jobs (cron)", "zh": "排程批次工作(cron)" },
+      "body": {
+        "en": "Instead of a program running non-stop to check for work, a scheduler wakes it at fixed intervals (every minute, hour or night) to do its task and then sleep. Periodic execution frees the machine between runs for other work.",
+        "zh": "與其讓程式不停運轉來檢查是否有工作,排程器會在固定間隔(每分鐘、每小時或每晚)喚醒它執行任務,然後再休眠。週期性執行讓機器在兩次執行之間能空出來處理其他工作。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Heartbeat messages", "zh": "心跳訊息" },
+      "body": {
+        "en": "Distributed systems have each node emit a small periodic 'heartbeat'; if the beats stop arriving, peers conclude the node has failed and react. A steady pulse, rather than continuous monitoring, is enough to detect liveness cheaply.",
+        "zh": "分散式系統讓每個節點週期性地送出一個小小的「心跳」;一旦心跳停止到達,其他節點便判定該節點已失效並做出反應。用穩定的脈動,而非連續監控,就足以廉價地偵測存活狀態。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Cyclical learning rates (warm restarts)", "zh": "週期性學習率(暖重啟)" },
+      "body": {
+        "en": "Instead of decaying the learning rate once and monotonically, SGDR periodically resets it high and anneals it down again in repeated cycles; each restart lets the optimizer jump out of one basin and explore another, improving results. (Loshchilov & Hutter, 2016.)",
+        "zh": "SGDR 不採用一次性、單調的學習率衰減,而是週期性地把學習率重設得較高,再一次次以餘弦方式退火降低;每次重啟都讓最佳化器跳出一個盆地、探索另一個,藉此改善結果。(Loshchilov 與 Hutter,2016 年。)"
+      },
+      "sourceUrl": "https://arxiv.org/abs/1608.03983"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Federated learning rounds", "zh": "聯邦學習的通訊回合" },
+      "body": {
+        "en": "Federated learning trains a shared model in periodic communication rounds: a server sends the current model out, and in the pause before the next round each device trains locally on its own data; only the resulting updates are sent back and aggregated. Periodic sync, with local computation filling the gaps. (Google, 2016–2017.)",
+        "zh": "聯邦學習以週期性的通訊回合訓練共享模型:伺服器把當前模型送出,在下一回合之前的間歇裡,各裝置用自己的資料在本地訓練;最後只把訓練得到的更新送回並彙總。週期性同步,間歇則由本地運算填滿。(Google,2016–2017 年。)"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Federated_learning"
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Scrum (software development)", "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)" },
+    { "label": "arXiv — SGDR: Stochastic Gradient Descent with Warm Restarts", "url": "https://arxiv.org/abs/1608.03983" },
+    { "label": "Wikipedia — Federated learning", "url": "https://en.wikipedia.org/wiki/Federated_learning" }
+  ]
+}

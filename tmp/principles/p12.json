@@ -1,0 +1,114 @@
+{
+  "id": 12,
+  "slug": "equipotentiality",
+  "name": { "en": "Equipotentiality", "zh": "等位性" },
+  "aliases": {
+    "en": ["Equal Potential", "Remove Tension", "Constant Level"],
+    "zh": ["等勢", "等電位", "去除高低差"]
+  },
+  "definition": {
+    "en": "Change the operating conditions so that an object no longer has to be raised or lowered in a gravity field, keeping it at one constant level or potential. By removing the height difference you eliminate the wasted effort of lifting and lowering.",
+    "zh": "改變運作條件,讓物體不再需要在重力場中被抬高或放低,而是維持在同一個高度或位勢上。只要消除高低差,就能省掉抬起與放下所浪費的力氣。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Change operating conditions to eliminate the need to raise or lower objects in a gravity field.",
+      "zh": "改變運作條件,消除在重力場中抬高或放低物體的需要。"
+    },
+    {
+      "en": "Redesign the environment so things stay at a constant level or potential rather than moving against a gradient.",
+      "zh": "重新設計環境,讓物體維持在固定的高度或位勢,而不是逆著梯度移動。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Canal lock", "zh": "運河船閘" },
+      "body": {
+        "en": "A canal lock joins stretches of water at different heights by changing the water level inside a fixed chamber, so the boat simply floats up or down. The heavy vessel is never physically lifted; the environment is adjusted so the boat stays at the water's own level.",
+        "zh": "船閘用一座固定的閘室,藉由改變室內水位來銜接不同高度的水段,讓船隻只是隨水浮起或下降。沉重的船身從不需要被實際抬起,而是調整環境,讓船永遠停在水面自身的高度。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lock_(water_navigation)"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Mechanic's inspection pit", "zh": "維修地坑" },
+      "body": {
+        "en": "Instead of hoisting a heavy car up on a lift, a garage digs a pit so the mechanic can walk down and work on the underside while the car stays at ground level. The need to raise the object is removed by lowering the worker instead.",
+        "zh": "修車廠不把沉重的車子頂高,而是挖一個地坑,讓技師走下去、在車子維持地面高度時檢修底盤。抬高物體的需要被消除了,改成讓工作者下降。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Truck-height loading dock", "zh": "與車床同高的裝卸月台" },
+      "body": {
+        "en": "A warehouse floor is built level with the beds of the trucks that serve it, so pallets roll straight across horizontally instead of being lifted up or set down. The height difference between vehicle and building is engineered away.",
+        "zh": "倉庫地面刻意蓋成與進出貨車車床同高,讓棧板水平推移即可,不必抬上或放下。車輛與建物之間的高低差在設計上就被抹平了。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Spring-loaded cafeteria plate dispenser", "zh": "彈簧式餐盤升降架" },
+      "body": {
+        "en": "A cafeteria plate stack sits on a spring that pushes the pile up as plates are removed, so the top plate is always presented at the same convenient height. Diners never reach up or bend down; the stack self-adjusts to a constant level.",
+        "zh": "自助餐的餐盤疊在一個彈簧上,盤子被取走時彈簧就把整疊往上推,讓最上面那個盤子永遠停在同一個順手的高度。取用者不必抬手或彎腰,整疊餐盤會自動維持在固定高度。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Laundry chute", "zh": "洗衣滑槽" },
+      "body": {
+        "en": "A laundry chute lets clothes drop by gravity from an upper floor to the laundry room, so no one has to carry a heavy basket down the stairs. The task is redesigned so the load moves along the existing height gradient instead of being hauled against it.",
+        "zh": "洗衣滑槽讓衣物靠重力從樓上落到洗衣間,沒有人得抱著沉重的籃子下樓。這件工作被重新設計成:讓衣物順著既有的高低差移動,而不是逆著它搬運。"
+      },
+      "sourceUrl": "https://sixsigmastudyguide.com/theory-of-inventive-problem-solving-triz/"
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Single-level plant layout", "zh": "單一平面的廠房佈局" },
+      "body": {
+        "en": "Lean factories lay out the whole production flow on one level with materials staged at working height, so operators slide parts along rather than lifting them between stations. Keeping everything at a constant level cuts handling labor and lifting injuries.",
+        "zh": "精實工廠把整條生產流程佈置在同一個平面上,物料也備在工作高度,讓作業員在工站之間滑動零件而不是抬起搬運。把一切維持在固定高度,能減少搬運工時與抬舉造成的傷害。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Move computation to the data", "zh": "把運算移到資料端" },
+      "body": {
+        "en": "Big-data frameworks like MapReduce ship a small piece of computation to the node where the data already lives, instead of dragging huge datasets across the network to the code. Avoiding the costly movement of data is the software analogue of not lifting a heavy object against gravity.",
+        "zh": "像 MapReduce 這類大數據框架,會把一小段運算送到資料所在的節點,而不是把龐大的資料集拖過網路送到程式那端。避免昂貴的資料搬移,正是「不逆著重力抬起重物」在軟體上的對應。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "CDN edge caching", "zh": "內容傳遞網路的邊緣快取" },
+      "body": {
+        "en": "A content delivery network keeps copies of assets on edge servers close to users, so a page load does not have to fetch data all the way from a distant origin every time. Keeping content at the same level as its consumers removes the repeated cost of moving it a long way.",
+        "zh": "內容傳遞網路(CDN)把資源複本放在靠近使用者的邊緣伺服器上,讓每次載入頁面時不必大老遠從遙遠的來源伺服器抓取。把內容維持在與使用者相同的層級,就省去了反覆長距離搬運的成本。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Federated learning", "zh": "聯邦式學習" },
+      "body": {
+        "en": "Federated learning trains a shared model by sending the model to each device and training on the local data there, so raw data never leaves the phone or hospital. The computation is brought to the data rather than the data being moved to a central server.",
+        "zh": "聯邦式學習訓練一個共享模型的做法,是把模型送到各裝置上、用當地的資料就地訓練,原始資料因此從不離開手機或醫院。是把運算帶到資料端,而不是把資料搬到中央伺服器。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Federated_learning"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "On-device edge inference", "zh": "裝置端邊緣推論" },
+      "body": {
+        "en": "Running a model directly on the phone or camera that captured the data means the raw input never has to be uploaded to the cloud and back. Keeping inference at the same place as the data removes the latency and cost of shipping it elsewhere.",
+        "zh": "直接在拍下資料的手機或攝影機上執行模型,意味著原始輸入根本不必上傳到雲端再傳回。把推論維持在與資料相同的位置,就消除了把資料送往他處的延遲與成本。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Six Sigma Study Guide — Theory of Inventive Problem Solving (TRIZ)", "url": "https://sixsigmastudyguide.com/theory-of-inventive-problem-solving-triz/" },
+    { "label": "Wikipedia — Lock (water navigation)", "url": "https://en.wikipedia.org/wiki/Lock_(water_navigation)" },
+    { "label": "Wikipedia — Federated learning", "url": "https://en.wikipedia.org/wiki/Federated_learning" }
+  ]
+}

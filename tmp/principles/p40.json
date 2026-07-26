@@ -1,0 +1,128 @@
+{
+  "id": 40,
+  "slug": "composite-materials",
+  "name": { "en": "Composite Materials", "zh": "複合材料" },
+  "aliases": {
+    "en": ["Composites", "Composite Structures"],
+    "zh": ["複合材質", "合成材料"]
+  },
+  "definition": {
+    "en": "Change from a uniform material to a composite one, combining two or more constituents with different properties so the whole outperforms any single part. Each ingredient contributes what it is best at — strength, lightness, flexibility — and their weaknesses cancel out.",
+    "zh": "從均質材料改為複合材料,把兩種以上性質不同的成分結合起來,使整體勝過任何單一部分。每種成分貢獻它最擅長的特性——強度、輕量、彈性——彼此的弱點則互相抵消。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Change from uniform to composite (multiple) materials.",
+      "zh": "從均質材料改為複合(多種)材料。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Composite bow", "zh": "複合弓" },
+      "body": {
+        "en": "As early as the 2nd millennium BCE, bowyers laminated horn on the belly, wood in the core, and sinew on the back, because horn resists compression and sinew resists tension. The composite stores far more energy in a short, powerful bow than any single material could.",
+        "zh": "早在西元前二千年,製弓匠就把角貼在弓腹、木材作弓芯、筋腱貼在弓背,因為角耐壓縮、筋耐拉伸。這種複合結構讓一把短而強勁的弓,儲存遠比任何單一材料更多的能量。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Composite_bow"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Reinforced concrete", "zh": "鋼筋混凝土" },
+      "body": {
+        "en": "Concrete is strong in compression but weak in tension, so steel reinforcing bars are cast into it to carry the tensile loads. The composite handles both compression and tension, which neither material could do well alone.",
+        "zh": "混凝土耐壓卻不耐拉,因此把鋼筋澆築其中來承受拉力。這種複合材料同時應付壓力與拉力,而這是任一材料單獨都做不好的。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Composite_material"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Carbon-fiber-reinforced polymer", "zh": "碳纖維強化聚合物" },
+      "body": {
+        "en": "Carbon fibers embedded in a polymer matrix give an extraordinary strength-to-weight ratio, which is why the Boeing 787 and Airbus A350 build wings and fuselage from it. The fibers carry load while the resin binds and shapes them — a division of labor between constituents.",
+        "zh": "嵌在聚合物基材中的碳纖維,提供極高的強度重量比,這正是波音 787 與空中巴士 A350 用它製造機翼與機身的原因。纖維承載力量、樹脂則黏合並定型——這是成分之間的分工。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Composite_material"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Plywood", "zh": "合板" },
+      "body": {
+        "en": "Plywood glues thin wood veneers together with their grain rotated at right angles between layers, so weaknesses in one direction are covered by strength in another. Layering the same material at different orientations makes a board that is stronger and less prone to warping than solid wood.",
+        "zh": "合板把薄木單板層層黏合,層與層之間的木紋相互垂直,使某一方向的弱點被另一方向的強度補上。把同一材料以不同方向疊層,做出比實木更強、更不易翹曲的板材。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Composite_material"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Composite sports equipment", "zh": "複合材料運動器材" },
+      "body": {
+        "en": "Skis, tennis rackets, golf-club shafts, and boat hulls are built from fiberglass and carbon composites that pair stiff fibers with a light resin. Combining dissimilar materials gives gear that is light, strong, and springy at once.",
+        "zh": "滑雪板、網球拍、高爾夫球桿身與船殼,都用玻璃纖維與碳纖維複合材料製成,把剛硬的纖維配上輕巧的樹脂。結合性質不同的材料,做出同時輕、強又有彈性的器材。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Multi-layer laminates: GORE-TEX and cookware", "zh": "多層貼合:GORE-TEX 與炊具" },
+      "body": {
+        "en": "GORE-TEX bonds a waterproof-breathable membrane between fabric layers, and non-stick pans layer a slick coating over an aluminium or steel base. Each layer supplies one property the others lack, so the finished product does several jobs at once.",
+        "zh": "GORE-TEX 把防水透氣膜貼合在布料層之間,不沾鍋則在鋁或鋼底上鍍一層滑面塗層。每一層供給其他層所缺的一種特性,使成品同時勝任多項功能。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Diversified investment portfolio", "zh": "多元分散的投資組合" },
+      "body": {
+        "en": "A portfolio blends assets with uncorrelated risks — stocks, bonds, commodities — so that when one falls another holds, giving better risk-adjusted returns than any single holding. Combining dissimilar 'constituents' into one structure is the finance analogue of a composite material.",
+        "zh": "投資組合把風險不相關的資產——股票、債券、大宗商品——混在一起,使某項下跌時另一項撐住,得到比任何單一標的更好的風險調整後報酬。把性質不同的「成分」結合成一個結構,正是複合材料在金融上的對應。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Polyglot microservices and persistence", "zh": "多語言微服務與多元儲存" },
+      "body": {
+        "en": "A system may write each service in the language best suited to it and use polyglot persistence — a relational database, a document store, and a cache side by side — each chosen for the job it does best. The application is a composite of specialized parts rather than one uniform stack.",
+        "zh": "一個系統可以用最合適的語言撰寫各個服務,並採用多元儲存——關聯式資料庫、文件資料庫與快取並存——每項都為它最擅長的工作而選。整個應用是由專職零件組成的複合體,而非單一均質的技術堆疊。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Hybrid cloud", "zh": "混合雲" },
+      "body": {
+        "en": "A hybrid cloud combines public cloud for elastic scale, private infrastructure for sensitive data, and sometimes edge nodes for low latency into one platform. Each environment contributes a strength the others lack, exactly as a composite blends materials.",
+        "zh": "混合雲把提供彈性擴充的公有雲、存放敏感資料的私有基礎設施,有時再加上降低延遲的邊緣節點,整合成單一平台。每種環境貢獻其他所缺的一項優勢,正如複合材料混合各種材料。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Ensemble learning", "zh": "整體學習(ensemble)" },
+      "body": {
+        "en": "Ensembles such as random forests and gradient boosting combine many diverse weak learners, averaging or stacking their outputs into a predictor stronger than any single model. Blending dissimilar components to beat any one of them is the composite principle applied to models.",
+        "zh": "隨機森林、梯度提升等整體方法,把許多多樣的弱學習器結合起來,以平均或堆疊其輸出,組成比任何單一模型更強的預測器。混合性質不同的成分以勝過其中任一個,正是複合原則用在模型上。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Mixture of experts", "zh": "混合專家(MoE)" },
+      "body": {
+        "en": "A mixture-of-experts layer replaces one big feed-forward network with many specialized expert subnetworks plus a router that sends each token to just a few of them. Combining specialized parts into one model — used in the largest transformers — lets total capacity grow without proportional compute.",
+        "zh": "混合專家層用許多專職的專家子網路加上一個路由器取代單一的大型前饋網路,路由器只把每個 token 送給其中少數幾個專家。把專職零件組成單一模型(用於最大型的 transformer),讓總容量增長而不必等比增加運算。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Multimodal models", "zh": "多模態模型" },
+      "body": {
+        "en": "Multimodal models like CLIP and GPT-4V combine a vision encoder with a language model so one system can reason over images and text together. Fusing components built for different modalities into a single model is a composite in the space of learned representations.",
+        "zh": "像 CLIP 與 GPT-4V 這類多模態模型,把視覺編碼器與語言模型結合,使單一系統能同時對影像與文字進行推理。把為不同模態打造的元件融合成單一模型,是表徵空間中的複合材料。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Composite material", "url": "https://en.wikipedia.org/wiki/Composite_material" },
+    { "label": "Wikipedia — Composite bow", "url": "https://en.wikipedia.org/wiki/Composite_bow" },
+    { "label": "Wikipedia — Mixture of experts", "url": "https://en.wikipedia.org/wiki/Mixture_of_experts" }
+  ]
+}

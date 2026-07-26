@@ -1,0 +1,120 @@
+{
+  "id": 24,
+  "slug": "intermediary",
+  "name": { "en": "Intermediary", "zh": "中介物" },
+  "aliases": {
+    "en": ["Mediator", "Go-between", "Intermediary carrier"],
+    "zh": ["中介", "媒介", "中間物"]
+  },
+  "definition": {
+    "en": "Use an intermediary object or process to carry out or transfer an action. Alternatively, temporarily attach the object to another one that can easily be removed afterwards.",
+    "zh": "使用中介物或中介流程來執行或傳遞某個作用。或者,把物體暫時與另一個事後容易移除的物體結合。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Use an intermediary carrier article or intermediary process.",
+      "zh": "使用中介載體或中介流程。"
+    },
+    {
+      "en": "Merge one object temporarily with another that can be easily removed.",
+      "zh": "把物體暫時與另一個容易移除的物體結合。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Bees carrying pollen between flowers", "zh": "蜜蜂在花朵間傳遞花粉" },
+      "body": {
+        "en": "Flowering plants cannot move to reproduce, so they enlist bees as intermediary carriers. The bee transports pollen from one flower to another, performing the transfer the plants cannot perform themselves.",
+        "zh": "開花植物無法移動來繁殖,於是招募蜜蜂作為中介載體。蜜蜂把花粉從一朵花帶到另一朵花,完成植物自己無法完成的傳遞。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Carpenter's nailset", "zh": "木工釘沖" },
+      "body": {
+        "en": "A nailset is a small punch placed between the hammer and the nail head. It carries the hammer blow down and lets the carpenter sink the nail below the surface without the hammer face denting the wood.",
+        "zh": "釘沖是一支放在鎚子與釘頭之間的小沖具。它把鎚擊傳遞下去,讓木工能把釘子打進表面以下,而鎚面不會壓傷木材。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Catalyst in a chemical reaction", "zh": "化學反應中的催化劑" },
+      "body": {
+        "en": "A catalyst provides an intermediate pathway that lets a reaction proceed faster and at lower temperature, then emerges unchanged at the end. It mediates the transformation without being consumed, so it is effectively removed afterwards.",
+        "zh": "催化劑提供一條中間途徑,讓反應更快、在更低溫下進行,最後又原封不動地釋出。它中介了轉化過程卻不被消耗,因此等於事後被移除。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Oven mitt or pot holder", "zh": "隔熱手套或鍋墊" },
+      "body": {
+        "en": "An oven mitt is an intermediary inserted between the hand and a hot dish. It temporarily takes on the heat load so the cook can carry the pot, then is set aside once the job is done.",
+        "zh": "隔熱手套是插在手與熱鍋之間的中介物。它暫時承擔熱負荷,讓人能端起鍋子,任務完成後便放到一旁。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Escrow service in a transaction", "zh": "交易中的第三方履約保證" },
+      "body": {
+        "en": "In a large purchase, a neutral escrow agent holds the buyer's money until the seller delivers, then releases it. The intermediary carries the trust that neither party extends to the other, and steps out once the deal closes.",
+        "zh": "在大額交易中,中立的履約保證方先保管買方的款項,待賣方交付後再放款。這個中介物承載了雙方彼此不願給予的信任,並在交易完成後退場。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Payment networks between buyer and merchant", "zh": "買方與商家之間的支付網路" },
+      "body": {
+        "en": "A card network or payment processor sits between a shopper and a store, authorizing and settling the money. Neither side has to connect to the other's bank directly; the intermediary carries the payment across.",
+        "zh": "卡片網路或支付處理商坐落在消費者與商店之間,負責授權與清算款項。雙方都不必直接連上對方的銀行;中介物把款項傳遞過去。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Message broker (Kafka, RabbitMQ)", "zh": "訊息代理(Kafka、RabbitMQ)" },
+      "body": {
+        "en": "A message broker sits between producers and consumers, buffering and routing messages. Because services talk to the broker instead of to each other, the intermediary decouples them and lets them run at different speeds.",
+        "zh": "訊息代理坐落在生產者與消費者之間,負責緩衝與路由訊息。由於各服務是與代理對話而非彼此直接對話,這個中介物讓它們解耦,並能以不同速度運作。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Reverse proxy / API gateway", "zh": "反向代理 / API 閘道" },
+      "body": {
+        "en": "A reverse proxy such as nginx stands between clients and backend services, handling TLS, routing, and load balancing. Clients only ever talk to the intermediary, which shields and distributes work to the servers behind it.",
+        "zh": "像 nginx 這樣的反向代理站在用戶端與後端服務之間,處理 TLS、路由與負載平衡。用戶端只與這個中介物對話,由它遮蔽並把工作分派給背後的伺服器。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Retriever in retrieval-augmented generation (RAG)", "zh": "檢索增強生成(RAG)中的檢索器" },
+      "body": {
+        "en": "In RAG, a retriever intermediary searches a knowledge base and hands the most relevant passages to the language model as context. The model never touches the raw corpus directly; the retriever mediates between question and knowledge.",
+        "zh": "在 RAG 中,檢索器這個中介物搜尋知識庫,把最相關的段落當作情境交給語言模型。模型從不直接接觸原始語料;檢索器在問題與知識之間居中媒介。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Model Context Protocol (MCP)", "zh": "模型情境協定(MCP)" },
+      "body": {
+        "en": "MCP, introduced by Anthropic in 2024, is a standardized intermediary layer between AI models and external tools or data. Instead of a custom connector for every model-system pair, each system exposes one MCP server that any compatible model can use.",
+        "zh": "MCP 由 Anthropic 於 2024 年推出,是介於 AI 模型與外部工具或資料之間的標準化中介層。不必為每一組「模型—系統」配對寫專屬連接器,每個系統只需提供一個 MCP 伺服器,任何相容的模型都能使用。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Embeddings as a shared representation", "zh": "作為共用表徵的嵌入向量" },
+      "body": {
+        "en": "Text, images, and audio are mapped into a common vector space of embeddings. That shared representation is the intermediary through which otherwise-incomparable items can be searched, matched, and ranked by distance.",
+        "zh": "文字、影像與音訊被映射到一個共用的嵌入向量空間。這個共用表徵就是中介物,讓原本無法互相比較的項目,得以透過距離來搜尋、配對與排序。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — Principle 24: Intermediary", "url": "https://www.triz40.com/TRIZ/Principle-24.php" },
+    { "label": "TRIZ.org — 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "The TRIZ Journal — 40 Inventive Business Principles", "url": "https://the-trizjournal.com/40-inventive-business-principles-examples/" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": 26,
+  "slug": "copying",
+  "name": { "en": "Copying", "zh": "複製" },
+  "aliases": {
+    "en": ["Cheap copies", "Optical copies"],
+    "zh": ["拷貝", "翻製"]
+  },
+  "definition": {
+    "en": "Instead of using an object that is unavailable, expensive, or fragile, use a simpler and inexpensive copy of it. An object or process can also be replaced by optical copies (images), and if visible copies are already in use, by infrared or ultraviolet ones, so it can be observed, measured, or practised on without touching the original.",
+    "zh": "與其動用難以取得、昂貴或脆弱的物體,不如改用它的簡單、廉價複製品。也可以用光學複製(影像)取代物體或流程,若已使用可見光複製,還能進一步改用紅外線或紫外線影像,讓人在不接觸原件的情況下觀察、量測或演練。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Instead of an unavailable, expensive, or fragile object, use simpler and inexpensive copies.",
+      "zh": "與其使用難以取得、昂貴或易碎的物體,改用更簡單、更便宜的複製品。"
+    },
+    {
+      "en": "Replace an object or process with optical copies.",
+      "zh": "用光學複製品(影像)取代物體或流程。"
+    },
+    {
+      "en": "If visible optical copies are already used, move to infrared or ultraviolet copies.",
+      "zh": "若已使用可見光複製,進一步改用紅外線或紫外線的複製影像。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Measuring a pyramid by its shadow", "zh": "用影子量金字塔" },
+      "body": {
+        "en": "Around 600 BCE Thales found the height of the Great Pyramid not by scaling it but by comparing the length of its shadow with the shadow of a stick of known height. The shadow is a cheap optical copy that stands in for the object that is too large to measure directly.",
+        "zh": "約公元前 600 年,泰勒斯不用攀爬金字塔,而是把金字塔影子的長度與一根已知高度木棍的影子相比,推算出塔高。影子是一份廉價的光學複製品,用來代替無法直接量測的龐大原物。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Crash test dummies", "zh": "碰撞測試假人" },
+      "body": {
+        "en": "An instrumented anthropomorphic dummy stands in for a real human in vehicle crashes, recording the forces a body would experience. Engineers gather injury data on an expendable copy instead of risking a person.",
+        "zh": "裝滿感測器的擬人假人在碰撞測試中代替真人,記錄人體會承受的力量。工程師用一個可耗損的複製品蒐集傷害資料,而不必拿真人冒險。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crash_test_dummy"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Photogrammetry", "zh": "攝影測量" },
+      "body": {
+        "en": "Surveyors and engineers measure buildings, terrain, and parts from overlapping photographs rather than from the physical object. Dimensions are taken off a stack of optical copies, avoiding scaffolding or a shutdown of the real structure.",
+        "zh": "測量師與工程師從多張重疊的照片量測建物、地形與零件,而不是直接量測實體。尺寸是從一疊光學複製影像取得,省去搭鷹架或停用實體結構。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Infrared thermography inspection", "zh": "紅外線熱影像檢測" },
+      "body": {
+        "en": "Thermal cameras turn a machine's invisible heat pattern into an infrared copy, revealing overheating bearings or loose electrical joints. Following the principle's step from visible to infrared copies, faults are spotted without dismantling or touching live parts.",
+        "zh": "熱像儀把機器看不見的熱分佈轉成紅外線影像,揭露過熱的軸承或鬆脫的電氣接點。正如本原則從可見光進一步走向紅外線複製,不需拆解或碰觸帶電部件就能找出故障。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Flight and driving simulators", "zh": "飛行與駕駛模擬器" },
+      "body": {
+        "en": "Pilots and drivers rehearse emergencies in a simulator that copies the cockpit and its behaviour. Dangerous or expensive scenarios are practised on a safe copy instead of the real aircraft or vehicle.",
+        "zh": "飛行員與駕駛在模擬器中演練緊急狀況,而模擬器複製了駕駛艙及其操作反應。危險或昂貴的情境是在安全的複製品上練習,而不是在真正的飛機或車輛上。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Virtual tours and street view", "zh": "虛擬導覽與街景" },
+      "body": {
+        "en": "Street View and VR property walkthroughs let people inspect a place through optical copies instead of travelling there. The image replaces the costly or impractical visit to the original location.",
+        "zh": "街景與 VR 賞屋讓人透過光學複製影像查看某個地方,不必親自前往。影像取代了前往原地的高成本或不切實際的行程。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Prototypes and mock-ups", "zh": "原型與樣品模型" },
+      "body": {
+        "en": "Product teams test clay models, foam mock-ups, and paper prototypes before committing to tooling. Cheap copies expose flaws and gather feedback long before the expensive real product exists.",
+        "zh": "產品團隊在投入開模之前,先測試黏土模型、泡棉樣品與紙上原型。廉價的複製品能在昂貴的實體產品出現之前,就暴露缺陷並蒐集回饋。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Staging environments and read replicas", "zh": "預備環境與唯讀複本" },
+      "body": {
+        "en": "Teams test releases on a staging copy of production and serve heavy queries from database read replicas. Risky work and read load hit a copy, keeping the fragile, expensive live system untouched.",
+        "zh": "團隊在正式環境的預備複本上測試版本,並用資料庫唯讀複本承接大量查詢。有風險的操作與讀取負載都落在複本上,讓脆弱又昂貴的正式系統維持不受影響。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Hardware emulators", "zh": "硬體模擬器" },
+      "body": {
+        "en": "Emulators such as QEMU and console emulators run software on a virtual copy of hardware that may be scarce, obsolete, or costly. The code executes against a software copy of the machine rather than the physical original.",
+        "zh": "QEMU 與遊戲主機模擬器等工具,讓軟體在稀少、過時或昂貴硬體的虛擬複本上執行。程式是對著機器的軟體複製品運作,而不是實體原件。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Knowledge distillation", "zh": "知識蒸餾" },
+      "body": {
+        "en": "A small student model is trained to copy the soft output distribution of a large teacher model, inheriting much of its skill at a fraction of the size. The cheap copy is deployed where the expensive original is impractical.",
+        "zh": "小型學生模型被訓練來複製大型教師模型的軟輸出分佈,以極小的體積繼承教師大部分的能力。當昂貴的原始模型不切實際時,便部署這個廉價的複製品。"
+      },
+      "sourceUrl": "https://arxiv.org/abs/1503.02531"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Synthetic data and sim-to-real", "zh": "合成資料與模擬轉實境" },
+      "body": {
+        "en": "Robots and self-driving systems are trained in physics simulators and on generated synthetic data before meeting the real world. Learning happens on cheap, safe copies of reality instead of costly or dangerous real trials.",
+        "zh": "機器人與自駕系統在物理模擬器與生成的合成資料中訓練,之後才面對真實世界。學習發生在廉價、安全的現實複製品上,而不是昂貴或危險的真實試驗。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — The 40 Principles (Copying)", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" },
+    { "label": "Wikipedia — Crash test dummy", "url": "https://en.wikipedia.org/wiki/Crash_test_dummy" },
+    { "label": "Hinton, Vinyals, Dean — Distilling the Knowledge in a Neural Network (2015)", "url": "https://arxiv.org/abs/1503.02531" }
+  ]
+}

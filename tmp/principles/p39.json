@@ -1,0 +1,120 @@
+{
+  "id": 39,
+  "slug": "inert-atmosphere",
+  "name": { "en": "Inert Atmosphere", "zh": "惰性環境" },
+  "aliases": {
+    "en": ["Inert Environment", "Inert Gas"],
+    "zh": ["惰性氣氛", "鈍性環境"]
+  },
+  "definition": {
+    "en": "Replace the normal, reactive surroundings with an inert one so that unwanted reactions cannot happen, or add neutral, inert elements to a system to protect or stabilize it. Isolation from the ordinary environment keeps a process safe and controlled.",
+    "zh": "用惰性的環境取代正常、會起反應的環境,讓不想要的反應無從發生;或在系統中加入中性、惰性的成分來保護或穩定它。與一般環境隔離,可讓過程保持安全而受控。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Replace a normal environment with an inert one.",
+      "zh": "以惰性環境取代正常環境。"
+    },
+    {
+      "en": "Add neutral parts or inert additives to an object.",
+      "zh": "在物體中加入中性零件或惰性添加物。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Hermetic underground grain pits", "zh": "密封的地下穀窖" },
+      "body": {
+        "en": "From Neolithic times, farmers stored grain in sealed underground pits where the grain's own respiration used up the oxygen and filled the space with carbon dioxide. The self-made inert atmosphere suffocated insects and moulds, preserving the harvest for months.",
+        "zh": "從新石器時代起,農人把穀物存放在密封的地下窖中,穀物自身的呼吸耗盡氧氣、讓空間充滿二氧化碳。這種自然形成的惰性氣氛悶死了昆蟲與黴菌,使收成保存數月。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Inert-gas shielding in welding", "zh": "焊接的惰性氣體保護" },
+      "body": {
+        "en": "In TIG and MIG welding, a stream of argon blankets the molten weld pool so oxygen and nitrogen from the air cannot reach it and cause porosity or oxidation. Replacing ordinary air with an inert gas keeps the weld clean and strong.",
+        "zh": "在 TIG 與 MIG 焊接中,一股氬氣覆蓋熔池,使空氣中的氧與氮無法接觸到它而造成氣孔或氧化。用惰性氣體取代一般空氣,讓焊道保持乾淨而堅固。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Argon-filled incandescent bulb", "zh": "充氬的白熾燈泡" },
+      "body": {
+        "en": "Incandescent bulbs are filled with argon or nitrogen rather than air, because the inert gas stops the white-hot tungsten filament from oxidizing and slows its evaporation, so it lasts months instead of minutes. The bulb works only inside a protective inert environment.",
+        "zh": "白熾燈泡填充的是氬氣或氮氣而非空氣,因為惰性氣體能阻止白熱的鎢絲氧化、並減緩其蒸發,讓壽命從幾分鐘延長到數月。燈泡只有在這種保護性的惰性環境中才能運作。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Nitrogen-flushed snack bags", "zh": "充氮的零食包裝" },
+      "body": {
+        "en": "Potato-chip bags are flushed with nitrogen to push oxygen below 3%, which stops the oils going rancid and cushions the fragile chips. Swapping the air for an inert gas both preserves freshness and protects the contents.",
+        "zh": "洋芋片包裝會充入氮氣,把氧含量壓到 3% 以下,既防止油脂酸敗,也緩衝了易碎的洋芋片。用惰性氣體換掉空氣,同時保鮮又保護內容物。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Modified_atmosphere"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Inert-gas wine preservation", "zh": "惰性氣體保存葡萄酒" },
+      "body": {
+        "en": "Wine savers spray a layer of argon or nitrogen over the surface of an opened bottle; being heavier than air, the inert gas sits on the wine and keeps oxygen away so it does not oxidize and spoil. It is a household inert-atmosphere trick.",
+        "zh": "葡萄酒保鮮噴劑會在開瓶後的酒面上噴一層氬氣或氮氣;這些比空氣重的惰性氣體覆在酒上,隔絕氧氣,使酒不致氧化變質。這是家庭版的惰性環境妙招。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Inert fillers in tablets and detergents", "zh": "藥錠與洗劑中的惰性填料" },
+      "body": {
+        "en": "A pill's tiny active dose is bulked out with inert excipients like cellulose or lactose so it can be handled and swallowed, and powdered detergents use inert fillers to add volume. Neutral additives that take no part in the reaction embody the second sub-principle.",
+        "zh": "藥錠中極少量的有效成分,靠纖維素、乳糖等惰性賦形劑撐出體積,才方便拿取與吞服;粉狀洗劑也用惰性填料來增量。這些不參與反應的中性添加物,正體現了第二條子原則。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Fintech regulatory sandbox", "zh": "金融科技監理沙盒" },
+      "body": {
+        "en": "The UK FCA's regulatory sandbox lets firms test innovative financial products with real customers on a small scale, shielded by waivers and 'no enforcement action' letters from the full weight of the rules. The protected, controlled environment is a business inert atmosphere for safe experimentation.",
+        "zh": "英國 FCA 的監理沙盒讓業者以小規模、對真實顧客測試創新金融產品,並以豁免與「不採取執法行動」函,擋開完整法規的壓力。這個受保護、受控的環境,就是供安全實驗用的商業版惰性環境。"
+      },
+      "sourceUrl": "https://www.fca.org.uk/firms/innovation/regulatory-sandbox"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Sandboxing and containers", "zh": "沙箱與容器" },
+      "body": {
+        "en": "Untrusted code is run inside a sandbox — a container, virtual machine, or user-space kernel like gVisor — that walls it off from the host's filesystem and network. Placing the process in an isolated, inert environment means even malicious code cannot react with the wider system.",
+        "zh": "不受信任的程式碼會在沙箱中執行——容器、虛擬機,或像 gVisor 這類使用者空間核心——把它與主機的檔案系統和網路隔開。把行程放進隔離的惰性環境,即使是惡意程式碼也無法對外部系統起作用。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Air-gapped and staging environments", "zh": "氣隙與預備環境" },
+      "body": {
+        "en": "Critical systems are air-gapped from any network, and risky changes are first tried in a staging environment that mirrors production but cannot touch live data. Both wrap the work in an isolated space where a mistake cannot spread to the real system.",
+        "zh": "關鍵系統會與任何網路做氣隙隔離,而有風險的變更會先在鏡像正式環境、卻碰不到正式資料的預備環境試行。兩者都把作業包在隔離空間裡,讓錯誤無法擴散到真正的系統。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Sandboxed agent code execution", "zh": "沙箱化的代理程式碼執行" },
+      "body": {
+        "en": "AI agents that write and run code do so inside isolated microVMs or user-space kernels (Firecracker, gVisor), with default-deny filesystem and network access, so attacker-influenced code cannot reach the host. The agent acts only inside an inert, contained environment.",
+        "zh": "會撰寫並執行程式碼的 AI 代理,是在隔離的微型虛擬機或使用者空間核心(Firecracker、gVisor)中運作,預設拒絕檔案與網路存取,使受攻擊者影響的程式碼碰不到主機。代理只在惰性、受封閉的環境中行動。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Differential privacy noise", "zh": "差分隱私雜訊" },
+      "body": {
+        "en": "Differential privacy adds carefully calibrated random noise to data or gradients so that no single individual's record can be recovered from a model's outputs. The neutral, inert noise is an additive that neutralizes privacy leakage without changing the useful signal, mirroring the second sub-principle.",
+        "zh": "差分隱私在資料或梯度中加入精心校準的隨機雜訊,使模型輸出無法還原出任何單一個體的紀錄。這種中性、惰性的雜訊是一種添加物,在不改變有用訊號的情況下,消解隱私外洩,正呼應第二條子原則。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Modified atmosphere", "url": "https://en.wikipedia.org/wiki/Modified_atmosphere" },
+    { "label": "UK FCA — Regulatory Sandbox", "url": "https://www.fca.org.uk/firms/innovation/regulatory-sandbox" }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": 8,
+  "slug": "anti-weight",
+  "name": { "en": "Anti-weight", "zh": "平衡力" },
+  "aliases": {
+    "en": ["Counterweight", "Prior counteraction of weight"],
+    "zh": ["抗重", "配重"]
+  },
+  "definition": {
+    "en": "Compensate for the weight of an object by combining it with something that provides lift, or by making it interact with the environment through aerodynamic, hydrodynamic or buoyancy forces.",
+    "zh": "藉由把物件和能提供升力的東西結合,或讓它透過空氣動力、流體動力、浮力等與環境互動,來抵銷物件的重量。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Compensate for the weight of an object by merging it with other objects that provide lift.",
+      "zh": "把物件和其他能提供升力的物件結合,以抵銷其重量。"
+    },
+    {
+      "en": "Compensate for weight by making the object interact with the environment through aerodynamic, hydrodynamic, buoyancy and other forces.",
+      "zh": "讓物件透過空氣動力、流體動力、浮力等與環境互動,以抵銷其重量。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Fish swim bladder", "zh": "魚鰾" },
+      "body": {
+        "en": "A gas-filled organ lets a bony fish match the buoyancy of the surrounding water to its own weight, so it holds any depth without constantly swimming. The environment's upthrust cancels its weight.",
+        "zh": "充氣的器官讓硬骨魚把周圍水的浮力調到與自身體重相當,無需不斷游動就能停在任一深度;環境的浮力抵銷了牠的重量。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Swim_bladder"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Elevator counterweight", "zh": "電梯配重" },
+      "body": {
+        "en": "A counterweight equal to the car plus about 40-50% of its load hangs on the other side of the rope, so the motor only lifts the small difference in weight rather than the whole car.",
+        "zh": "一個等於轎廂重量加上約四到五成載重的配重掛在鋼索另一端,馬達只需拉動兩邊微小的重量差,而不必吊起整個轎廂。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elevator"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Hydrofoil", "zh": "水翼船" },
+      "body": {
+        "en": "Wing-like foils under the hull generate hydrodynamic lift as the boat speeds up, raising the hull clear of the water so drag drops. The moving water carries the vessel's weight.",
+        "zh": "船體下方的翼狀水翼在船加速時產生流體動力升力,把船體抬離水面以降低阻力;流動的水承擔了船的重量。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydrofoil"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Aircraft wing lift", "zh": "機翼升力" },
+      "body": {
+        "en": "The wing's shape deflects air downward and generates lift that exactly supports the aircraft's weight in cruise, letting a heavy machine ride on nothing but moving air.",
+        "zh": "機翼的形狀把空氣向下偏折並產生升力,在巡航時恰好支撐飛機的重量,讓沉重的機器僅憑流動的空氣就能懸浮飛行。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Balanced-arm lamp (Anglepoise)", "zh": "平衡臂檯燈(Anglepoise)" },
+      "body": {
+        "en": "Springs counteract the weight of the lamp's arm at every angle, so the head stays wherever it is nudged instead of drooping. A built-in anti-weight holds the position.",
+        "zh": "彈簧在每個角度都抵銷燈臂的重量,燈頭撥到哪就停在哪、不會垂落;內建的平衡力維持了它的姿勢。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Balanced-arm_lamp"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Helium advertising balloon", "zh": "氦氣廣告氣球" },
+      "body": {
+        "en": "Filled with a gas lighter than air, the balloon's buoyancy exceeds its own weight, so it lifts banners and signs aloft with no mast. The surrounding air holds the load up.",
+        "zh": "灌入比空氣輕的氣體後,氣球的浮力超過自身重量,不需桅杆就能把布條與招牌托上高空;周圍的空氣把負載撐了起來。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Financial hedging", "zh": "財務避險" },
+      "body": {
+        "en": "An airline buys fuel futures in advance so a gain on the hedge offsets the extra cost when jet-fuel prices rise. An opposing position counterbalances the 'weight' of price risk.",
+        "zh": "航空公司預先買進燃油期貨,油價上漲時避險部位的獲利正好抵銷多出的成本;一個反向部位平衡了價格風險這個「重量」。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hedge_(finance)"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "CDN edge offloading", "zh": "CDN 邊緣分流" },
+      "body": {
+        "en": "A content delivery network serves cached pages from distributed edge servers near users, so most traffic never reaches the origin. The surrounding network carries the load the origin would otherwise bear.",
+        "zh": "內容傳遞網路從靠近使用者的分散式邊緣伺服器供應快取頁面,大多數流量根本不會打到源站;周邊網路承擔了源站原本要扛的負載。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Content_delivery_network"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Serverless auto-scaling", "zh": "無伺服器自動擴縮" },
+      "body": {
+        "en": "Instead of provisioning servers for peak load, an app leans on the cloud's elastic capacity to absorb traffic spikes on demand, letting the environment carry the burden of the heaviest moments.",
+        "zh": "應用程式不為尖峰負載自行備妥伺服器,而是仰賴雲端的彈性容量隨需吸收流量高峰,讓環境承擔最沉重時刻的負擔。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Class weighting for imbalanced data", "zh": "不平衡資料的類別加權" },
+      "body": {
+        "en": "When one class vastly outnumbers another, the training loss gives the minority class a higher weight — an opposing force that counterbalances the majority's dominance so the model does not ignore rare cases.",
+        "zh": "當某一類別的數量遠多於另一類別時,訓練損失會給少數類別較高的權重;這股反向的力量平衡了多數類別的壓倒性優勢,讓模型不會忽略罕見樣本。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "KL penalty in RLHF", "zh": "RLHF 中的 KL 懲罰項" },
+      "body": {
+        "en": "During RLHF the objective adds a KL-divergence penalty that pulls the fine-tuned policy back toward the original model — an opposing term that counterweights the reward's push toward degenerate, reward-hacking outputs.",
+        "zh": "在 RLHF 中,目標函數加入一個 KL 散度懲罰項,把微調後的策略拉回原始模型;這個反向項平衡了獎勵訊號把模型推向退化、鑽獎勵漏洞輸出的傾向。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback"
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Swim bladder", "url": "https://en.wikipedia.org/wiki/Swim_bladder" },
+    { "label": "Wikipedia — Elevator (counterweight)", "url": "https://en.wikipedia.org/wiki/Elevator" },
+    { "label": "Wikipedia — Reinforcement learning from human feedback (KL penalty)", "url": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback" }
+  ]
+}

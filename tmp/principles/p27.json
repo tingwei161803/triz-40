@@ -1,0 +1,115 @@
+{
+  "id": 27,
+  "slug": "cheap-short-living",
+  "name": { "en": "Cheap Short-living Objects", "zh": "廉價短壽物品" },
+  "aliases": {
+    "en": ["Cheap disposables", "Disposable objects"],
+    "zh": ["拋棄式物品", "廉價可拋物"]
+  },
+  "definition": {
+    "en": "Replace an expensive, durable object with a set of cheap, short-lived ones, deliberately trading longevity or another quality for lower cost, better hygiene, or convenience. The benefit comes from accepting that each disposable item is used briefly and then discarded.",
+    "zh": "用一批廉價、短壽命的物品,取代昂貴、耐久的單一物品,刻意以壽命或其他性質換取更低成本、更好的衛生或便利。效益來自於接受每個可拋物品只短暫使用便丟棄。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Replace an expensive object with a multitude of inexpensive objects, forgoing certain qualities such as longevity.",
+      "zh": "用大量廉價物品取代昂貴物品,並放棄某些性質(例如耐用度)。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Kulhar disposable clay cups", "zh": "印度陶土拋棄杯(Kulhar)" },
+      "body": {
+        "en": "Across South Asia, tea and yoghurt are served in unglazed clay cups that are fired cheaply, used once, and then smashed. The pottery is deliberately disposable, trading durability for hygiene and near-zero cost.",
+        "zh": "在南亞,茶與優格盛裝在未上釉的陶土杯裡,燒製成本低廉,用過一次便摔碎。這種陶器刻意設計成可拋棄,以耐用度換取衛生與近乎零的成本。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kulhar"
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "Plants scattering cheap seeds", "zh": "植物播撒廉價種子" },
+      "body": {
+        "en": "A dandelion or poplar releases thousands of tiny, short-lived seeds so that a few take root. Nature spends almost nothing per seed and lets the great majority perish, exactly the cheap-and-many trade-off of this principle.",
+        "zh": "蒲公英或楊樹釋放成千上萬顆微小、短壽的種子,只求少數能生根。大自然每顆種子幾乎不花成本,任由絕大多數消亡,正是本原則「廉價又大量」的取捨。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Sand-casting moulds", "zh": "砂模鑄造" },
+      "body": {
+        "en": "In sand casting a mould is packed from cheap sand, used for a single pour of molten metal, then broken apart to release the part. A disposable mould is far cheaper than a permanent tool for low-volume or complex castings.",
+        "zh": "砂模鑄造用便宜的砂子壓出模具,只供一次澆注熔融金屬,之後便打散取出鑄件。對於小量或複雜的鑄件,一次性的砂模遠比永久模具便宜。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Sacrificial anodes and shear pins", "zh": "犧牲陽極與剪切銷" },
+      "body": {
+        "en": "A cheap zinc or magnesium anode is bolted to a ship hull or pipeline and left to corrode away so the expensive steel does not; a shear pin is designed to snap and save the gearbox. A small, sacrificial part is spent to protect a costly one.",
+        "zh": "把廉價的鋅或鎂陽極鎖在船殼或管線上,任其被腐蝕,以保護昂貴的鋼材;剪切銷則被設計成先斷裂以保住齒輪箱。用一個廉價、可犧牲的小零件,去保護昂貴的部件。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Disposable razors and tableware", "zh": "拋棄式刮鬍刀與餐具" },
+      "body": {
+        "en": "Plastic razors, paper cups, and single-use cutlery cost little and are thrown away after one use. Buyers accept a short life in exchange for low price and no cleaning or maintenance.",
+        "zh": "塑膠刮鬍刀、紙杯與免洗餐具成本很低,用一次便丟。使用者以短壽命換取低價,以及免去清洗與保養。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Single-use medical supplies", "zh": "單次使用醫療耗材" },
+      "body": {
+        "en": "Disposable syringes, needles, gloves, and gowns are used once and discarded to guarantee sterility. The cost of a cheap new item every time is far lower than the risk of cross-infection from reuse.",
+        "zh": "拋棄式針筒、針頭、手套與隔離衣用過一次就丟棄,以確保無菌。每次都用一件廉價新品的成本,遠低於重複使用所帶來的交叉感染風險。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Event wristbands and paper tickets", "zh": "活動手環與紙票券" },
+      "body": {
+        "en": "Concerts and parks control access with cheap paper wristbands and single-use tickets printed by the thousand. Each token does its one-time job at scale and is thrown away, avoiding the cost of durable passes.",
+        "zh": "演唱會與樂園用廉價紙手環與成千上萬張單次票券控管入場。每個票券只做一次性的工作,用完即丟,省去發放耐用通行證的成本。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Serverless functions and ephemeral containers", "zh": "無伺服器函式與臨時容器" },
+      "body": {
+        "en": "Serverless platforms spin up a container to handle one request, then destroy it. Cheap, short-lived compute replaces a permanently running server, and you pay only for the brief life of each instance.",
+        "zh": "無伺服器平台為了處理一次請求而啟動一個容器,之後便銷毀它。廉價、短命的運算取代了長時間執行的伺服器,而你只需為每個實例的短暫生命付費。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "One-time passwords and short-lived tokens", "zh": "一次性密碼與短效權杖" },
+      "body": {
+        "en": "One-time passwords, short-lived session tokens, and rotating TLS keys expire within seconds or minutes by design. A stolen credential is nearly worthless because the cheap, disposable secret has already died.",
+        "zh": "一次性密碼、短效的工作階段權杖與輪替的 TLS 金鑰,依設計會在數秒或數分鐘內失效。被竊的憑證幾乎沒有價值,因為那個廉價、可拋的密鑰早已過期。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Preemptible and spot GPU instances", "zh": "可搶占與競價 GPU 實例" },
+      "body": {
+        "en": "Training jobs run on preemptible or spot GPUs that the provider can reclaim at any moment, at a fraction of on-demand price. With frequent checkpointing, teams treat the compute as cheap and disposable and simply resume when an instance is killed.",
+        "zh": "訓練工作跑在可被雲端隨時收回的可搶占或競價 GPU 上,價格只是隨需計費的一小部分。搭配頻繁的檢查點,團隊把運算當成廉價、可拋的資源,實例被中止時直接續跑。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Ephemeral model deployments", "zh": "臨時模型部署" },
+      "body": {
+        "en": "A quantized or distilled model is deployed just for a short campaign or A/B experiment, then torn down. Rather than maintaining one costly permanent endpoint, teams stand up cheap throwaway models sized for a brief task.",
+        "zh": "量化或蒸餾後的模型,只為一次短期活動或 A/B 實驗而部署,結束便撤除。團隊不去維護單一昂貴的常駐端點,而是為短暫任務規模化地建立廉價、用完即棄的模型。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — The 40 Principles (Cheap short-living objects)", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" },
+    { "label": "Wikipedia — Kulhar", "url": "https://en.wikipedia.org/wiki/Kulhar" }
+  ]
+}

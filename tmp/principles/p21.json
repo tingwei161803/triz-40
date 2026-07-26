@@ -1,0 +1,128 @@
+{
+  "id": 21,
+  "slug": "skipping",
+  "name": { "en": "Skipping", "zh": "快速作業" },
+  "aliases": {
+    "en": ["Rushing Through", "Hurrying", "High-speed Execution"],
+    "zh": ["快速通過", "衝過", "高速執行"]
+  },
+  "definition": {
+    "en": "Carry out a harmful, dangerous, or costly operation at very high speed so that the damaging effect has no time to develop or spread. If a process must pass through a harmful stage, rush through it instead of dwelling in it.",
+    "zh": "以極高的速度執行有害、危險或高成本的操作,讓破壞性效應來不及發生或擴散。若流程必須經過某個有害階段,就快速衝過去,而不是停留其中。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Conduct a process, or certain stages of it (especially destructible, harmful, or hazardous operations), at high speed.",
+      "zh": "以高速進行某個流程或其中某些階段(尤其是具破壞性、有害或危險的操作)。"
+    },
+    {
+      "en": "Pass quickly through a harmful intermediate state so its damaging effects have no time to accumulate.",
+      "zh": "快速通過某個有害的中間狀態,讓其破壞效應來不及累積。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Quenching steel in traditional smithing", "zh": "傳統鍛造中的鋼材淬火" },
+      "body": {
+        "en": "A smith plunges red-hot steel into water to cool it almost instantly. The metal is rushed through the temperature band where soft, weak structures would otherwise form, so it hardens instead. Speed itself is what avoids the unwanted outcome.",
+        "zh": "鐵匠把燒紅的鋼材猛然浸入水中,幾乎瞬間冷卻。金屬被快速帶過會生成軟弱組織的溫度區間,因而硬化而非變軟。正是速度本身避免了不想要的結果。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "High-speed dental drill", "zh": "高速牙科鑽" },
+      "body": {
+        "en": "A dental drill spins at hundreds of thousands of rpm so it cuts through enamel before frictional heat can build up and reach the sensitive pulp. The harmful side effect (heating the tooth) is outrun by sheer speed.",
+        "zh": "牙科鑽以每分鐘數十萬轉高速旋轉,在摩擦熱累積並傳到敏感牙髓之前就切穿琺瑯質。有害的副作用(使牙齒發熱)被純粹的速度甩開。"
+      },
+      "sourceUrl": "https://www.triz40.com/TRIZ/Principle-21.php"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Drop forging in a single blow", "zh": "單擊落錘鍛造" },
+      "body": {
+        "en": "A drop forge shapes a hot billet with one fast, powerful strike of the die. The forming is completed before the workpiece cools or before cracks have time to propagate, so a rapid impact does what slow pressing could not.",
+        "zh": "落錘鍛造以模具一次快速而有力的擊打成形熱胚料。成形在工件冷卻、裂紋來得及擴展之前就完成,因此高速衝擊做到了緩慢加壓做不到的事。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Accelerating a rotor through its critical speed", "zh": "讓轉子快速通過臨界轉速" },
+      "body": {
+        "en": "A supercritical shaft has a resonant speed at which vibration would grow destructively. Engineers spin the rotor up quickly through that band so the damaging vibration has no time to build before the shaft reaches its stable running speed.",
+        "zh": "超臨界軸有一個共振轉速,在該轉速下振動會破壞性地放大。工程師讓轉子快速衝過這個轉速區間,使破壞性振動在軸達到穩定運轉速度前來不及累積。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Flash freezing food", "zh": "食物急速冷凍" },
+      "body": {
+        "en": "Individually quick-frozen (IQF) food is chilled so fast that only tiny ice crystals form. Slow freezing lets large crystals grow and rupture cell walls; rushing the freeze avoids that damage and keeps texture intact.",
+        "zh": "單體急速冷凍(IQF)食品被極快速地降溫,只形成微小冰晶。緩慢冷凍會讓大冰晶生長並刺破細胞壁;快速冷凍避開了這種破壞,保住了口感。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Pulling off an adhesive bandage fast", "zh": "快速撕下 OK 繃" },
+      "body": {
+        "en": "Ripping a bandage off quickly hurts less overall than peeling it slowly. The unavoidable painful action is compressed into a brief instant so the discomfort is over before it can be drawn out.",
+        "zh": "快速撕下 OK 繃整體上比慢慢撕更不痛。這個無可避免的疼痛動作被壓縮成短短一瞬,使不適在被拖長之前就結束。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Big-bang system cutover", "zh": "大爆炸式系統切換" },
+      "body": {
+        "en": "Instead of running an old and a new ERP system in parallel for months, a company switches everything over in a single fast window such as one weekend. The hazardous transition period, when both systems could disagree, is rushed through and closed quickly.",
+        "zh": "與其讓舊系統與新 ERP 系統並行運作數月,企業選擇在單一快速時窗(例如一個週末)一次全面切換。兩套系統可能出現不一致的危險過渡期被快速衝過並迅速收尾。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Minimizing the critical section", "zh": "縮短臨界區間" },
+      "body": {
+        "en": "In concurrent code, a thread holds a lock only for the shortest possible span, doing the minimum work while other threads are blocked. Rushing through the mutually exclusive stage keeps the harmful contention brief.",
+        "zh": "在並行程式中,執行緒只在最短的時間內持有鎖,在其他執行緒被擋住期間只做最少的工作。快速通過互斥階段,讓有害的競用時間保持極短。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Sub-millisecond stop-the-world GC pauses", "zh": "毫秒以下的 stop-the-world 垃圾回收暫停" },
+      "body": {
+        "en": "Modern garbage collectors still need brief \"stop-the-world\" phases, but they make those phases as fast as possible (often under a millisecond). The unavoidable pause is rushed through so it barely affects the running application.",
+        "zh": "現代垃圾回收器仍需要短暫的「stop-the-world」階段,但會讓這些階段盡可能快速(常在一毫秒以內)。無可避免的暫停被快速通過,幾乎不影響執行中的應用程式。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Early stopping in model training", "zh": "模型訓練中的提前停止" },
+      "body": {
+        "en": "Training is halted as soon as validation error stops improving, so the model never lingers in the overfitting regime. By skipping past the harmful stage of continued training, generalization is preserved.",
+        "zh": "一旦驗證誤差不再改善就停止訓練,模型便不會停留在過度擬合的階段。藉由跳過持續訓練這個有害階段,保住了泛化能力。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Speculative decoding for LLM inference", "zh": "大型語言模型推論的推測式解碼" },
+      "body": {
+        "en": "A small, fast draft model races ahead proposing several tokens, which the large model then verifies in a single parallel pass. The costly, latency-bound generation stage is rushed through, cutting inference time 2–3x while producing exactly the same output.",
+        "zh": "一個小而快的草稿模型搶先提出數個詞元,再由大模型在一次平行運算中驗證。高成本、受延遲限制的生成階段被快速通過,推論時間縮短 2 至 3 倍,而輸出結果完全相同。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Few-step diffusion via consistency models", "zh": "以一致性模型實現少步數擴散" },
+      "body": {
+        "en": "A diffusion model that normally needs hundreds of denoising steps is distilled into a consistency model that generates an image in one or a few steps. The slow multi-step process is compressed into a rapid jump from noise to result.",
+        "zh": "原本需要數百個去噪步驟的擴散模型,被蒸餾成一致性模型,只用一步或少數幾步就生成影像。緩慢的多步流程被壓縮成從雜訊到結果的快速一躍。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — Principle 21: Skipping", "url": "https://www.triz40.com/TRIZ/Principle-21.php" },
+    { "label": "TRIZ.org — 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "The TRIZ Journal — 40 Inventive Business Principles", "url": "https://the-trizjournal.com/40-inventive-business-principles-examples/" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": 28,
+  "slug": "mechanics-substitution",
+  "name": { "en": "Mechanics Substitution", "zh": "機械系統替代" },
+  "aliases": {
+    "en": ["Replacement of mechanical system", "Use of fields"],
+    "zh": ["取代機械系統", "改用場"]
+  },
+  "definition": {
+    "en": "Replace a mechanical means — contact, moving parts, rigid linkages — with a sensory field (optical, acoustic, smell or taste) or with electric, magnetic, and electromagnetic fields. Fields can be made movable and structured, and combined with field-sensitive particles, to act on an object without a mechanical connection.",
+    "zh": "用感官場(光學、聲學、氣味或味覺)或電、磁、電磁場,取代機械式手段——接觸、活動零件與剛性連桿。場可以由靜態變為可動、由無結構變為有結構,並搭配對場敏感的粒子,在沒有機械連接的情況下作用於物體。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Replace a mechanical means with a sensory (optical, acoustic, taste or smell) means.",
+      "zh": "用感官(光學、聲學、味覺或嗅覺)手段取代機械手段。"
+    },
+    {
+      "en": "Use electric, magnetic and electromagnetic fields to interact with the object.",
+      "zh": "用電場、磁場與電磁場與物體互動。"
+    },
+    {
+      "en": "Change from static fields to movable ones, from unstructured fields to structured ones.",
+      "zh": "讓場由靜態變為可動、由無結構變為有結構。"
+    },
+    {
+      "en": "Use fields in conjunction with field-activated particles (e.g. ferromagnetic).",
+      "zh": "讓場搭配可被場活化的粒子(如鐵磁粒子)一起使用。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "The magnetic compass", "zh": "指南針" },
+      "body": {
+        "en": "Early navigators replaced dependence on visible landmarks with a needle that aligns to Earth's magnetic field. A field, not a mechanical marker, tells the traveller which way is north.",
+        "zh": "早期航海者不再只依賴看得見的地標,改用會對齊地球磁場的磁針。指引方向的是一個場,而不是機械式的標記。"
+      }
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "Bat echolocation", "zh": "蝙蝠回聲定位" },
+      "body": {
+        "en": "Bats navigate and hunt in darkness by emitting ultrasound and reading the echoes. An acoustic field replaces both touch and ordinary sight to build a picture of the surroundings.",
+        "zh": "蝙蝠在黑暗中發出超音波並解讀回聲來導航與捕食。用一個聲學場取代觸覺與一般視覺,建構出周遭的樣貌。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Maglev trains", "zh": "磁浮列車" },
+      "body": {
+        "en": "Magnetic levitation suspends and propels the train with magnetic fields instead of wheels rolling on rails. Removing mechanical contact removes rolling friction and wear.",
+        "zh": "磁浮以磁場懸浮並推進列車,取代車輪在軌道上滾動。去除機械接觸,也就去除了滾動摩擦與磨耗。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Maglev"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Magnetorheological dampers", "zh": "磁流變阻尼器" },
+      "body": {
+        "en": "MR shock absorbers (such as automotive MagneRide) contain ferromagnetic particles in oil; a magnetic field aligns the particles and stiffens the fluid hundreds of times a second. This is a field acting through field-activated particles rather than mechanical valves.",
+        "zh": "磁流變避震器(如汽車的 MagneRide)在油中含有鐵磁粒子,磁場讓粒子排列並使流體每秒變硬數百次。這是靠場作用於被場活化的粒子,而非機械閥門。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Magnetorheological_fluid"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Induction heating", "zh": "感應加熱" },
+      "body": {
+        "en": "An induction cooktop or furnace heats metal directly with an alternating electromagnetic field, with no flame and no hot mechanical element touching the workpiece. The field does the work a hot plate used to do.",
+        "zh": "感應爐或工業感應加熱以交變電磁場直接加熱金屬,沒有火焰,也沒有灼熱的機械元件接觸工件。原本靠加熱板做的工作,改由場來完成。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Gas odorization", "zh": "天然氣加臭" },
+      "body": {
+        "en": "Naturally odourless gas has a trace of mercaptan added so a leak is announced by smell. A sensory (smell) signal replaces a mechanical or electronic detector as the first line of warning.",
+        "zh": "本身無味的天然氣加入微量硫醇,讓外洩能靠氣味被察覺。用嗅覺這個感官訊號,取代機械或電子偵測器作為第一道警示。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Keyless smart locks", "zh": "無鑰匙智慧鎖" },
+      "body": {
+        "en": "RFID cards, phone Bluetooth, and NFC unlock doors through a short-range field instead of a metal key turning tumblers. The mechanical key-and-cylinder pairing is replaced by an electronic field exchange.",
+        "zh": "RFID 卡、手機藍牙與 NFC 透過近距離的場開門,取代金屬鑰匙轉動鎖芯。機械式的鑰匙與鎖芯配對,被電子式的場交握取代。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "NFC contactless payment", "zh": "NFC 感應支付" },
+      "body": {
+        "en": "Tap-to-pay completes a transaction over a near-field radio link, removing cash handling and the mechanical swipe of a magnetic stripe. A field carries the data that money and moving parts once did.",
+        "zh": "感應支付透過近場無線連結完成交易,省去現金處理與磁條的機械刷卡動作。原本靠現金與活動零件傳遞的資訊,改由一個場承載。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Software-defined radio", "zh": "軟體定義無線電" },
+      "body": {
+        "en": "Mixers, filters, and modulators once built as fixed analog hardware are implemented in software operating on the signal. Reconfigurable code replaces the mechanical and hardware components of a radio.",
+        "zh": "混頻器、濾波器與調變器原本是固定的類比硬體,如今改由對訊號運作的軟體實現。可重新設定的程式,取代了無線電中的機械與硬體元件。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Software-defined_radio"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Software-defined networking", "zh": "軟體定義網路" },
+      "body": {
+        "en": "SDN moves control of routing and traffic from hand-configured physical switches to a central software control plane. A programmable layer replaces manual reconfiguration of network hardware.",
+        "zh": "軟體定義網路把路由與流量的控制,從手動設定的實體交換器,移到集中的軟體控制平面。用可程式化的一層,取代對網路硬體的人工重新設定。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Adaptive beamforming", "zh": "自適應波束成形" },
+      "body": {
+        "en": "5G base stations and radar use phased arrays whose algorithms steer a structured electromagnetic beam toward a user, with no antenna physically rotating. This is a movable, structured field under real-time algorithmic control.",
+        "zh": "5G 基地台與雷達使用相位陣列,由演算法把有結構的電磁波束導向使用者,天線完全不必實體轉動。這是一個受即時演算法控制、可動且有結構的場。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Computer-vision inspection", "zh": "電腦視覺檢測" },
+      "body": {
+        "en": "On production lines, cameras plus machine-learning models replace mechanical gauges, contact probes, and limit switches. An optical field read by a model does the sensing that moving mechanical parts used to do.",
+        "zh": "在生產線上,攝影機加上機器學習模型,取代機械量規、接觸式探針與行程開關。由模型解讀的光學場,完成了原本靠活動機械零件做的感測。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — The 40 Principles (Mechanics substitution)", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Maglev", "url": "https://en.wikipedia.org/wiki/Maglev" },
+    { "label": "Wikipedia — Magnetorheological fluid", "url": "https://en.wikipedia.org/wiki/Magnetorheological_fluid" },
+    { "label": "Wikipedia — Software-defined radio", "url": "https://en.wikipedia.org/wiki/Software-defined_radio" }
+  ]
+}

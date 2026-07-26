@@ -1,0 +1,130 @@
+{
+  "id": 32,
+  "slug": "color-changes",
+  "name": { "en": "Color Changes", "zh": "改變顏色" },
+  "aliases": { "en": ["Changing the Color", "Optical Property Changes"], "zh": ["顏色改變", "變色"] },
+  "definition": {
+    "en": "Change the color or the transparency of an object or its surroundings. To make things that are hard to see observable, add colored or luminescent markers, and use tracers to follow processes.",
+    "zh": "改變物體或其周圍環境的顏色或透明度。為了讓難以看見的東西變得可觀察,加入有色或發光的標記,並用示蹤劑追蹤過程。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Change the color of an object or its surroundings.",
+      "zh": "改變物體或其周圍環境的顏色。"
+    },
+    {
+      "en": "Change the transparency of an object or its surroundings.",
+      "zh": "改變物體或其周圍環境的透明度。"
+    },
+    {
+      "en": "To improve visibility of hard-to-see things, use colored additives or luminescent elements.",
+      "zh": "為了讓難以看見的東西更明顯,使用有色添加劑或發光元素。"
+    },
+    {
+      "en": "If such additives are already used, employ luminescent traces or tracer elements.",
+      "zh": "如果已經使用這類添加劑,改用發光示蹤劑或標記物來追蹤。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Cephalopod camouflage", "zh": "頭足類的偽裝" },
+      "body": {
+        "en": "Octopuses and cuttlefish carry chromatophore organs whose pigment sacs are stretched or relaxed by muscles to change color in an instant. They shift color to blend into the background or signal to others, a natural mastery of changing an object's color.",
+        "zh": "章魚與烏賊身上有色素細胞器官,靠肌肉把色囊拉張或放鬆,瞬間改變顏色。牠們藉此融入背景或向同類示意,是自然界改變物體顏色的高手。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chromatophore"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Temper colors on steel", "zh": "鋼的回火色" },
+      "body": {
+        "en": "When a blacksmith reheats hardened steel, a thin oxide layer paints the surface straw, then bronze, then blue as temperature climbs. The color is a built-in readout of temperature, letting the smith judge the temper by eye.",
+        "zh": "鐵匠回火淬硬的鋼時,表面會生成一層薄氧化膜,隨溫度升高依序呈現稻草黃、古銅、再到藍色。這顏色就是內建的溫度讀數,讓鐵匠用肉眼判斷回火程度。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Dye penetrant crack inspection", "zh": "染料滲透探傷" },
+      "body": {
+        "en": "To find cracks too fine to see, inspectors coat a part with colored or fluorescent penetrant, wipe the surface, then apply a developer that draws the dye back out of any flaw. The crack shows up as a bright colored line, making the invisible visible.",
+        "zh": "為了找出肉眼看不到的細裂紋,檢測員在零件上塗有色或螢光滲透液,擦掉表面後再上顯像劑,把滲入缺陷裡的染料吸回表面。裂紋便顯現為一條明亮的彩色線,讓看不見的變得看得見。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dye_penetrant_inspection"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Photochromic eyeglass lenses", "zh": "光致變色眼鏡片" },
+      "body": {
+        "en": "Transitions-type lenses contain molecules that reversibly rearrange under ultraviolet light, darkening outdoors and clearing indoors. The lens changes its own color in response to the surrounding light.",
+        "zh": "Transitions 這類鏡片含有能在紫外光下可逆重排的分子,在戶外變深、回到室內變回透明。鏡片會依周遭光線自行改變顏色。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Photochromism"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Thermochromic indicators", "zh": "感溫變色指示" },
+      "body": {
+        "en": "Forehead fever strips, color-changing mugs, and 'cold-activated' drink cans use liquid crystals or leuco dyes that switch color at set temperatures. A quantity you cannot see directly, temperature, is turned into an obvious color.",
+        "zh": "額溫貼片、變色馬克杯與「冰鎮變色」飲料罐,用的是液晶或 leuco 染料,在特定溫度切換顏色。把一個看不見的量——溫度——變成一眼可見的顏色。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thermochromism"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Electrochromic smart windows", "zh": "電致變色智慧窗" },
+      "body": {
+        "en": "The dimmable cabin windows on the Boeing 787 and electrochromic building glass darken or clear when a small voltage is applied. Here it is the transparency, rather than the hue, that is changed on demand.",
+        "zh": "波音 787 客艙的可調光窗與建築用電致變色玻璃,施加小電壓即可變暗或變清。這裡按需改變的是透明度,而不是色調。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Red-amber-green status reporting", "zh": "紅黃綠狀態燈號" },
+      "body": {
+        "en": "Project and portfolio dashboards mark each item red, amber, or green for health. Encoding status as color lets a manager scan dozens of items and spot the ones in trouble at a glance.",
+        "zh": "專案與投資組合儀表板用紅、黃、綠標示每個項目的健康狀態。把狀態編碼成顏色,讓管理者掃過幾十個項目,一眼看出哪些出了問題。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Syntax highlighting", "zh": "語法高亮" },
+      "body": {
+        "en": "Code editors color keywords, strings, comments, and numbers differently. The added color makes the structure of otherwise uniform text visible, so bugs like an unclosed string jump out immediately.",
+        "zh": "程式碼編輯器把關鍵字、字串、註解與數字塗上不同顏色。這些顏色讓原本一片均質的文字結構變得可見,像未關閉的字串這類錯誤便立刻跳出來。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Heatmaps and colored diffs", "zh": "熱圖與彩色差異比對" },
+      "body": {
+        "en": "Data heatmaps and version-control diffs (green for added lines, red for removed) paint numbers and changes with color. Patterns and edits that would be invisible in a raw table or plain text become obvious.",
+        "zh": "資料熱圖與版本控制的差異比對(綠色代表新增、紅色代表刪除)用顏色描繪數值與變動。原本在純表格或純文字裡看不出來的模式與修改,因此變得一目瞭然。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Grad-CAM saliency heatmaps", "zh": "Grad-CAM 顯著性熱圖" },
+      "body": {
+        "en": "Explainability tools like Grad-CAM overlay a colored heatmap on an image to show which regions most influenced a neural network's decision. Color makes the model's otherwise hidden reasoning observable.",
+        "zh": "Grad-CAM 這類可解釋性工具會在影像上疊一層彩色熱圖,標示哪些區域最影響神經網路的判斷。顏色讓模型原本隱而不顯的推理變得可觀察。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saliency_map"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Attention weight visualization", "zh": "注意力權重視覺化" },
+      "body": {
+        "en": "Tools such as BertViz draw the attention weights of a transformer as colored lines and grids, with intensity showing how strongly each token attends to another. The color turns an abstract matrix of numbers into something a researcher can read.",
+        "zh": "BertViz 這類工具把 Transformer 的注意力權重畫成彩色的連線與方格,顏色深淺代表每個詞元對另一個詞元的注意強度。顏色把抽象的數字矩陣,變成研究者能讀懂的圖像。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "Wikipedia — Photochromism", "url": "https://en.wikipedia.org/wiki/Photochromism" },
+    { "label": "Wikipedia — Thermochromism", "url": "https://en.wikipedia.org/wiki/Thermochromism" },
+    { "label": "Wikipedia — Dye penetrant inspection", "url": "https://en.wikipedia.org/wiki/Dye_penetrant_inspection" },
+    { "label": "Wikipedia — Chromatophore", "url": "https://en.wikipedia.org/wiki/Chromatophore" },
+    { "label": "Wikipedia — Saliency map", "url": "https://en.wikipedia.org/wiki/Saliency_map" }
+  ]
+}

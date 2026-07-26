@@ -1,0 +1,122 @@
+{
+  "id": 37,
+  "slug": "thermal-expansion",
+  "name": { "en": "Thermal Expansion", "zh": "熱膨脹" },
+  "aliases": {
+    "en": ["Thermal Contraction", "Expansion and Contraction"],
+    "zh": ["熱脹冷縮", "溫度形變"]
+  },
+  "definition": {
+    "en": "Use the expansion or contraction of materials with temperature to produce motion, force, or a tight fit. When one material is not enough, combine several materials with different coefficients of thermal expansion so their differential movement does the work.",
+    "zh": "利用材料隨溫度膨脹或收縮的特性來產生運動、力量或緊密配合。單一材料不夠時,就搭配數種熱膨脹係數不同的材料,用它們之間的相對位移來做功。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Use the thermal expansion (or contraction) of materials.",
+      "zh": "運用材料的熱膨脹(或熱收縮)。"
+    },
+    {
+      "en": "If thermal expansion is already used, combine multiple materials with different coefficients of thermal expansion.",
+      "zh": "若已運用熱膨脹,則搭配多種熱膨脹係數不同的材料。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Fire-setting in ancient mining", "zh": "古代採礦的火裂法" },
+      "body": {
+        "en": "Miners from the Neolithic onward built fires against a rock face; the intense heat made different parts of the rock expand by different amounts, cracking it apart so it could be levered out, sometimes helped by dousing with water. It broke hard rock before explosives existed, using thermal expansion alone.",
+        "zh": "從新石器時代起,礦工會在岩壁旁生火;高溫使岩石各部位膨脹程度不同而裂開,便於撬出,有時再潑水加速。在炸藥出現之前,人們就靠純粹的熱膨脹來破開堅硬岩石。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fire-setting"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Shrink-fit assembly", "zh": "熱套(過盈配合)組裝" },
+      "body": {
+        "en": "To join a ring or bearing tightly onto a shaft, engineers heat the outer part so it expands, slip it over the shaft, then let it cool and contract into an interference fit with no bolts. The clamping force comes entirely from thermal contraction.",
+        "zh": "要把套環或軸承緊密裝到軸上,工程師會加熱外件使其膨脹,套上軸後讓它冷卻收縮,形成不靠螺栓的過盈配合。夾持力完全來自熱收縮。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thermal_expansion"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Expansion joints in rails and bridges", "zh": "鐵軌與橋樑的伸縮縫" },
+      "body": {
+        "en": "Long steel rails and bridge decks are built with gaps or interlocking expansion joints so they can lengthen in summer heat and shorten in winter without buckling. The design deliberately makes room for thermal expansion instead of fighting it.",
+        "zh": "長段鋼軌與橋面在施工時會留下間隙或交錯的伸縮縫,讓它們在夏季受熱伸長、冬季收縮而不致挫曲。這種設計刻意為熱膨脹預留空間,而非硬性對抗。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thermal_expansion"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Bimetallic-strip thermostat", "zh": "雙金屬片恆溫器" },
+      "body": {
+        "en": "Two metals with different expansion coefficients are bonded into a strip; as temperature rises the strip bends toward the slower-expanding side, opening or closing a switch. It turns a temperature change into mechanical motion by pairing two materials, exactly as the second sub-principle suggests.",
+        "zh": "把兩種熱膨脹係數不同的金屬貼合成一片;溫度上升時,金屬片朝膨脹較慢的一側彎曲,藉此開閉開關。它正如第二條子原則所述,用兩種材料把溫度變化轉成機械運動。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Loosening a stuck metal jar lid", "zh": "鬆開卡死的金屬瓶蓋" },
+      "body": {
+        "en": "Running hot water over a stuck metal lid on a glass jar makes the metal expand more than the glass, loosening the grip so the lid twists off easily. The trick works precisely because the two materials expand at different rates.",
+        "zh": "用熱水沖玻璃罐上卡死的金屬蓋,金屬膨脹得比玻璃多,鬆開了咬合,蓋子就好轉開。這招之所以有效,正是因為兩種材料的膨脹速率不同。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Liquid-in-glass thermometer", "zh": "玻璃液體溫度計" },
+      "body": {
+        "en": "A classic thermometer holds a thread of mercury or coloured alcohol that expands up a thin calibrated tube as it warms, letting you read temperature off the height. The measurement is a direct readout of thermal expansion.",
+        "zh": "傳統溫度計裝有一段水銀或染色酒精,受熱時沿著細長的刻度管上升,讓人從液柱高度讀出溫度。這項量測就是熱膨脹的直接顯示。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Elastic seasonal capacity", "zh": "隨季節伸縮的營運量能" },
+      "body": {
+        "en": "Retailers and logistics firms expand headcount, inventory, and warehouse space ahead of peak seasons and contract them afterward, sizing the operation to the 'heat' of demand. It is the management analogue of expanding and contracting a material with temperature so capacity always matches load.",
+        "zh": "零售與物流業者在旺季來臨前擴充人力、庫存與倉儲空間,旺季過後再收縮,讓營運規模隨需求的「熱度」調整。這是把材料隨溫度脹縮的概念套用到管理上,使量能始終貼合負載。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Cloud autoscaling", "zh": "雲端自動擴縮" },
+      "body": {
+        "en": "Autoscalers such as the Kubernetes Horizontal Pod Autoscaler add server replicas when traffic rises and remove them when it falls, so capacity tracks load in real time. It is the software analogue of a material expanding and contracting with 'heat' — here, request volume.",
+        "zh": "像 Kubernetes 水平 Pod 自動擴縮器這類機制,會在流量上升時增加伺服器副本、下降時移除,使量能即時貼合負載。這是把材料隨「熱度」(此處是請求量)脹縮的概念,搬到軟體上。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Growable dynamic arrays", "zh": "可增長的動態陣列" },
+      "body": {
+        "en": "Dynamic arrays like a C++ vector, Go slice, or Python list expand their backing storage as elements are added and can shrink again, so the container's size flexes with its contents. The data structure 'expands and contracts' on demand rather than fixing its size up front.",
+        "zh": "像 C++ 的 vector、Go 的 slice 或 Python 的 list 這類動態陣列,會在加入元素時擴充底層儲存空間,也能再縮小,使容器大小隨內容伸縮。這個資料結構按需「脹縮」,而非一開始就固定尺寸。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Elastic distributed training", "zh": "彈性分散式訓練" },
+      "body": {
+        "en": "Elastic training frameworks let a large-model job add or drop GPU workers as resources free up, while gradient accumulation 'expands' the effective batch size when memory is tight. The training footprint stretches and shrinks to fit the available hardware.",
+        "zh": "彈性訓練框架讓大型模型的工作在資源釋出時增減 GPU 節點,並用梯度累積在記憶體吃緊時「撐大」有效批次量。訓練規模會伸縮以配合可用硬體。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Adaptive-compute inference", "zh": "自適應運算量的推論" },
+      "body": {
+        "en": "Early-exit networks and adaptive-computation methods let a model spend more layers on hard inputs and exit early on easy ones, expanding or contracting the compute per example. The model 'stretches' its effort to the difficulty of each input rather than using a fixed amount.",
+        "zh": "早退出網路與自適應運算方法,讓模型對困難輸入多用幾層、對簡單輸入提早退出,依此擴張或收縮每筆的運算量。模型會把算力「伸縮」到每筆輸入的難度,而非一律用固定量。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Inventive Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Thermal expansion", "url": "https://en.wikipedia.org/wiki/Thermal_expansion" },
+    { "label": "Wikipedia — Fire-setting", "url": "https://en.wikipedia.org/wiki/Fire-setting" },
+    { "label": "Kubernetes — Horizontal Pod Autoscaling", "url": "https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/" }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 6,
+  "slug": "universality",
+  "name": { "en": "Universality", "zh": "萬用" },
+  "aliases": {
+    "en": ["Multifunctionality", "Consolidation"],
+    "zh": ["多功能", "通用"]
+  },
+  "definition": {
+    "en": "Make one object or part perform several functions so that other parts can be eliminated. A single universal element replaces the need for multiple specialized ones.",
+    "zh": "讓一個物件或零件同時執行多種功能,藉此省去其他零件。用一個萬用元件取代多個專用元件。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Make a part or object perform multiple functions, eliminating the need for other parts.",
+      "zh": "讓一個零件或物件執行多種功能,省去對其他零件的需求。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "An elephant's trunk", "zh": "大象的鼻子" },
+      "body": {
+        "en": "An elephant uses one organ to breathe, smell, drink, grasp food and trumpet. Evolution consolidated many functions into a single appendage, sparing the need for separate specialized structures.",
+        "zh": "大象用同一個器官呼吸、嗅聞、喝水、抓取食物並發出叫聲;演化把多種功能整合進一個附肢,省去了對多個專用構造的需求。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Swiss Army knife", "zh": "瑞士刀" },
+      "body": {
+        "en": "One handle carries a blade, scissors, screwdriver, corkscrew and more, so a single tool replaces a whole toolbox. It is the textbook illustration of one object serving many functions.",
+        "zh": "一個握柄整合刀刃、剪刀、螺絲起子、開瓶器等,用單一工具取代一整箱工具,是「一物多用」最經典的教科書範例。"
+      },
+      "sourceUrl": "https://www.triz40.com/aff_Principles_TRIZ.php"
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Combine harvester", "zh": "聯合收割機" },
+      "body": {
+        "en": "The machine merges reaping, threshing and winnowing, once three separate operations, into a single pass. That consolidation of functions is exactly why it is called a 'combine.'",
+        "zh": "這種機器把收割、脫粒、揚穀這三道原本分開的工序整合成單次作業完成;正因為把多種功能合而為一,才被稱為「聯合」收割機。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Combine_harvester"
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "The smartphone", "zh": "智慧型手機" },
+      "body": {
+        "en": "A phone that is also a camera, music player, satnav, flashlight and wallet folds a drawer full of single-purpose gadgets into one device the user always carries.",
+        "zh": "一支手機同時是相機、音樂播放器、衛星導航、手電筒與錢包,把一整抽屜的單一用途裝置整合進一台隨身裝置。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "USB-C universal port", "zh": "USB-C 通用埠" },
+      "body": {
+        "en": "One reversible connector carries power, data and video, so a single port replaces the separate charging, display and peripheral sockets a laptop used to need.",
+        "zh": "同一個可正反插的接頭同時傳輸電力、資料與影像,用單一連接埠取代筆電過去分開的充電、顯示與周邊插孔。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "WeChat super-app", "zh": "微信超級應用程式" },
+      "body": {
+        "en": "WeChat bundles messaging, a social feed, payments and third-party mini-programs such as ride-hailing and shopping into one app, so users rarely leave it. The whole business is one platform performing many services.",
+        "zh": "微信把即時通訊、社群動態、支付與叫車、購物等第三方小程式整合進單一應用程式,使用者幾乎無需離開;整個商業模式就是「一個平台承載多種服務」。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/WeChat"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "BusyBox", "zh": "BusyBox" },
+      "body": {
+        "en": "A single small executable implements tiny versions of more than 300 Unix commands, which is why it is nicknamed 'The Swiss Army Knife of Embedded Linux.' One binary does the job of a whole coreutils suite.",
+        "zh": "單一個小型執行檔實作了三百多個 Unix 指令的精簡版,因而被稱為「嵌入式 Linux 的瑞士刀」;一個二進位檔就取代了整套 coreutils。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/BusyBox"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Unix 'everything is a file'", "zh": "Unix「一切皆檔案」" },
+      "body": {
+        "en": "Unix exposes devices, pipes and sockets through one universal file interface (open, read, write, close), so a single abstraction serves resources that would otherwise each need their own API.",
+        "zh": "Unix 用同一套通用的檔案介面(open、read、write、close)來操作裝置、管線與 socket,單一抽象層就服務了原本各需專屬 API 的資源。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Foundation models", "zh": "基礎模型" },
+      "body": {
+        "en": "A single pretrained large language model handles translation, summarization, coding and question answering without task-specific models, replacing a zoo of specialized systems with one general-purpose model.",
+        "zh": "單一個預訓練大型語言模型不需為各任務另建模型,就能處理翻譯、摘要、寫程式與問答,用一個通用模型取代了一整群專用系統。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Multimodal models", "zh": "多模態模型" },
+      "body": {
+        "en": "A modern multimodal model accepts text, images and audio in the same network, so one system replaces the separate vision, speech and language pipelines once needed for each modality.",
+        "zh": "現代的多模態模型能在同一個網路中接受文字、影像與音訊輸入,用一個系統取代過去每種模態各自分開的視覺、語音與語言處理管線。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list with examples", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "triz.org — The 40 Principles", "url": "https://triz.org/principles/" },
+    { "label": "Wikipedia — Combine harvester", "url": "https://en.wikipedia.org/wiki/Combine_harvester" },
+    { "label": "Wikipedia — WeChat", "url": "https://en.wikipedia.org/wiki/WeChat" },
+    { "label": "Wikipedia — BusyBox", "url": "https://en.wikipedia.org/wiki/BusyBox" }
+  ]
+}

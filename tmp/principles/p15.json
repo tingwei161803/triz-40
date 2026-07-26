@@ -1,0 +1,136 @@
+{
+  "id": 15,
+  "slug": "dynamics",
+  "name": { "en": "Dynamics", "zh": "動態化" },
+  "aliases": {
+    "en": ["Dynamism", "Dynamicity", "Make It Adaptive"],
+    "zh": ["動態性", "彈性化", "可調化"]
+  },
+  "definition": {
+    "en": "Let the characteristics of an object, its environment, or a process change so they are optimal at every stage instead of fixed at one compromise. Divide a rigid object into parts that can move relative to each other, and make anything inflexible adaptive or self-adjusting.",
+    "zh": "讓物體、環境或流程的特性能夠改變,好在每個階段都保持最佳,而不是固定在單一的折衷值上。把僵硬的物體分成能彼此相對移動的部分,並把任何缺乏彈性的東西變成可調適、能自我調整的。"
+  },
+  "subPrinciples": [
+    {
+      "en": "Allow the characteristics of an object, environment, or process to change to be optimal at each stage of operation.",
+      "zh": "讓物體、環境或流程的特性能夠改變,好在運作的每個階段都達到最佳。"
+    },
+    {
+      "en": "Divide an object into parts capable of moving relative to each other.",
+      "zh": "把物體分成能夠彼此相對移動的部分。"
+    },
+    {
+      "en": "If an object or process is rigid or inflexible, make it movable or adaptive.",
+      "zh": "如果物體或流程僵硬、缺乏彈性,就把它變成可動或可調適的。"
+    }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Articulated plate armor", "zh": "關節式甲冑" },
+      "body": {
+        "en": "A single rigid breastplate protects the torso but locks the wearer stiff; medieval armorers divided the shell into overlapping plates joined at the joints so a knight could bend, reach, and fight. Splitting a rigid object into parts that move relative to each other turned armor from a cage into a flexible skin.",
+        "zh": "一整片僵硬的胸甲雖能護住軀幹,卻把穿戴者鎖得動彈不得;中世紀的甲匠把外殼分成一片片重疊、在關節處相接的甲片,讓騎士能彎腰、伸手、作戰。把僵硬的物體分成能彼此相對移動的部分,就讓盔甲從牢籠變成靈活的外皮。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Variable-geometry swing wing", "zh": "可變後掠翼" },
+      "body": {
+        "en": "No single wing shape is best for both slow takeoff and supersonic flight, so swing-wing aircraft sweep their wings forward for lift at low speed and back for low drag at high speed. Letting the wing geometry change keeps it optimal at every stage of the mission.",
+        "zh": "沒有任何一種機翼形狀能同時最適合低速起飛與超音速飛行,因此可變後掠翼飛機在低速時把機翼前展以取得升力、在高速時把機翼後掠以降低阻力。讓機翼幾何能夠改變,就能在任務的每個階段都保持最佳。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "The articulated bus", "zh": "鉸接式公車" },
+      "body": {
+        "en": "A long rigid bus cannot turn tight city corners, so an articulated bus is split into two sections joined by a flexible pivot that bends as it steers. Dividing the vehicle into parts that move relative to each other gives it both length and maneuverability.",
+        "zh": "一輛又長又僵硬的公車無法轉過狹窄的市區彎道,因此鉸接式公車被分成兩節,由一個會隨轉向彎折的柔性樞紐相連。把車輛分成能彼此相對移動的部分,就讓它同時具備長度與靈活的轉向能力。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "The bendy drinking straw", "zh": "可彎吸管" },
+      "body": {
+        "en": "A straight straw forces the drinker to line up with the cup; a bendy straw adds a concertina segment so the rigid tube can bend to any angle. Introducing a movable joint into a stiff object lets it adapt to however the cup and mouth are positioned.",
+        "zh": "直吸管逼著喝的人得對準杯子;可彎吸管加入一段風琴狀的伸縮節,讓原本僵硬的管子能彎成任意角度。在僵硬的物體中加入一個可動的關節,就讓它能因應杯子與嘴巴的相對位置而調整。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Adjustable ergonomic chair", "zh": "可調式人體工學座椅" },
+      "body": {
+        "en": "A fixed chair fits only the average body; an ergonomic office chair lets seat height, back angle, and armrests all move so each person can tune it to their own frame and task. Making a rigid product adjustable lets one object be optimal for many different users.",
+        "zh": "一張固定的椅子只合乎平均體型;人體工學辦公椅則讓座高、椅背角度與扶手都能移動,好讓每個人依自己的身形與工作來微調。把僵硬的產品變成可調的,就讓同一件物品能對許多不同使用者都保持最佳。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Dynamic pricing", "zh": "動態定價" },
+      "body": {
+        "en": "Instead of one fixed price, ride-hailing surge fares and airline yield management raise prices when demand is high and lower them when it is slack, tracking the market in real time. Letting the price itself vary keeps it optimal for supply and demand at each moment.",
+        "zh": "叫車服務的尖峰加價與航空公司的收益管理,不用單一固定價格,而是在需求高時調漲、需求淡時調降,即時追蹤市場。讓價格本身能夠變動,就能在每一個當下都對供需保持最佳。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dynamic_pricing"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Responsive web design", "zh": "響應式網頁設計" },
+      "body": {
+        "en": "A fixed-width page breaks on a phone; responsive design lets the same layout fluidly reflow its columns, images, and menus to fit any screen size and orientation. Making the interface adapt to its environment keeps it optimal from a wide monitor down to a handset.",
+        "zh": "固定寬度的頁面在手機上會跑版;響應式設計則讓同一套版面能流暢地重排欄位、圖片與選單,以適應任何螢幕尺寸與方向。讓介面依環境調適,就能從寬螢幕一路到手機都保持最佳呈現。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Autoscaling infrastructure", "zh": "自動擴縮的基礎架構" },
+      "body": {
+        "en": "Rather than provisioning a fixed fleet sized for peak load, autoscaling adds servers automatically as traffic rises and removes them when it falls. Letting capacity change with demand keeps the system optimal for both cost and performance at every moment.",
+        "zh": "自動擴縮不是預先配置一批依尖峰負載定量的伺服器,而是在流量上升時自動增加伺服器、在流量下降時自動移除。讓容量隨需求變動,就能讓系統在每個當下都對成本與效能保持最佳。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Autoscaling"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Adaptive bitrate streaming", "zh": "自適應位元率串流" },
+      "body": {
+        "en": "Adaptive bitrate streaming detects the viewer's bandwidth, device, and CPU in real time and switches the video to a matching quality level, dropping resolution when the network slows and raising it when it recovers. Letting the stream's characteristics change on the fly keeps playback smooth under shifting conditions.",
+        "zh": "自適應位元率串流會即時偵測觀看者的頻寬、裝置與 CPU,並把影片切換到相符的畫質等級:網路變慢時降低解析度、恢復時再調高。讓串流的特性能即時改變,就能在條件不斷變動下維持播放的流暢。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Adaptive learning-rate optimizers", "zh": "自適應學習率優化器" },
+      "body": {
+        "en": "A single fixed learning rate is either too large late in training or too small early on; optimizers like Adam adjust the step size per parameter as training proceeds, from the gradients' own history. Letting the learning rate change stage by stage keeps each update near optimal.",
+        "zh": "單一固定的學習率,不是在訓練後期太大、就是在前期太小;像 Adam 這類優化器會在訓練過程中,依梯度自身的歷史為每個參數調整步長。讓學習率能隨階段改變,就讓每一次更新都接近最佳。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Mixture-of-Experts routing", "zh": "混合專家路由" },
+      "body": {
+        "en": "A dense network runs its whole weight set for every input; a Mixture-of-Experts model uses a gating network to activate only the few experts relevant to each token, so the active sub-network changes input by input. Letting the model reconfigure which parts fire keeps computation optimal for each token.",
+        "zh": "稠密網路對每個輸入都動用整組權重;混合專家(MoE)模型則用一個門控網路,只啟動與每個 token 相關的少數幾位專家,使實際運作的子網路隨著輸入逐一改變。讓模型重新配置哪些部分被觸發,就能對每個 token 都保持最佳的運算配置。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Attention as dynamic weighting", "zh": "作為動態加權的注意力機制" },
+      "body": {
+        "en": "Rather than combining inputs with fixed weights, the attention mechanism computes input-dependent weights on the fly, so the model reweights which tokens matter for each query it processes. Letting the connections themselves change per input is what lets a transformer focus flexibly on the relevant context.",
+        "zh": "注意力機制不是用固定權重來組合輸入,而是即時計算依輸入而定的權重,讓模型針對它處理的每個查詢,重新衡量哪些 token 重要。讓連結本身能隨輸入改變,正是 Transformer 得以靈活聚焦於相關脈絡的原因。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "TRIZ40 — 40 Principles list", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — Dynamic pricing", "url": "https://en.wikipedia.org/wiki/Dynamic_pricing" },
+    { "label": "Wikipedia — Autoscaling", "url": "https://en.wikipedia.org/wiki/Autoscaling" },
+    { "label": "Wikipedia — Adaptive bitrate streaming", "url": "https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming" },
+    { "label": "Wikipedia — Mixture of experts", "url": "https://en.wikipedia.org/wiki/Mixture_of_experts" }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 4,
+  "slug": "asymmetry",
+  "name": { "en": "Asymmetry", "zh": "非對稱" },
+  "aliases": { "en": ["Asymmetrical Shape"], "zh": ["不對稱", "非對稱化"] },
+  "definition": {
+    "en": "Replace a symmetrical form with an asymmetrical one, or increase the degree of an existing asymmetry. A deliberately lopsided shape can fit only one way, match an uneven load, or perform a function that symmetry cannot.",
+    "zh": "把對稱的形狀換成非對稱,或加大既有的不對稱程度。刻意做成不對稱的形狀,可以只有一種裝法、能配合不均勻的受力,或完成對稱形狀辦不到的功能。"
+  },
+  "subPrinciples": [
+    { "en": "Change the shape of an object from symmetrical to asymmetrical.", "zh": "把物體的形狀從對稱改為非對稱。" },
+    { "en": "If an object is already asymmetrical, increase the degree of its asymmetry.", "zh": "若物體本來就不對稱,則加大其不對稱的程度。" }
+  ],
+  "examples": [
+    {
+      "domain": "ancient",
+      "title": { "en": "Flatfish eye migration", "zh": "比目魚的眼睛遷移" },
+      "body": {
+        "en": "A flounder starts life symmetrical, but as it settles to lie on one side of the seabed, one eye migrates so that both end up on the upward-facing side. Evolution broke the body's symmetry to fit a life lived flat on the bottom.",
+        "zh": "比目魚幼時左右對稱,但當牠側躺在海床上生活時,一隻眼睛會遷移,使兩眼都落在朝上的一側。演化打破了身體的對稱,以適應平貼海底的生活。"
+      }
+    },
+    {
+      "domain": "ancient",
+      "title": { "en": "The mouldboard plough", "zh": "犁壁(翻土犁)" },
+      "body": {
+        "en": "A mouldboard plough is asymmetric: its curved board turns the cut soil over to one side only. The lopsided shape does work, inverting the furrow, that a symmetric blade could not.",
+        "zh": "翻土犁是不對稱的:彎曲的犁壁只把切開的土翻向一側。這個偏向一邊的形狀完成了對稱犁刀辦不到的工作——把犁溝翻轉過來。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Polarized electrical plug", "zh": "極性電源插頭" },
+      "body": {
+        "en": "A polarized plug has one blade wider than the other so it can only be inserted one way, guaranteeing the live and neutral wires connect correctly. The shape is made asymmetric to enforce a single correct orientation.",
+        "zh": "極性插頭的一片插腳比另一片寬,因此只能以一種方向插入,確保火線與中性線正確連接。形狀被做成不對稱,以強制唯一正確的方向。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Cambered aircraft wing (airfoil)", "zh": "有弧度的機翼(翼型)" },
+      "body": {
+        "en": "An aircraft wing is curved more on top than on the bottom. This deliberate asymmetry of the cross-section makes air move differently over each surface and generates the pressure difference that produces lift.",
+        "zh": "飛機機翼上表面的弧度比下表面大。這種橫截面刻意的不對稱,讓空氣在上下兩面以不同方式流過,產生升力所需的壓力差。"
+      }
+    },
+    {
+      "domain": "mechanical",
+      "title": { "en": "Keyed (D-shaped) shaft", "zh": "鍵槽(D 形)軸" },
+      "body": {
+        "en": "A round shaft is given a flat or a keyway so that a knob or gear mounts in only one angular position and cannot slip. Breaking the circular symmetry lets the joint transmit torque and fix its orientation.",
+        "zh": "圓形的軸被削出一個平面或鍵槽,使旋鈕或齒輪只能以一種角度安裝,且不會打滑。打破圓形的對稱,讓接合能傳遞扭矩並固定方位。"
+      }
+    },
+    {
+      "domain": "daily",
+      "title": { "en": "Notched SIM and memory cards", "zh": "缺角的 SIM 卡與記憶卡" },
+      "body": {
+        "en": "SIM cards and SD cards have one corner cut off so they physically cannot be inserted the wrong way round. The asymmetric outline is a foolproofing cue that guides correct insertion.",
+        "zh": "SIM 卡與 SD 卡有一個角被切掉,因此在物理上就無法反向插入。這個不對稱的輪廓是一種防呆提示,引導使用者正確插入。"
+      }
+    },
+    {
+      "domain": "business",
+      "title": { "en": "Loss-leader pricing", "zh": "帶路貨(虧本招徠)定價" },
+      "body": {
+        "en": "A retailer prices a few staple items below cost to draw shoppers in, then earns its margin on everything else in the basket. The pricing across the product line is deliberately asymmetric rather than uniformly marked up.",
+        "zh": "零售商把少數民生商品定在成本以下以吸引顧客上門,再從購物籃裡的其他商品賺取利潤。整條產品線的定價刻意做成不對稱,而非一律加成。"
+      }
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Public-key (asymmetric) cryptography", "zh": "公開金鑰(非對稱)加密" },
+      "body": {
+        "en": "Asymmetric cryptography uses a pair of different keys: a public key that anyone may use to encrypt, and a private key that only the owner holds to decrypt. The deliberate asymmetry between the two keys is what lets strangers exchange secrets safely.",
+        "zh": "非對稱加密使用一對不同的金鑰:任何人都能用來加密的公開金鑰,以及只有擁有者持有、用來解密的私密金鑰。兩把金鑰之間刻意的不對稱,正是讓陌生人能安全交換秘密的關鍵。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Public-key_cryptography"
+    },
+    {
+      "domain": "software",
+      "title": { "en": "Asymmetric broadband (ADSL)", "zh": "非對稱寬頻(ADSL)" },
+      "body": {
+        "en": "ADSL deliberately gives a home far more download bandwidth than upload, matching the way most people receive much more data than they send. The link is made asymmetric to fit real traffic instead of splitting capacity evenly.",
+        "zh": "ADSL 刻意讓家庭的下載頻寬遠大於上傳,以配合多數人接收的資料遠多於送出的使用習慣。連線被做成不對稱,以貼合真實流量,而非平均分配容量。"
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asymmetric_digital_subscriber_line"
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Asymmetric loss functions", "zh": "非對稱損失函數" },
+      "body": {
+        "en": "In tasks such as fraud or disease detection, a model is trained with a loss that penalizes a missed positive far more heavily than a false alarm. Making the loss asymmetric steers the model toward the kind of error that is cheaper to make.",
+        "zh": "在詐騙或疾病偵測等任務中,模型以一種對漏報懲罰遠大於誤報的損失函數來訓練。把損失函數做成不對稱,能引導模型去犯代價較低的那類錯誤。"
+      }
+    },
+    {
+      "domain": "ai",
+      "title": { "en": "Asymmetric quantization", "zh": "非對稱量化" },
+      "body": {
+        "en": "When compressing model weights to low-bit integers, asymmetric quantization uses a nonzero offset so the numeric range can hug data that is not centered on zero, unlike symmetric quantization. The extra asymmetry preserves accuracy for skewed distributions such as post-ReLU activations.",
+        "zh": "在把模型權重壓縮成低位元整數時,非對稱量化採用非零的偏移量,讓數值範圍能貼合並非以零為中心的資料,這與對稱量化不同。多出來的不對稱性,能為偏斜分布(例如經過 ReLU 的激活值)保留準確度。"
+      }
+    }
+  ],
+  "sources": [
+    { "label": "triz40.com — The 40 Principles", "url": "https://www.triz40.com/aff_Principles_TRIZ.php" },
+    { "label": "Wikipedia — TRIZ", "url": "https://en.wikipedia.org/wiki/TRIZ" },
+    { "label": "Wikipedia — Public-key cryptography", "url": "https://en.wikipedia.org/wiki/Public-key_cryptography" },
+    { "label": "Wikipedia — Asymmetric digital subscriber line", "url": "https://en.wikipedia.org/wiki/Asymmetric_digital_subscriber_line" }
+  ]
+}
