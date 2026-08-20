@@ -34,7 +34,9 @@
 </head>
 <body data-page="flashcards">
   <!-- shell.js injects the app bar, cross-page nav, footer and dialog around this -->
-  <main id="page"></main>
+  <main id="page">
+<header class="page-head"><h1>Flashcards</h1><p class="page-head__sub">Name on the front, definition on the back. Shuffle and drill all forty.</p></header><div class="fc-wrap"><p class="fc-progress" id="fcProgress" aria-live="polite">1 / 40</p><div class="fc-stage"><button class="icon-btn fc-nav" id="fcPrev" type="button" aria-label="Previous card"><span class="material-symbols-rounded">chevron_left</span></button><div class="fc-card" id="fcCard" tabindex="0" role="button" data-item="" aria-label="Flip card"><div class="fc-face fc-face--front" id="fcFront"><span class="fc-num">01</span><b class="fc-name">Segmentation</b><span class="fc-name-alt">分割</span></div><div class="fc-face fc-face--back" id="fcBack"><span class="fc-num">01</span><p class="fc-def">Divide an object into independent parts, make it easy to disassemble, or increase its degree of fragmentation. Breaking a whole into smaller pieces makes each part easier to build, replace, move, or optimize on its own.</p><span class="tag">Structure &amp; Space</span></div></div><button class="icon-btn fc-nav" id="fcNext" type="button" aria-label="Next card"><span class="material-symbols-rounded">chevron_right</span></button></div><div class="fc-actions"><button class="btn" id="fcFlip" type="button">Flip</button><button class="btn btn--ghost" id="fcShuffle" type="button">Shuffle</button></div><p class="fc-hint">Click the card or press Space to flip; use ← → to move.</p></div>
+</main>
 
   <script src="data/data.js"></script>
   <script src="assets/shell.js"></script>

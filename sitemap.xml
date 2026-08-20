@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  本站自己的 sitemap。刻意不寫 <lastmod>:沒有可信的「內容最後修改時間」
+  來源(git commit 時間不等於內容變動時間),給錯的 lastmod 比不給更糟。
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://triz-40.peteraim.com/about.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/cases.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/flashcards.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/glossary.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/history.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/principles.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/quiz.html</loc>
+  </url>
+</urlset>

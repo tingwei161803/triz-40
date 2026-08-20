@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://triz-40.peteraim.com/sitemap.xml
