@@ -5,6 +5,9 @@
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://triz-40.peteraim.com/</loc>
+  </url>
+  <url>
     <loc>https://triz-40.peteraim.com/about.html</loc>
   </url>
   <url>
@@ -20,12 +23,33 @@
     <loc>https://triz-40.peteraim.com/history.html</loc>
   </url>
   <url>
-    <loc>https://triz-40.peteraim.com/</loc>
-  </url>
-  <url>
     <loc>https://triz-40.peteraim.com/principles.html</loc>
   </url>
   <url>
     <loc>https://triz-40.peteraim.com/quiz.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/about.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/cases.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/flashcards.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/glossary.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/history.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/principles.html</loc>
+  </url>
+  <url>
+    <loc>https://triz-40.peteraim.com/zh-Hant/quiz.html</loc>
   </url>
 </urlset>
